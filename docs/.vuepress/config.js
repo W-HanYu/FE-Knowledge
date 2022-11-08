@@ -72,14 +72,14 @@ export default defineUserConfig({
         text: '前端',
         children: [
           {
-            text: '基础三剑客',
+            text: '前端基础',
             children: [
               { text: 'html/css', link: '/notes/html+css/01' },
               { text: 'javaScript', link: '/notes/js/01' },
             ],
           },
           {
-            text: 'css提高',
+            text: 'Css进阶',
             children: [
               { text: 'less', link: '/notes/less/01' },
               { text: 'sass', link: '/notes/sass/01' },
@@ -87,7 +87,7 @@ export default defineUserConfig({
             ],
           },
           {
-            text: 'js提高',
+            text: 'JS进阶',
             children: [
               { text: 'es6-?', link: '/notes/es6/01' },
               { text: 'ajax', link: '/notes/ajax/01' },
