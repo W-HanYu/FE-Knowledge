@@ -1,0 +1,658 @@
+<template><div><h1 id="_1-基础语法-基本数据类型" tabindex="-1"><a class="header-anchor" href="#_1-基础语法-基本数据类型" aria-hidden="true">#</a> 1.基础语法&amp;基本数据类型</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>语言</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>结构层</td>
+<td>HTML</td>
+<td>搭建结构、放置部件、描述语义</td>
+</tr>
+<tr>
+<td>样式层</td>
+<td>CSS</td>
+<td>美化网页、实现布局</td>
+</tr>
+<tr>
+<td>行为层</td>
+<td>JavaScript</td>
+<td>实现交互效果、数据收发、表单验证等</td>
+</tr>
+</tbody>
+</table>
+<p>1997 年，欧洲计算机制造商协会（ECMA）颁布了 JavaScript 的标准，命名为 ECMAScript。</p>
+<blockquote>
+<p>ECMAScript 简称 ES，JavaScript 简称 JS。</p>
+</blockquote>
+<ul>
+<li>
+<p>JavaScript 实现了 ECMAScript</p>
+</li>
+<li>
+<p>ECMAScript 规范了 JavaScript</p>
+</li>
+</ul>
+<p><strong>JavaScript 的语言风格和特性</strong></p>
+<ul>
+<li>类 C 语言风格，容易上手</li>
+<li>弱类型（动态类型），简单易学</li>
+<li>丰富的功能，无敌的生态，强大的性能</li>
+</ul>
+<h2 id="_1-1-基本使用" tabindex="-1"><a class="header-anchor" href="#_1-1-基本使用" aria-hidden="true">#</a> 1.1 基本使用</h2>
+<h3 id="_1-1-1-输出语句" tabindex="-1"><a class="header-anchor" href="#_1-1-1-输出语句" aria-hidden="true">#</a> 1.1.1 输出语句</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'要输出的内容'</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>该语句会在浏览器窗口中弹出一个警告框</p>
+<p>【功能】</p>
+<p>在浏览器（JavaScript 引擎 例如：Chrome V8）解析到 JS 文件中的 alert() 语句时，便会中断 JS 脚本的执行，同时弹出警告框，直到用户单击确定后，才继续执行后续的 JS 脚本。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">'要输出的内容'</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>该内容将会被写到 body 标签中，并在页面中显示</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'要输出的内容'</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>console：控制台</p>
+<p>log：记录、日志</p>
+</blockquote>
+<ul>
+<li><code v-pre>console</code> 是 JS 的内置对象</li>
+<li>通过对象 “打点” 可以调用其内部的 <code v-pre>log</code> 方法（所谓 “方法” 就是对象能够调用的函数）</li>
+</ul>
+<blockquote>
+<p>F12 打开浏览器调试面板，点击 Console 控制台菜单。</p>
+</blockquote>
+<p>【功能】</p>
+<p>在浏览器（JavaScript 引擎 例如：Chrome V8）解析到 JS 文件中的 console.log() 语句时，会直接在浏览器控制台输出语句，并自动继续执行后续的 JS 脚本。</p>
+<blockquote>
+<p><strong>输入语句</strong></p>
+<ul>
+<li>
+<p>使用 <code v-pre>prompt()</code> 函数弹出浏览器输入框</p>
+</li>
+<li>
+<p>由于 prompt() 函数输入的任何值都将默认为字符串</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="_1-1-2-编写位置" tabindex="-1"><a class="header-anchor" href="#_1-1-2-编写位置" aria-hidden="true">#</a> 1.1.2 编写位置</h3>
+<ul>
+<li>在 <code v-pre>&lt;body&gt;</code> 中的 <code v-pre>&lt;script&gt;</code> 标签中书写 JS 代码</li>
+<li>将 JS 代码单独保存为 <code v-pre>.js</code> 文件，然后在 HTML 文件中使用 <code v-pre>&lt;script src=&quot;&quot;&gt;&lt;/script&gt;</code> 引入</li>
+</ul>
+<blockquote>
+<p>JavaScript 不能脱离 HTML 网页运行！</p>
+<p>（当然，今后学习 Node.js 后，JavaScript 可以独立成为一个运行平台）</p>
+</blockquote>
+<p>1.可以编写到标签的指定属性中</p>
+<div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>我是按钮<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript:alert('aaa');<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>超链接<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>2.可以编写到 script 标签中</p>
+<div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!-- 在 HTML5 之前，必须要加上 type 属性，并且里面的内容一定要正确！--></span>
+  <span class="token comment">&lt;!--
+    &lt;script type="text/javascript">
+    &lt;/script>
+    --></span>
+
+  <span class="token comment">&lt;!-- 目前都是使用 HTML5，所以不用写 type 属性，默认就是 JS --></span>
+  <span class="token comment">&lt;!-- 推荐把 script 文件写到 body 的末尾 --></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+    <span class="token comment">// 弹窗输出一句话</span>
+    <span class="token comment">// 每一句 JS 代码以分号结尾！</span>
+    <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'你好，JavaScript！'</span><span class="token punctuation">)</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>3.可以将代码编写到外部的 js 文件中，然后通过标签将其引入</p>
+<p>script 标签一旦用于引入外部文件了，就不能在编写代码了，即使编写了浏览器也会忽略 ,如果需要则可以在创建一个新的 script 标签用于编写内部代码</p>
+<div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>文件路径<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="_1-1-3-基本语法" tabindex="-1"><a class="header-anchor" href="#_1-1-3-基本语法" aria-hidden="true">#</a> 1.1.3 基本语法</h3>
+<p>js 函数声明不需要；分号，但是赋值语句要加；分号</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">functionName</span><span class="token punctuation">(</span><span class="token parameter">arg0<span class="token punctuation">,</span> arg1<span class="token punctuation">,</span> arg2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">//函数声明</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">var</span> <span class="token function-variable function">functionName</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">arg0<span class="token punctuation">,</span> arg1<span class="token punctuation">,</span> arg2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">//函数表达式</span>
+<span class="token punctuation">}</span>
+注意分号
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注释</p>
+<p>单行注释</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token comment">//注释内容</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>多行注释</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token comment">/*
+注释内容
+*/</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>JS 严格区分大小写</p>
+<p>JS 中每条语句以分号(;)结尾如果不写分号，浏览器会自动添加，但是会消耗一些系统资源， 而且有些时候，浏览器会加错分号，所以在开发中分号必须写</p>
+<p>JS 中会自动忽略多个空格和换行，所以我们可以利用空格和换行对代码进行格式化。</p>
+<h3 id="_1-1-4-字面量-值-和变量" tabindex="-1"><a class="header-anchor" href="#_1-1-4-字面量-值-和变量" aria-hidden="true">#</a> 1.1.4 字面量(值)和变量</h3>
+<p><strong>字面量</strong></p>
+<p>字面量实际上就是一些固定的值，比如 1 2 3 4 true false null NaN &quot;hello&quot;
+<strong>字面量都是不可以改变的。</strong></p>
+<p>由于字面量不是很方便使用，所以在 JS 中很少直接使用字面量</p>
+<p><strong>变量</strong></p>
+<p>变量可以用来保存字面量，并且可以保存任意的字面量</p>
+<p>一般都是通过变量来使用字面量，而不直接使用字面量，而且也可以通过变量来对字面量进行一个描述</p>
+<p><strong>声明变量</strong></p>
+<p>使用 var 关键字来声明一个变量</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">var</span> a
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>为变量赋值</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>a <span class="token operator">=</span> <span class="token number">1</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>声明和赋值同时进行</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">456</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="_1-1-5-标识符" tabindex="-1"><a class="header-anchor" href="#_1-1-5-标识符" aria-hidden="true">#</a> 1.1.5 标识符</h3>
+<p>在 JS 中所有的可以自主命名的内容，都可以认为是一个标识符，
+是标识符就应该遵守标识符的规范。</p>
+<blockquote>
+<p>函数、类名、对象的属性等也都要遵守这个标识符的命名规则。</p>
+</blockquote>
+<h3 id="_1-1-6-推荐的变量命名风格" tabindex="-1"><a class="header-anchor" href="#_1-1-6-推荐的变量命名风格" aria-hidden="true">#</a> 1.1.6 推荐的变量命名风格</h3>
+<ul>
+<li>小驼峰命名法：<code v-pre>mathTestScore</code> （吐血推荐）</li>
+<li>C 风格变量命名法：<code v-pre>math_test_score</code></li>
+</ul>
+<blockquote>
+<p>补充：</p>
+<ul>
+<li>驼峰命名法：Java、JavaScript</li>
+<li>下划线命名法：C、C++、Python、Golang、SQL</li>
+</ul>
+</blockquote>
+<h3 id="_1-1-7-变量的默认值" tabindex="-1"><a class="header-anchor" href="#_1-1-7-变量的默认值" aria-hidden="true">#</a> 1.1.7 变量的默认值</h3>
+<ul>
+<li>一个变量只定义，但没有赋初值，默认值是 <code v-pre>undefined</code>（未阐明）</li>
+<li>一个变量只有被 <code v-pre>var</code> 定义，并赋初值之后，才算正式初始化完成</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token comment">// 只定义但没有赋初值</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// undefined</span>
+a <span class="token operator">=</span> <span class="token number">24</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 24</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-1-8-变量的常见错误" tabindex="-1"><a class="header-anchor" href="#_1-1-8-变量的常见错误" aria-hidden="true">#</a> 1.1.8 变量的常见错误</h3>
+<ul>
+<li>不用 <code v-pre>var</code> 定义，而直接将值赋予它，虽然不引发报错，但会产生作用域问题。</li>
+</ul>
+<blockquote>
+<p>请一律加上 <code v-pre>var</code> ！</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>a <span class="token operator">=</span> <span class="token number">24</span> <span class="token comment">// 未使用 var 定义的变量默认为全局变量！成为 window 对象的属性。</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 24</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span>a<span class="token punctuation">)</span> <span class="token comment">// 24</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span>a <span class="token operator">===</span> a<span class="token punctuation">)</span> <span class="token comment">// true</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>关于作用域的问题，后期课程会介绍。</p>
+</blockquote>
+<ul>
+<li>尝试使用一个既没有被 <code v-pre>var</code> 定义过，也没有赋过值的变量，就会产生引用错误。</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>
+<span class="token comment">// index.js:1 Uncaught ReferenceError: c is not defined at index.js:1</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p><strong>使用 strict 严格模式</strong></p>
+<p>JavaScript 在设计之初，为了方便初学者学习，并不强制要求用 <code v-pre>var</code> 申明变量。这个设计错误带来了严重的后果：如果一个变量没有通过 <code v-pre>var</code> 申明就被使用，那么该变量就自动被申明为全局变量：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>i <span class="token operator">=</span> <span class="token number">10</span> <span class="token comment">// i 现在是全局变量</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>在同一个 HTML 页面的不同的 JavaScript 文件中，如果都不用 <code v-pre>var</code> 申明，恰好都使用了变量 <code v-pre>i</code>，将造成变量 <code v-pre>i</code> 互相影响，产生难以调试的错误结果。</p>
+<p>使用 <code v-pre>var</code> 申明的变量则不是全局变量，它的范围被限制在该变量被申明的 JS 文件或函数体内（函数的概念将稍后讲解），同名变量在不同的函数体内互不冲突。</p>
+<p>为了修补 JavaScript 这一严重设计缺陷，ECMA 在后续规范中推出了 strict 模式，在 strict 模式下运行的 JavaScript 代码，强制通过 <code v-pre>var</code> 申明变量，未使用 <code v-pre>var</code> 申明变量就使用的，将导致运行错误。</p>
+<p>启用 strict 模式的方法是在 JavaScript 代码的第一行写上：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token string">'use strict'</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>这是一个字符串，不支持 strict 模式的浏览器会把它当做一个字符串语句执行，支持 strict 模式的浏览器将开启 strict 模式运行 JavaScript。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token string">'use strict'</span>
+abc <span class="token operator">=</span> <span class="token string">'Hello, world'</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>abc<span class="token punctuation">)</span>
+<span class="token comment">// 如果浏览器支持 strict 模式，</span>
+<span class="token comment">// 下面的代码将报 ReferenceError 错误：Uncaught ReferenceError: abc is not defined</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>不用 <code v-pre>var</code> 申明的变量会被视为全局变量，为了避免这一缺陷，所有的 JavaScript 代码都推荐使用 strict 模式。</p>
+<p>提示：<code v-pre>&quot;use strict&quot;</code>语句可以放在 JS 代码的任意一行上，并且它只对它所在作用域下方的代码起作用。</p>
+</blockquote>
+<h3 id="_1-1-9-等号表示赋值" tabindex="-1"><a class="header-anchor" href="#_1-1-9-等号表示赋值" aria-hidden="true">#</a> 1.1.9 等号表示赋值</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
+a <span class="token operator">=</span> a <span class="token operator">+</span> <span class="token number">1</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 11</span>
+a <span class="token operator">=</span> a <span class="token operator">-</span> <span class="token number">1</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 10</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-1-10-同时声明多个变量" tabindex="-1"><a class="header-anchor" href="#_1-1-10-同时声明多个变量" aria-hidden="true">#</a> 1.1.10 同时声明多个变量</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  b <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  c <span class="token operator">=</span> <span class="token number">2</span> <span class="token comment">// 建议每行只声明一个变量</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-1-11-变量声明提升" tabindex="-1"><a class="header-anchor" href="#_1-1-11-变量声明提升" aria-hidden="true">#</a> 1.1.11 变量声明提升</h3>
+<ul>
+<li>变量声明的提升：可以提前使用一个稍后才声明的变量，而不会引发异常</li>
+<li>在执行所有代码前，JS 有预解析阶段，会预读所有变量的声明（不会提升赋值，只会提升定义）</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token comment">// 变量声明提升的只是定义，不提升赋值！！！</span>
+<span class="token comment">// 先使用变量</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// undefined</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
+<span class="token comment">// 后定义变量</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 10</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>实际的情况相当于：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">var</span> a
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// undefined</span>
+a <span class="token operator">=</span> <span class="token number">10</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 10</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>【注意事项】</p>
+<ul>
+<li>变量声明提升是 JS 的独有特性！</li>
+<li>在实际开发中，不要刻意使用变量提升的特性，一定要先定义再使用！</li>
+<li>严格模式对变量提升没有检测作用（严格模式也搞不定变量提升这个老赖）！</li>
+</ul>
+<h3 id="_1-1-12-学会处理报错" tabindex="-1"><a class="header-anchor" href="#_1-1-12-学会处理报错" aria-hidden="true">#</a> 1.1.12 学会处理报错</h3>
+<blockquote>
+<p>JS 一但发生语句错误，那么后续的语句也就不执行了！</p>
+<p>浏览器控制台会检测错误的类型及行号（行号不一定正确，但可以确定范围）</p>
+<p>现代 IDE 一般具备智能自动检查功能，最智能的 JavaScript IDE：WebStorm</p>
+</blockquote>
+<ul>
+<li><code v-pre>Uncaught SyntaxError: Invalid or unexpected token</code></li>
+</ul>
+<p>未捕获的语法错误：不合法或错误的符号。</p>
+<p>（中文符号错误、……）</p>
+<ul>
+<li><code v-pre>Uncaught ReferenceError: jerry is not defined</code></li>
+</ul>
+<p>未捕获的引用错误：jerry 没有被定义。</p>
+<p>（字符串没有加引号、名称拼写错误、……）</p>
+<h2 id="_1-2-数据类型简介和检测" tabindex="-1"><a class="header-anchor" href="#_1-2-数据类型简介和检测" aria-hidden="true">#</a> 1.2 数据类型简介和检测</h2>
+<h3 id="_1-2-1-javascript-中两大数据类型" tabindex="-1"><a class="header-anchor" href="#_1-2-1-javascript-中两大数据类型" aria-hidden="true">#</a> 1.2.1 JavaScript 中两大数据类型</h3>
+<p><strong>（1）基本数据类型</strong></p>
+<blockquote>
+<p>JS 没有字符型，JS 的 String 是基本类型！</p>
+</blockquote>
+<ul>
+<li>Number</li>
+<li>String</li>
+<li>Boolean</li>
+<li>Undefined</li>
+<li>Null</li>
+</ul>
+<p><strong>（2）复杂数据类型</strong></p>
+<ul>
+<li>Object</li>
+<li>Array</li>
+<li>Function</li>
+<li>RegExp（正则表达式）</li>
+<li>Date</li>
+<li>Map</li>
+<li>Set</li>
+<li>Symbol</li>
+<li>……</li>
+</ul>
+<h3 id="_1-2-2-typeof-运算符" tabindex="-1"><a class="header-anchor" href="#_1-2-2-typeof-运算符" aria-hidden="true">#</a> 1.2.2 typeof 运算符</h3>
+<p>使用 <code v-pre>typeof</code> 运算符可以检测值或者变量的类型。
+语法：typeof 变量
+它会返回一个用于描述类型的字符串作为结果</p>
+<blockquote>
+<p>typeof 是一个运算符，而不是内置函数，所以不用加 <code v-pre>()</code>，如果加了也不会报错，但是并不推荐。</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">typeof</span> <span class="token number">5</span> <span class="token comment">// number</span>
+<span class="token keyword">typeof</span> <span class="token string">'ds'</span> <span class="token comment">// string</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>利用浏览器控制台进行交互测试。</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> <span class="token number">5</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> <span class="token string">'ds'</span><span class="token punctuation">)</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token string">'5'</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> a<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><img src="https://i0.hdslb.com/bfs/album/2e079e848204b3ae7068cd11e3e6aa8481f32a4c.png" style="zoom: 67%;" />
+<blockquote>
+<p>从以上测试也可以看出，JS 是一个弱类型的语言，变量值是什么类型，那么变量就是什么类型，而不用显式地指出类型。</p>
+</blockquote>
+<h3 id="_1-2-3-5-种基本类型的-typeof-结果" tabindex="-1"><a class="header-anchor" href="#_1-2-3-5-种基本类型的-typeof-结果" aria-hidden="true">#</a> 1.2.3 5 种基本类型的 typeof 结果</h3>
+<table>
+<thead>
+<tr>
+<th>类型名</th>
+<th>typeof 检测结果</th>
+<th>值举例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数字类型</td>
+<td>number</td>
+<td><code v-pre>5</code>、<code v-pre>2.5</code></td>
+</tr>
+<tr>
+<td>字符串类型</td>
+<td>string</td>
+<td><code v-pre>'慕课网'</code></td>
+</tr>
+<tr>
+<td>布尔类型</td>
+<td>boolean</td>
+<td><code v-pre>true</code>、<code v-pre>false</code></td>
+</tr>
+<tr>
+<td>undefined 类型</td>
+<td>undefined</td>
+<td><code v-pre>undefined</code></td>
+</tr>
+<tr>
+<td>null 类型</td>
+<td>object（可以理解为空对象）</td>
+<td><code v-pre>null</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_1-2-4-复杂数据类型简介" tabindex="-1"><a class="header-anchor" href="#_1-2-4-复杂数据类型简介" aria-hidden="true">#</a> 1.2.4 复杂数据类型简介</h3>
+<p>除基本类型值外，JS 的世界中还有复杂数据类型。</p>
+<p>举例：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span>
+
+<span class="token punctuation">{</span> <span class="token literal-property property">a</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">b</span><span class="token operator">:</span> <span class="token number">2</span> <span class="token punctuation">}</span>
+
+<span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>在 JS 中普通类型也可以包装为复杂类型（对象）</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>str01 <span class="token operator">=</span> <span class="token string">'zjr'</span>
+str02 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">'zjr'</span><span class="token punctuation">)</span>
+str03 <span class="token operator">=</span> <span class="token function">String</span><span class="token punctuation">(</span><span class="token string">'zjr'</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> str01<span class="token punctuation">)</span> <span class="token comment">// string</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> str02<span class="token punctuation">)</span> <span class="token comment">// object</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> str03<span class="token punctuation">)</span> <span class="token comment">// string</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str01 <span class="token operator">===</span> str02<span class="token punctuation">)</span> <span class="token comment">// false</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str02 <span class="token operator">===</span> str03<span class="token punctuation">)</span> <span class="token comment">// false</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str01 <span class="token operator">===</span> str03<span class="token punctuation">)</span> <span class="token comment">// true</span>
+<span class="token comment">// Number、Boolean 同理</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></blockquote>
+<p>复杂数据类型都是 “引用类型”（type: object），将在后续课程中介绍。</p>
+<h2 id="_1-3-string-字符串-类型" tabindex="-1"><a class="header-anchor" href="#_1-3-string-字符串-类型" aria-hidden="true">#</a> 1.3 String（字符串）类型</h2>
+<h3 id="_1-3-1-字符串的表示" tabindex="-1"><a class="header-anchor" href="#_1-3-1-字符串的表示" aria-hidden="true">#</a> 1.3.1 字符串的表示</h3>
+<p>字符串要用引号包裹，双引号或者单引号均可。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">typeof</span> <span class="token string">'ds'</span> <span class="token comment">// string</span>
+<span class="token keyword">typeof</span> <span class="token string">'ds'</span> <span class="token comment">// string</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>数字 <code v-pre>10</code> 和字符串 <code v-pre>&quot;10&quot;</code> 在语义上是不同的，前者表示一个数量，后者是一个文本。</p>
+<h3 id="_1-3-2-字符串的拼接" tabindex="-1"><a class="header-anchor" href="#_1-3-2-字符串的拼接" aria-hidden="true">#</a> 1.3.2 字符串的拼接</h3>
+<p>加号可以用来拼接多个字符串。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token string">'d'</span> <span class="token operator">+</span> <span class="token string">'s'</span> <span class="token comment">// "ds"</span>
+<span class="token string">'abc'</span> <span class="token operator">+</span> <span class="token string">'d'</span> <span class="token operator">+</span> <span class="token string">'ef'</span> <span class="token comment">// "abcdef"</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-3-3-字符串和变量的拼接" tabindex="-1"><a class="header-anchor" href="#_1-3-3-字符串和变量的拼接" aria-hidden="true">#</a> 1.3.3 字符串和变量的拼接</h3>
+<p>要将一个变量的值 “插入” 到字符串中，要满足变量左右两边至少有一边 + 字符串。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">var</span> year <span class="token operator">=</span> <span class="token number">2022</span>
+<span class="token keyword">var</span> str <span class="token operator">=</span> <span class="token string">'北京冬奥会在'</span> <span class="token operator">+</span> year <span class="token operator">+</span> <span class="token string">'年召开'</span> <span class="token comment">// "北京冬奥会在2022年召开"</span>
+
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">24</span>
+<span class="token keyword">var</span> str1 <span class="token operator">=</span> <span class="token number">54</span> <span class="token operator">+</span> a <span class="token comment">// 78</span>
+<span class="token keyword">var</span> str2 <span class="token operator">=</span> <span class="token string">'54'</span> <span class="token operator">+</span> a <span class="token comment">// "5424"</span>
+
+<span class="token number">1</span> <span class="token operator">+</span> <span class="token string">'10'</span> <span class="token comment">// "110"</span>
+
+<span class="token number">2</span> <span class="token operator">+</span> <span class="token string">''</span> <span class="token comment">// "2"</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>ES6 中增加了反引号 ( ` ) 表示法，可以更方便进行变量插值，后续课程将进行介绍。</p>
+</blockquote>
+<h3 id="_1-3-4-空字符串" tabindex="-1"><a class="header-anchor" href="#_1-3-4-空字符串" aria-hidden="true">#</a> 1.3.4 空字符串</h3>
+<p>一些时候需要使用空字符串，直接书写闭合的引号对即可。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">var</span> str <span class="token operator">=</span> <span class="token string">''</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>空字符串可以用于将变量变为字符串！</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">24</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> a<span class="token punctuation">)</span> <span class="token comment">// number</span>
+a <span class="token operator">=</span> a <span class="token operator">+</span> <span class="token string">''</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// "24"</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> a<span class="token punctuation">)</span> <span class="token comment">// string</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-3-5-字符串的-length-属性" tabindex="-1"><a class="header-anchor" href="#_1-3-5-字符串的-length-属性" aria-hidden="true">#</a> 1.3.5 字符串的 length 属性</h3>
+<blockquote>
+<p>通过对 String 类型 “打点” 的方式，可以调用其内置属性。</p>
+<blockquote>
+<p>注意：在 JS 中，String 是基本类型，之所以 String 可以 “打点” 调用属性和方法，那是因为 JS 的解释器会自动将基本类型包装成对应的对象类型。</p>
+</blockquote>
+</blockquote>
+<p>字符串的 length 属性表示字符串的长度。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token string">'我喜欢JS'</span><span class="token punctuation">.</span>length <span class="token comment">// 5</span>
+<span class="token string">'我喜欢JS，我也喜欢NODE'</span><span class="token punctuation">.</span>length <span class="token comment">// 14</span>
+<span class="token string">''</span><span class="token punctuation">.</span>length <span class="token comment">// 0</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-3-6-转义字符" tabindex="-1"><a class="header-anchor" href="#_1-3-6-转义字符" aria-hidden="true">#</a> 1.3.6 转义字符</h3>
+<p>在字符串中使用\作为转义字符</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>\<span class="token string">'  ==> '</span>
+\<span class="token string">"  ==> "</span>
+\n  <span class="token operator">==</span><span class="token operator">></span> 换行
+\t  <span class="token operator">==</span><span class="token operator">></span> 制表符
+\\  <span class="token operator">==</span><span class="token operator">></span> \
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_1-4-number-数字-类型" tabindex="-1"><a class="header-anchor" href="#_1-4-number-数字-类型" aria-hidden="true">#</a> 1.4 Number（数字）类型</h2>
+<h3 id="_1-4-1-一切数都是数字类型" tabindex="-1"><a class="header-anchor" href="#_1-4-1-一切数都是数字类型" aria-hidden="true">#</a> 1.4.1 一切数都是数字类型</h3>
+<p>在 JS 中，所有数字不分大小、不分整浮、不分正负，都是数字类型。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">typeof</span> <span class="token number">925</span> <span class="token comment">// number</span>
+<span class="token keyword">typeof</span> <span class="token number">0.5</span> <span class="token comment">// number</span>
+<span class="token keyword">typeof</span> <span class="token operator">-</span><span class="token number">24</span> <span class="token comment">// number</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-4-2-小数中-0-可以省略" tabindex="-1"><a class="header-anchor" href="#_1-4-2-小数中-0-可以省略" aria-hidden="true">#</a> 1.4.2 小数中 0 可以省略</h3>
+<p>在表达小数的时候，整数个位的 <code v-pre>0</code> 可以省略。</p>
+<img src="https://i0.hdslb.com/bfs/album/8c8898e00789ea7db9319a50d9593aedfe557c65.png" style="zoom: 67%;" />
+<h3 id="_1-4-3-科学计数法" tabindex="-1"><a class="header-anchor" href="#_1-4-3-科学计数法" aria-hidden="true">#</a> 1.4.3 科学计数法</h3>
+<p>较大数或较小数（绝对值较小）可以写成科学计数法。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token number">3e8</span> <span class="token comment">// 300000000</span>
+<span class="token keyword">typeof</span> <span class="token number">3e8</span> <span class="token comment">// number</span>
+
+<span class="token number">3e-4</span> <span class="token comment">// 0.0003</span>
+<span class="token keyword">typeof</span> <span class="token number">3e-4</span> <span class="token comment">// number</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><img src="https://i0.hdslb.com/bfs/album/53ff0caa23bc80ef5edf4ff89fe7fe77c74ef317.png" style="zoom:50%;" />
+<h3 id="_1-4-4-不同进制的数字" tabindex="-1"><a class="header-anchor" href="#_1-4-4-不同进制的数字" aria-hidden="true">#</a> 1.4.4 不同进制的数字</h3>
+<p><strong>（1）二进制数值以 <code v-pre>0b</code> 开头</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token number">0b10</span> <span class="token comment">// 2</span>
+<span class="token number">0b1111</span> <span class="token comment">// 15</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（2）八进制数值以 <code v-pre>0</code> 开头</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token number">017</span> <span class="token comment">// 15</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>（3）十六进制数值以 <code v-pre>0x</code> 开头</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token number">0xf</span> <span class="token comment">// 15</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="_1-4-5-一个特殊的数字型值-nan" tabindex="-1"><a class="header-anchor" href="#_1-4-5-一个特殊的数字型值-nan" aria-hidden="true">#</a> 1.4.5 一个特殊的数字型值 NaN</h3>
+<p><code v-pre>NaN</code> 是 “not a number” 的意思，即 “不是一个数”，但它是一个数字类型的值。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">typeof</span> <span class="token number">NaN</span> <span class="token comment">// number</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>0 除以 0 的结果是 NaN，事实上，在数学运算中，若结果不能得到数字，其结果往往都是 NaN</li>
+<li>NaN 有一个 “奇怪” 的性质：不自等（这个知识点将在后续课程中讲解）</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token number">0</span> <span class="token operator">/</span> <span class="token number">0</span> <span class="token comment">// NaN</span>
+<span class="token number">5</span> <span class="token operator">-</span> <span class="token number">3</span> <span class="token comment">// 2</span>
+<span class="token string">'我'</span> <span class="token operator">-</span> <span class="token string">'你'</span> <span class="token comment">// NaN</span>
+<span class="token string">'我'</span> <span class="token operator">*</span> <span class="token string">'你'</span> <span class="token comment">// NaN</span>
+<span class="token string">'我'</span> <span class="token operator">/</span> <span class="token string">'你'</span> <span class="token comment">// NaN</span>
+<span class="token string">'我'</span> <span class="token operator">+</span> <span class="token string">'你'</span> <span class="token comment">// "我你"</span>
+<span class="token number">NaN</span> <span class="token operator">==</span> <span class="token number">NaN</span> <span class="token comment">// false</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>再次强调：NaN 是一个值（特殊的值），不是类型。</p>
+<p>唯一能判断 <code v-pre>NaN</code> 的方法是通过 <code v-pre>isNaN()</code> 函数：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">isNaN</span><span class="token punctuation">(</span><span class="token number">NaN</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></blockquote>
+<h2 id="_1-5-boolean-布尔-类型" tabindex="-1"><a class="header-anchor" href="#_1-5-boolean-布尔-类型" aria-hidden="true">#</a> 1.5 Boolean（布尔）类型</h2>
+<p>在计算机领域，几乎所有的 “真” 和 “假” 都归为布尔类型值。</p>
+<p>布尔类型值只有两个：<code v-pre>true</code> 和 <code v-pre>false</code>，分别表示 <code v-pre>真</code> 和 <code v-pre>假</code>。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">typeof</span> <span class="token boolean">true</span> <span class="token comment">// boolean</span>
+<span class="token keyword">typeof</span> <span class="token boolean">false</span> <span class="token comment">// boolean</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>布尔类型在 关系运算 和 逻辑运算 中广泛运用。</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token number">3</span> <span class="token operator">&lt;</span> <span class="token number">5</span> <span class="token comment">// true</span>
+<span class="token number">5</span> <span class="token operator">></span> <span class="token number">3</span> <span class="token comment">// true</span>
+<span class="token number">5</span> <span class="token operator">>=</span> <span class="token number">100</span> <span class="token comment">// false</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>注意：在 JS 中，1 可以 “代表” true，0 或-0 可以 “代表” false，原理是类型的自动转换，但非常不建议以数字来代替布尔值！</p>
+</blockquote>
+<h2 id="_1-6-null-类型" tabindex="-1"><a class="header-anchor" href="#_1-6-null-类型" aria-hidden="true">#</a> 1.6 Null 类型</h2>
+<p><code v-pre>null</code> 表示 “空”，可以理解为它是 “空对象”。</p>
+<p>当我们需要将对象销毁、数组销毁或者删除事件监听时，通常将它们设置为 null。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>box<span class="token punctuation">.</span>onclick <span class="token operator">=</span> <span class="token keyword">null</span>
+<span class="token comment">// 删除点击事件</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>用 typeof 检测 null 结果为 <code v-pre>object</code>。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">typeof</span> <span class="token keyword">null</span> <span class="token comment">// object</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>狭义上，null 可以理解为 “空对象”，这样可以合理的解释为什么 null 的类型为 object。</p>
+<p>但是准确的来说，null 不是一个 “对象”，它是一个独立的 “基本数据类型”。</p>
+</blockquote>
+<h2 id="_1-7-undefined-类型" tabindex="-1"><a class="header-anchor" href="#_1-7-undefined-类型" aria-hidden="true">#</a> 1.7 Undefined 类型</h2>
+<p>一个没有赋值的变量的默认值是 <code v-pre>undefined</code>，而 undefined 的类型也是 undefined。</p>
+<p>即：undefined 既是类型，又是值（且这种类型只有它自身一个值）。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">typeof</span> <span class="token keyword">undefined</span> <span class="token comment">// undefined</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>实际开发中，一般不会给某个变量赋值为 undefined，但是我们会检查一个变量的值是否为 undefined。</p>
+</blockquote>
+<blockquote>
+<p>在变量声明提升的时候，会出现 undefined，要注意！</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code> <span class="token operator">*</span>	<span class="token keyword">null</span> <span class="token operator">==</span> <span class="token keyword">undefined</span> <span class="token boolean">true</span>
+ <span class="token operator">*</span>	<span class="token keyword">null</span> <span class="token operator">===</span> <span class="token keyword">undefined</span> <span class="token boolean">false</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_1-8-类型转换" tabindex="-1"><a class="header-anchor" href="#_1-8-类型转换" aria-hidden="true">#</a> 1.8 类型转换</h2>
+<h3 id="_1-8-1-转成-string" tabindex="-1"><a class="header-anchor" href="#_1-8-1-转成-string" aria-hidden="true">#</a> 1.8.1 转成 String</h3>
+<p><code v-pre>String()</code>和<code v-pre>toString()</code>除了对于 null 和 undefined 的处理方式不一样，其它一样</p>
+<p><strong>使用 String() 函数</strong></p>
+<p><code v-pre>String()</code> 函数是 JS 内置函数。</p>
+<blockquote>
+<p>由于 String() 属于内置构造函数，所以 String() 的首字母 S 要大写。</p>
+</blockquote>
+<p><strong>（1）数字——&gt;字符串</strong></p>
+<p>变为 “长得相同” 的字符串。</p>
+<p>科学计数法和非 10 进制数字会转为 10 进制的标准值。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">String</span><span class="token punctuation">(</span><span class="token number">123</span><span class="token punctuation">)</span> <span class="token comment">// '123'</span>
+<span class="token function">String</span><span class="token punctuation">(</span><span class="token number">123.4</span><span class="token punctuation">)</span> <span class="token comment">// '123.4'</span>
+<span class="token function">String</span><span class="token punctuation">(</span><span class="token number">2e3</span><span class="token punctuation">)</span> <span class="token comment">// '2000'</span>
+<span class="token function">Stiing</span><span class="token punctuation">(</span><span class="token number">NaN</span><span class="token punctuation">)</span> <span class="token comment">// 'NaN'</span>
+<span class="token function">String</span><span class="token punctuation">(</span><span class="token number">Infinity</span><span class="token punctuation">)</span> <span class="token comment">// 'Infinity'</span>
+<span class="token function">String</span><span class="token punctuation">(</span><span class="token number">0xf</span><span class="token punctuation">)</span> <span class="token comment">// '15'</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（2）布尔值——&gt;字符串</strong></p>
+<p>变为 “长得相同” 的字符串。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">String</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token comment">// 'true'</span>
+<span class="token function">String</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span> <span class="token comment">// 'false'</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（3）undefined 和 null——&gt;字符串</strong></p>
+<p>变为 “长得相同” 的字符串。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">String</span><span class="token punctuation">(</span><span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token comment">// 'undefined'</span>
+<span class="token function">String</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token comment">// 'null'</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>使用 toString() 方法</strong></p>
+<p><code v-pre>toString()</code> 是几乎所有值都有的方法，功能是将值转为字符串。</p>
+<blockquote>
+<p>纯数字不能直接 “打点” 调用 toString() 方法，要把纯数字用 <code v-pre>()</code> 包裹起来，此时 JS 会提升该数字为一个对象（包装为对象）。</p>
+</blockquote>
+<img src="https://i0.hdslb.com/bfs/album/08e295e8d3669b4fc296efa739a13590b1596a1e.png" style="zoom: 50%;" />
+<blockquote>
+<p>toString() 方法依旧是返回一个字符串，并不改变变量原有的类型！</p>
+</blockquote>
+<img src="https://i0.hdslb.com/bfs/album/6ed5868ac15b20c3bc0230114635ef95c49ebff4.png" style="zoom:50%;" />
+<h3 id="_1-8-2-转成-number" tabindex="-1"><a class="header-anchor" href="#_1-8-2-转成-number" aria-hidden="true">#</a> 1.8.2 转成 Number</h3>
+<p><strong>使用 Number() 函数</strong></p>
+<p><code v-pre>Number()</code> 函数是 JS 内置函数。</p>
+<blockquote>
+<p>由于 Number() 属于内置构造函数，所以 Number() 的首字母 N 要大写。</p>
+</blockquote>
+<p><strong>（1）字符串——&gt;数字</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">Number</span><span class="token punctuation">(</span><span class="token string">'123'</span><span class="token punctuation">)</span> <span class="token comment">// 123</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token string">'123.45'</span><span class="token punctuation">)</span> <span class="token comment">// 123.45</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token string">'-123'</span><span class="token punctuation">)</span> <span class="token comment">// -123</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token string">'-123.45'</span><span class="token punctuation">)</span> <span class="token comment">// -123.45</span>
+<span class="token comment">// 字符串中不支持有非数值字符</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token string">'123年'</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token string">'2e3'</span><span class="token punctuation">)</span> <span class="token comment">// 2000</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span> <span class="token comment">// 0</span>
+
+<span class="token comment">// 字符串不支持是数学表达式</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token string">'1+1'</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span>
+<span class="token comment">// 除了字符串外，还可以直接放一个表达式</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token comment">// 2</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（2）布尔值——&gt;数字</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">Number</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token comment">// 1</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span> <span class="token comment">// 0</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（3）undefined 和 null——&gt;数字</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">Number</span><span class="token punctuation">(</span><span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span>
+<span class="token function">Number</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token comment">// 0</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>使用 parseInt() 函数</strong></p>
+<p><code v-pre>parseInt()</code> 函数的功能是将 <code v-pre>字符串</code> 或 <code v-pre>浮点数</code> 转为 <code v-pre>整数</code>。</p>
+<ul>
+<li>自动截掉第一个非数字字符之后的所有字符</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">'3.14'</span><span class="token punctuation">)</span> <span class="token comment">// 3</span>
+<span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">'-3.14'</span><span class="token punctuation">)</span> <span class="token comment">// -3</span>
+<span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">'3瓜皮.14'</span><span class="token punctuation">)</span> <span class="token comment">// 3</span>
+<span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token number">3.14</span><span class="token punctuation">)</span> <span class="token comment">// 3</span>
+<span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">3.14</span><span class="token punctuation">)</span> <span class="token comment">// -3</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>所有文字都将被截掉</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">'3.14是圆周率'</span><span class="token punctuation">)</span> <span class="token comment">// 3</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>如果字符串以非数字开头，则转为 NaN</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">'圆周率是3.14'</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span>
+<span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">'一二三'</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>不存在 “四舍五入”</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">'3.99'</span><span class="token punctuation">)</span> <span class="token comment">// 3</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>true、false、undefined、null 转为 NaN</li>
+</ul>
+<blockquote>
+<p>之所以会出现这种情况的原因是，parseInt() 的原理是，先将参数转换为字符串，再将字符串转为整数。</p>
+<p>所以，true 等会先被转为 <code v-pre>'true'</code>。</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span>
+<span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span>
+<span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span>
+<span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token comment">// NaN</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>parseInt() 函数的特性会用于处理数字的净化。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">'24px'</span><span class="token punctuation">)</span> <span class="token comment">// 24</span>
+<span class="token comment">// 去除了单位，保留数值！</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></blockquote>
+<p><strong>使用 parseFloat() 函数</strong></p>
+<p><code v-pre>parseFloat()</code> 函数的功能是将字符串转为浮点数。</p>
+<blockquote>
+<p>绝大部分原理与 parseInt() 类似。</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">parseFloat</span><span class="token punctuation">(</span><span class="token string">'3.14'</span><span class="token punctuation">)</span> <span class="token comment">// 3.14</span>
+<span class="token function">parseFloat</span><span class="token punctuation">(</span><span class="token number">3.14</span><span class="token punctuation">)</span> <span class="token comment">// 3.14</span>
+
+<span class="token function">parseFloat</span><span class="token punctuation">(</span><span class="token string">'3.14是圆周率'</span><span class="token punctuation">)</span> <span class="token comment">// 3.14</span>
+<span class="token function">parseFloat</span><span class="token punctuation">(</span><span class="token string">'3.14.15'</span><span class="token punctuation">)</span> <span class="token comment">// 3.14</span>
+
+<span class="token function">parseFloat</span><span class="token punctuation">(</span><span class="token string">'3.99'</span><span class="token punctuation">)</span> <span class="token comment">// 3.99</span>
+<span class="token function">parseFloat</span><span class="token punctuation">(</span><span class="token string">'-3.99'</span><span class="token punctuation">)</span> <span class="token comment">// -3.99</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-8-3-其他值——-布尔值" tabindex="-1"><a class="header-anchor" href="#_1-8-3-其他值——-布尔值" aria-hidden="true">#</a> 1.8.3 其他值——&gt;布尔值</h3>
+<p><code v-pre>Boolean()</code> 函数是 JS 内置函数。</p>
+<blockquote>
+<p>由于 Boolean() 属于内置构造函数，所以 Boolean() 的首字母 B 要大写。</p>
+</blockquote>
+<p><strong>（1）数字——&gt;布尔值</strong></p>
+<p>0 和 NaN 转为 <code v-pre>false</code>，其他数字都转为 <code v-pre>true</code>。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token number">123</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+<span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token comment">// false</span>
+<span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token number">NaN</span><span class="token punctuation">)</span> <span class="token comment">// false</span>
+<span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token number">Infinity</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+<span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">Infinity</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>Infinity 属性用于存放表示正无穷大的数值。</p>
+</blockquote>
+<p><strong>（2）字符串——&gt;布尔值</strong></p>
+<p>空字符串变为 <code v-pre>false</code>，其他都转为 <code v-pre>true</code>。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span> <span class="token comment">// false</span>
+<span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token string">'abc'</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+<span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token string">'false'</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（3）undefined 和 null——&gt;布尔值</strong></p>
+<p>转为 false。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token comment">// false</span>
+<span class="token function">Boolean</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token comment">// false</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h1 id="_1-4-12-代码块" tabindex="-1"><a class="header-anchor" href="#_1-4-12-代码块" aria-hidden="true">#</a> 1.4.12 代码块</h1>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>			 <span class="token operator">*</span>
+			 <span class="token operator">*</span> 我们的程序是由一条一条语句构成的
+			 <span class="token operator">*</span> 	语句是按照自上向下的顺序一条一条执行的
+			 <span class="token operator">*</span> 	在<span class="token constant">JS</span>中可以使用<span class="token punctuation">{</span><span class="token punctuation">}</span>来为语句进行分组<span class="token punctuation">,</span>
+			 <span class="token operator">*</span> 		同一个<span class="token punctuation">{</span><span class="token punctuation">}</span>中的语句我们称为是一组语句，
+			 <span class="token operator">*</span> 		它们要么都执行，要么都不执行，
+			 <span class="token operator">*</span> 		一个<span class="token punctuation">{</span><span class="token punctuation">}</span>中的语句我们也称为叫一个代码块
+			 <span class="token operator">*</span> 		在代码块的后边就不用再编写<span class="token punctuation">;</span>了
+			 <span class="token operator">*</span>
+			 <span class="token operator">*</span> 	<span class="token constant">JS</span>中的代码块，只具有分组的的作用，没有其他的用途
+			 <span class="token operator">*</span> 		代码块内容的内容，在外部是完全可见的
+			 <span class="token operator">*</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token punctuation">{</span>
+  <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'你好'</span><span class="token punctuation">)</span>
+  document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">'语句'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'a = '</span> <span class="token operator">+</span> a<span class="token punctuation">)</span>
+<span class="token comment">//let是块级作用域，只能在同一作用域才能访问到</span>
+<span class="token punctuation">{</span>
+  <span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">11</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+
+
