@@ -87,22 +87,22 @@
 <ol>
 <li>首先我要在两个本地库更改<code v-pre>test2.txt</code>中的内容</li>
 </ol>
-<p><code v-pre>Ustinian</code></p>
+<p><code v-pre>dselegent</code></p>
 <p><img src="https://i0.hdslb.com/bfs/album/d97b6d67b7f1fb3d3438b623ed938e00cda0f894.png" alt="image-20221006194022775"></p>
-<p><code v-pre>Ustinian-gmail</code></p>
+<p><code v-pre>dselegent-gmail</code></p>
 <p><img src="https://i0.hdslb.com/bfs/album/b208a65e7079d88b836dd82e52c0f6f81893456e.png" alt="image-20221006194132829"></p>
 <ol start="2">
-<li><code v-pre>Ustinian</code>推送到远程库</li>
+<li><code v-pre>dselegent</code>推送到远程库</li>
 </ol>
 <p><img src="https://i0.hdslb.com/bfs/album/b85100c12247ffe3ea0d3fad8caf47574f9954ec.png" alt="image-20221006194251330"></p>
 <p><img src="https://i0.hdslb.com/bfs/album/bad1f1f4e88b1e815ce1145fe83f5d708a74355d.png" alt="image-20221006194305353"></p>
 <p><img src="https://i0.hdslb.com/bfs/album/c1501c43f0ebf34414cdc56e00a9fdf6f859470e.png" alt="image-20221006194313397"></p>
 <ol start="3">
-<li><code v-pre>Ustinian-gmail</code>推送到远程库</li>
+<li><code v-pre>dselegent-gmail</code>推送到远程库</li>
 </ol>
 <p><img src="https://i0.hdslb.com/bfs/album/1a220b056d94b03f7c2a871080a6e1b7b581d277.png" alt="image-20221006194350085"></p>
 <ol start="4">
-<li>在<code v-pre>Ustinian-gmail</code>中使用<code v-pre>git pull origin master</code>拉取最新的内容</li>
+<li>在<code v-pre>dselegent-gmail</code>中使用<code v-pre>git pull origin master</code>拉取最新的内容</li>
 </ol>
 <blockquote>
 <p>pull=fetch+merge</p>
@@ -114,14 +114,14 @@
 <p><img src="https://i0.hdslb.com/bfs/album/cf371bc2ef278b043c064f40161721dbcc7efbad.png" alt="image-20221006194846829"></p>
 <p><img src="https://i0.hdslb.com/bfs/album/3ff0c93ee2d342482109fa4eb60d1467cf98aa2b.png" alt="image-20221006195232425"></p>
 <ol start="5">
-<li><code v-pre>Ustinian-gmail</code>推送到远程库</li>
+<li><code v-pre>dselegent-gmail</code>推送到远程库</li>
 </ol>
 <p><img src="https://i0.hdslb.com/bfs/album/bc7b0a1f2e151dc3a0d06c93be2a271958d6aacd.png" alt="image-20221006195309995"></p>
 <p><img src="https://i0.hdslb.com/bfs/album/2147294762cdc4d2786d1632133be9c505427061.png" alt="image-20221006195326732"></p>
 <p><img src="https://i0.hdslb.com/bfs/album/0d3ff32454438a26393341684896e6eb7ffe1d7d.png" alt="image-20221006195334121"></p>
 <h2 id="_5-跨团队协作" tabindex="-1"><a class="header-anchor" href="#_5-跨团队协作" aria-hidden="true">#</a> 5.跨团队协作</h2>
 <blockquote>
-<p>这里先把<code v-pre>Ustinian-gmail</code>退出团队用来做示例</p>
+<p>这里先把<code v-pre>dselegent-gmail</code>退出团队用来做示例</p>
 </blockquote>
 <ol>
 <li>点击右上角<code v-pre>fork</code></li>
@@ -143,7 +143,7 @@
 <p><img src="https://i0.hdslb.com/bfs/album/258e00e80ea6b2a20aca8e5432e5ae95ef7beb45.png" alt="image-20221006200916957"></p>
 <ol start="5">
 <li>
-<p>在<code v-pre>Ustinian</code>中接收</p>
+<p>在<code v-pre>dselegent</code>中接收</p>
 <p><img src="https://i0.hdslb.com/bfs/album/b11908ec46cd8a43ad2997ff48da2debbceb833b.png" alt="image-20221006201438135"></p>
 </li>
 </ol>

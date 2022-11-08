@@ -45,8 +45,8 @@
 <p>具有更高的优先级签名;
 各个本地库的签名信息相互独立，互不干扰。</p>
 </blockquote>
-<div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code>git config user<span class="token punctuation">.</span>name <span class="token string">"Ustinian"</span>
-git config user<span class="token punctuation">.</span>email 1453300745@qq<span class="token punctuation">.</span>com
+<div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code>git config user<span class="token punctuation">.</span>name <span class="token string">"dselegent"</span>
+git config user<span class="token punctuation">.</span>email dselegent@qq<span class="token punctuation">.</span>com
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><img src="https://i0.hdslb.com/bfs/album/1e207943b8849515d2c06d00d7fe9c43e8396ab1.png" style="zoom:80%;" />
 <p>配置文件的修改保存在：<code v-pre>&lt;Project&gt;/.git/config</code>文件中。</p>
 <p><img src="https://i0.hdslb.com/bfs/album/ed0d9367bb4a6200bfeed0163a7d7cfbd86c16cc.png" alt="image-20220827214121295"></p>
@@ -54,8 +54,8 @@ git config user<span class="token punctuation">.</span>email 1453300745@qq<span 
 <blockquote>
 <p>若未设置项目/仓库级别的签名时，使用用户级别的签名。</p>
 </blockquote>
-<div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code>git config <span class="token operator">-</span><span class="token operator">-</span><span class="token keyword">global</span> user<span class="token punctuation">.</span>name <span class="token string">"Ustinian"</span>
-git config <span class="token operator">-</span><span class="token operator">-</span><span class="token keyword">global</span> user<span class="token punctuation">.</span>email Ustinian@qq<span class="token punctuation">.</span>com
+<div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code>git config <span class="token operator">-</span><span class="token operator">-</span><span class="token keyword">global</span> user<span class="token punctuation">.</span>name <span class="token string">"dselegent"</span>
+git config <span class="token operator">-</span><span class="token operator">-</span><span class="token keyword">global</span> user<span class="token punctuation">.</span>email dselegent@qq<span class="token punctuation">.</span>com
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>配置文件的修改保存在：<code v-pre>~/.gitconfig</code>文件中。</p>
 <p><img src="https://i0.hdslb.com/bfs/album/b64cb3f5ea53fff050955d5dc76d4c19caa31b64.png" alt="image-20220827214440210"></p>
 <p><strong>级别优先级</strong></p>
