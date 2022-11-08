@@ -53,8 +53,6 @@ export const pagesComponents = {
   "v-13c72f52": defineAsyncComponent(() => import(/* webpackChunkName: "v-13c72f52" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/git/03.html.vue")),
   // path: /notes/git/04.html
   "v-157c07f1": defineAsyncComponent(() => import(/* webpackChunkName: "v-157c07f1" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/git/04.html.vue")),
-  // path: /notes/less/01.html
-  "v-bd87976e": defineAsyncComponent(() => import(/* webpackChunkName: "v-bd87976e" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/less/01.html.vue")),
   // path: /notes/js/01.html
   "v-630b15b9": defineAsyncComponent(() => import(/* webpackChunkName: "v-630b15b9" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/js/01.html.vue")),
   // path: /notes/js/02.html
@@ -127,6 +125,8 @@ export const pagesComponents = {
   "v-089129f8": defineAsyncComponent(() => import(/* webpackChunkName: "v-089129f8" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/js/35.html.vue")),
   // path: /notes/js/36.html
   "v-0a460297": defineAsyncComponent(() => import(/* webpackChunkName: "v-0a460297" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/js/36.html.vue")),
+  // path: /notes/less/01.html
+  "v-bd87976e": defineAsyncComponent(() => import(/* webpackChunkName: "v-bd87976e" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/less/01.html.vue")),
   // path: /notes/linux/01.html
   "v-51d06af6": defineAsyncComponent(() => import(/* webpackChunkName: "v-51d06af6" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/linux/01.html.vue")),
   // path: /notes/linux/02.html

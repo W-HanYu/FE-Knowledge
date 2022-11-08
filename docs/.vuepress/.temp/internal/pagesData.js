@@ -51,8 +51,6 @@ export const pagesData = {
   "v-13c72f52": () => import(/* webpackChunkName: "v-13c72f52" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/git/03.html.js").then(({ data }) => data),
   // path: /notes/git/04.html
   "v-157c07f1": () => import(/* webpackChunkName: "v-157c07f1" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/git/04.html.js").then(({ data }) => data),
-  // path: /notes/less/01.html
-  "v-bd87976e": () => import(/* webpackChunkName: "v-bd87976e" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/less/01.html.js").then(({ data }) => data),
   // path: /notes/js/01.html
   "v-630b15b9": () => import(/* webpackChunkName: "v-630b15b9" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/js/01.html.js").then(({ data }) => data),
   // path: /notes/js/02.html
@@ -125,6 +123,8 @@ export const pagesData = {
   "v-089129f8": () => import(/* webpackChunkName: "v-089129f8" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/js/35.html.js").then(({ data }) => data),
   // path: /notes/js/36.html
   "v-0a460297": () => import(/* webpackChunkName: "v-0a460297" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/js/36.html.js").then(({ data }) => data),
+  // path: /notes/less/01.html
+  "v-bd87976e": () => import(/* webpackChunkName: "v-bd87976e" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/less/01.html.js").then(({ data }) => data),
   // path: /notes/linux/01.html
   "v-51d06af6": () => import(/* webpackChunkName: "v-51d06af6" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/linux/01.html.js").then(({ data }) => data),
   // path: /notes/linux/02.html

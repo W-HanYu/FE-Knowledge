@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: /images/logo_text.jpg
+heroImage: /images/logo_text.png
 actions:
   - text: 快速上手
     link: 'https://github.com/W-HanYu/vuepress.git'
