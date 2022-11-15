@@ -1,211 +1,159 @@
-<template><div><h1 id="_8-泛型" tabindex="-1"><a class="header-anchor" href="#_8-泛型" aria-hidden="true">#</a> 8.泛型</h1>
-<h2 id="_8-1-基本介绍" tabindex="-1"><a class="header-anchor" href="#_8-1-基本介绍" aria-hidden="true">#</a> 8.1 基本介绍</h2>
-<p>定义一个函数或类时，有些情况下无法确定其中要使用的具体类型（返回值、参数、属性的类型不能确定），此时泛型便能够发挥作用。</p>
+<template><div><h1 id="_6-接口-interface" tabindex="-1"><a class="header-anchor" href="#_6-接口-interface" aria-hidden="true">#</a> 6.接口（ interface）</h1>
+<p>在 TypeScript 中，我们使用接口（Interfaces）来定义对象的类型。</p>
+<h2 id="_6-1-什么是接口" tabindex="-1"><a class="header-anchor" href="#_6-1-什么是接口" aria-hidden="true">#</a> 6.1 什么是接口</h2>
+<p>在面向对象语言中，接口（Interfaces）是一个很重要的概念，它是对行为的抽象，而具体如何行动需要由类（classes）去实现（implement）。</p>
+<p>TypeScript 中的接口是一个非常灵活的概念，除了可用于[对类的一部分行为进行抽象]以外，也常用于对「对象的形状（Shape）」进行描述。</p>
+<h2 id="_6-2-基本使用" tabindex="-1"><a class="header-anchor" href="#_6-2-基本使用" aria-hidden="true">#</a> 6.2 基本使用</h2>
+<p>当一个对象类型被多次使用时，一般会使用接口（<code v-pre>interface</code>）来描述对象的类型，达到复用的目的</p>
 <ul>
-<li>
-<p>举个例子：</p>
-<ul>
-<li>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">function</span> <span class="token function">identity</span> <span class="token punctuation">(</span>arg<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">{</span>
-	<span class="token keyword">return</span> arg<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>上例中，identity 函数有一个参数类型不确定，但是能确定的时其返回值的类型和参数的类型是相同的，由于类型不确定所以参数和返回值均使用了any，但是很明显这样做是不合适的，首先使用any会关闭TS的类型检查，其次这样设置也不能体现出参数和返回值是相同的类型</p>
-</li>
-<li>
-<p>使用泛型：
-为了解决上面的这些问题，我们<strong>使用泛型对上面的代码进行重构</strong>。和我们的定义不同，这里用了一个 类型 T，这个 <strong>T 是一个抽象类型，只有在调用的时候才确定它的值</strong>。</p>
-</li>
-<li>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">function</span> <span class="token generic-function"><span class="token function">identity</span><span class="token generic class-name"><span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span></span><span class="token punctuation">(</span>arg<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token constant">T</span> <span class="token punctuation">{</span>
-  <span class="token keyword">return</span> arg<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
+<li>解释：
 <ol>
-<li>语法：在函数名称的后面添加 <code v-pre>&lt;&gt;</code>(尖括号)，<strong>尖括号中添加类型变量</strong>，比如此处的 Type</li>
-<li><strong>类型变量 Type，是一种特殊类型的变量，它处理类型而不是值</strong></li>
-<li><strong>该类型变量相当于一个类型容器</strong>，能够捕获用户提供的类型(具体是什么类型由用户调用该函数时指定)</li>
-<li>因为 Type 是类型，因此可以将其作为函数参数和返回值的类型，表示参数和返回值具有相同的类型</li>
-<li>类型变量 Type，可以是任意合法的变量名称</li>
+<li>使用 <code v-pre>interface</code> 关键字来声明接口</li>
+<li>接口名称(比如，此处的 Person)，可以是任意合法的名称</li>
+<li>声明接口后，直接使用接口名称作为类型</li>
 </ol>
 </li>
-<li>
-<p>除了 <code v-pre>T</code> 之外，以下是常见泛型变量代表的意思：</p>
-<ul>
-<li>K（Key）：表示对象中的键类型；</li>
-<li>V（Value）：表示对象中的值类型；</li>
-<li>E（Element）：表示元素类型。
-<img src="https://i0.hdslb.com/bfs/album/f0875f26e68c8533ab32d23a82bbae11e2232b50.png" alt="image-20220807133943971"></li>
 </ul>
-</li>
-<li>
-<p>那么如何使用上边的函数呢？</p>
-<ul>
-<li>
-<p>方式一（直接使用）：</p>
-<ul>
-<li>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token function">identity</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
-<li>
-<ol>
-<li>在调用泛型函数时，<strong>可以省略 <code v-pre>&lt;类型&gt;</code> 来简化泛型函数的调用</strong></li>
-<li>此时，TS 内部会采用一种叫做<strong>类型参数推断</strong>的机制，来根据传入的实参自动推断出类型变量 Type 的类型</li>
-<li>比如，传入实参 10，TS 会自动推断出变量 num 的类型 number，并作为 Type 的类型</li>
-</ol>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">IPerson</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    age<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> tom<span class="token operator">:</span> Person <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'Tom'</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token number">25</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面的例子中，我们定义了一个接口 <code v-pre>IPerson</code>，接着定义了一个变量 <code v-pre>tom</code>，它的类型是 <code v-pre>IPerson</code>。这样，我们就约束了 <code v-pre>tom</code> 的形状必须和接口 <code v-pre>IPerson</code> 一致。</p>
+<p>接口一般首字母大写。</p>
+<p>定义的变量比接口少了一些属性是不允许的：</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    age<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> tom<span class="token operator">:</span> Person <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'Tom'</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// index.ts(6,5): error TS2322: Type '{ name: string; }' is not assignable to type 'Person'.</span>
+<span class="token comment">//   Property 'age' is missing in type '{ name: string; }'.</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>多一些属性也是不允许的：</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    age<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> tom<span class="token operator">:</span> Person <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'Tom'</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+    gender<span class="token operator">:</span> <span class="token string">'male'</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// index.ts(9,5): error TS2322: Type '{ name: string; age: number; gender: string; }' is not assignable to type 'Person'.</span>
+<span class="token comment">//   Object literal may only specify known properties, and 'gender' does not exist in type 'Person'.</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>可见，<strong>赋值的时候，变量的形状必须和接口的形状保持一致</strong>。</p>
+<h2 id="_6-3-可选-只读属性" tabindex="-1"><a class="header-anchor" href="#_6-3-可选-只读属性" aria-hidden="true">#</a> 6.3 可选 | 只读属性</h2>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+  <span class="token keyword">readonly</span> name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  age<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>只读属性用于限制只能在对象刚刚创建的时候修改其值。此外 TypeScript 还提供了 <code v-pre>ReadonlyArray&lt;T&gt;</code> 类型，它与 <code v-pre>Array&lt;T&gt;</code> 相似，只是把所有可变方法去掉了，因此可以确保数组创建后再也不能被修改。</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">let</span> a<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> ro<span class="token operator">:</span> ReadonlyArray<span class="token operator">&lt;</span><span class="token builtin">number</span><span class="token operator">></span> <span class="token operator">=</span> a<span class="token punctuation">;</span>
+ro<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">12</span><span class="token punctuation">;</span> <span class="token comment">// error!</span>
+ro<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// error!</span>
+ro<span class="token punctuation">.</span>length <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span> <span class="token comment">// error!</span>
+a <span class="token operator">=</span> ro<span class="token punctuation">;</span> <span class="token comment">// error!</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_6-4-任意属性" tabindex="-1"><a class="header-anchor" href="#_6-4-任意属性" aria-hidden="true">#</a> 6.4 任意属性</h2>
+<p>有时候我们希望一个接口中除了包含必选和可选属性之外，还允许有其他的任意属性，这时我们可以使用 <strong>索引签名</strong> 的形式来满足上述要求。</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    age<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    <span class="token punctuation">[</span>propName<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> tom<span class="token operator">:</span> Person <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'Tom'</span><span class="token punctuation">,</span>
+    gender<span class="token operator">:</span> <span class="token string">'male'</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>需要注意的是，<strong>一旦定义了任意属性，那么确定属性和可选属性的类型都必须是它的类型的子集</strong></p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    age<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+    <span class="token punctuation">[</span>propName<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> tom<span class="token operator">:</span> Person <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'Tom'</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+    gender<span class="token operator">:</span> <span class="token string">'male'</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// index.ts(3,5): error TS2411: Property 'age' of type 'number' is not assignable to string index type 'string'.</span>
+<span class="token comment">// index.ts(7,5): error TS2322: Type '{ [x: string]: string | number; name: string; age: number; gender: string; }' is not assignable to type 'Person'.</span>
+<span class="token comment">//   Index signatures are incompatible.</span>
+<span class="token comment">//     Type 'string | number' is not assignable to type 'string'.</span>
+<span class="token comment">//       Type 'number' is not assignable to type 'string'.</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上例中，任意属性的值允许是 <code v-pre>string</code>，但是可选属性 <code v-pre>age</code> 的值却是 <code v-pre>number</code>，<code v-pre>number</code> 不是 <code v-pre>string</code> 的子属性，所以报错了。</p>
+<p>另外，在报错信息中可以看出，此时 <code v-pre>{ name: 'Tom', age: 25, gender: 'male' }</code> 的类型被推断成了 <code v-pre>{ [x: string]: string | number; name: string; age: number; gender: string; }</code>，这是联合类型和接口的结合。</p>
+<p>一个接口中只能定义一个任意属性。如果接口中有多个类型的属性，则可以在任意属性中使用联合类型：</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+    age<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span> <span class="token comment">// 这里真实的类型应该为：number | undefined</span>
+    <span class="token punctuation">[</span>propName<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span> <span class="token builtin">string</span> <span class="token operator">|</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token keyword">undefined</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> tom<span class="token operator">:</span> Person <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'Tom'</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+    gender<span class="token operator">:</span> <span class="token string">'male'</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_6-5-绕开额外属性检查的方式" tabindex="-1"><a class="header-anchor" href="#_6-5-绕开额外属性检查的方式" aria-hidden="true">#</a> 6.5 绕开额外属性检查的方式</h2>
+<h3 id="_6-5-1-类型断言" tabindex="-1"><a class="header-anchor" href="#_6-5-1-类型断言" aria-hidden="true">#</a> 6.5.1 类型断言</h3>
+<p>类型断言的意义就等同于你在告诉程序，你很清楚自己在做什么，此时程序自然就不会再进行额外的属性检查了。</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">Props</span> <span class="token punctuation">{</span> 
+  name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span> 
+  age<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span> 
+  money<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> p<span class="token operator">:</span> Props <span class="token operator">=</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">"兔神"</span><span class="token punctuation">,</span>
+  age<span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+  money<span class="token operator">:</span> <span class="token operator">-</span><span class="token number">100000</span><span class="token punctuation">,</span>
+  girl<span class="token operator">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span> <span class="token keyword">as</span> Props<span class="token punctuation">;</span> <span class="token comment">// OK</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_6-5-2-索引签名" tabindex="-1"><a class="header-anchor" href="#_6-5-2-索引签名" aria-hidden="true">#</a> 6.5.2 索引签名</h3>
 <blockquote>
-<ul>
-<li>推荐：使用这种简化的方式调用泛型函数，使代码更短，更易于阅读</li>
-<li>说明：<strong>当编译器无法推断类型或者推断的类型不准确时，就需要显式地传入类型参数</strong></li>
-</ul>
+<p>使用场景：当无法确定对象中有那些属性(或对象中可以出现任意多的属性)
+使用[key:string] 来约束该接口中允许出现的属性名称。表示只要是string类型的属性名称，都可以出现在对象中
+key只是一个占位符，可以换成任意合法的变量名称</p>
 </blockquote>
-</li>
-</ul>
-</li>
-<li>
-<p>方式二（指定类型）：</p>
-<ul>
-<li>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token generic-function"><span class="token function">identity</span><span class="token generic class-name"><span class="token operator">&lt;</span><span class="token builtin">number</span><span class="token operator">></span></span></span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
-<li>
-<ol>
-<li>
-<p>语法：在函数名称的后面添加 <code v-pre>&lt;&gt;</code>(尖括号)，<strong>尖括号中指定具体的类型</strong>，比如，此处的 number</p>
-</li>
-<li>
-<p>当传入类型 number 后，这个类型就会被函数声明时指定的类型变量 Type 捕获到</p>
-</li>
-<li>
-<p>此时，Type 的类型就是 number，所以，函数 id 参数和返回值的类型也都是 number</p>
-<blockquote>
-<ul>
-<li>
-<p>同样，如果传入类型 string，函数 id 参数和返回值的类型就都是 string</p>
-</li>
-<li>
-<p>这样，通过泛型就做到了让 id 函数与多种不同的类型一起工作，<strong>实现了复用的同时保证了类型安全</strong></p>
-</li>
-</ul>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code> <span class="token keyword">interface</span> <span class="token class-name">AnyObject</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">[</span>key<span class="token operator">:</span><span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span><span class="token builtin">number</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> obj1<span class="token operator">:</span>AnyObject <span class="token operator">=</span><span class="token punctuation">{</span>
+    <span class="token string-property property">'1'</span><span class="token operator">:</span><span class="token number">11</span><span class="token punctuation">,</span>
+    <span class="token comment">// 's':'ss'</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//  ||</span>
+<span class="token comment">//  \/</span>
+<span class="token keyword">interface</span> <span class="token class-name">AnyObject1<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token punctuation">{</span>
+    <span class="token punctuation">[</span>key<span class="token operator">:</span><span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span><span class="token constant">T</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> obj2<span class="token operator">:</span>AnyObject1<span class="token operator">&lt;</span><span class="token builtin">number</span><span class="token operator">></span> <span class="token operator">=</span><span class="token punctuation">{</span>
+    <span class="token string-property property">'1'</span><span class="token operator">:</span><span class="token number">11</span><span class="token punctuation">,</span>
+    <span class="token comment">// 's':'ss'</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>数组接口也是使用了索引签名类型</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">MyArray<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token punctuation">{</span>
+    <span class="token punctuation">[</span>n<span class="token operator">:</span><span class="token builtin">number</span><span class="token punctuation">]</span><span class="token operator">:</span><span class="token constant">T</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> mayy<span class="token operator">:</span>MyArray<span class="token operator">&lt;</span><span class="token builtin">number</span><span class="token operator">></span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>MyArray模拟了原生的数组接口 并使用[n:number]来作为索引签名类型
+该签名表示：只要是number类型的键/索引都可以出现在数组中，或者说数组中可以有任意多个元素
+同时也符合数组索引十number类型的这一前提</p>
 </blockquote>
-</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>其实并不是只能定义一个类型变量，我们可以引入希望定义的任何数量的类型变量。比如我们引入一个新的类型变量 <code v-pre>U</code>，用于扩展我们定义的 <code v-pre>identity</code> 函数：</p>
-<ul>
-<li>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">function</span> <span class="token generic-function"><span class="token function">identity</span> <span class="token generic class-name"><span class="token operator">&lt;</span><span class="token constant">T</span><span class="token punctuation">,</span> <span class="token constant">U</span><span class="token operator">></span></span></span><span class="token punctuation">(</span>value<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">,</span> message<span class="token operator">:</span> <span class="token constant">U</span><span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token constant">T</span> <span class="token punctuation">{</span>
-  <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token keyword">return</span> value<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token generic-function"><span class="token function">identity</span><span class="token generic class-name"><span class="token operator">&lt;</span>Number<span class="token punctuation">,</span> <span class="token builtin">string</span><span class="token operator">></span></span></span><span class="token punctuation">(</span><span class="token number">68</span><span class="token punctuation">,</span> <span class="token string">"Semlinker"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://i0.hdslb.com/bfs/album/1d646c21096038011017b93333d8fecd97639e4f.png" alt="image-20220807134038387"></p>
-</li>
-<li>
-<p>使用泛型时，完全可以将泛型当成是一个普通的类去使用</p>
-</li>
-</ul>
-</li>
-<li>
-<p>类中同样可以使用泛型：</p>
-<ul>
-<li>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">class</span> <span class="token class-name">MyClass<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span><span class="token punctuation">{</span>
-    prop<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">;</span>
-
-    <span class="token function">constructor</span><span class="token punctuation">(</span>prop<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>prop <span class="token operator">=</span> prop<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="_8-2-泛型约束" tabindex="-1"><a class="header-anchor" href="#_8-2-泛型约束" aria-hidden="true">#</a> 8.2 泛型约束</h2>
-<ul>
-<li>默认情况下，泛型函数的类型变量 Type 可以代表多个类型，这导致无法访问任何属性</li>
-<li>比如，id('a') 调用函数时获取参数的长度：</li>
-</ul>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">function</span> <span class="token generic-function"><span class="token function">id</span><span class="token generic class-name"><span class="token operator">&lt;</span>Type<span class="token operator">></span></span></span><span class="token punctuation">(</span>value<span class="token operator">:</span> Type<span class="token punctuation">)</span><span class="token operator">:</span> Type <span class="token punctuation">{</span>
-  <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>value<span class="token punctuation">.</span>length<span class="token punctuation">)</span>
-  <span class="token keyword">return</span> value
-<span class="token punctuation">}</span>
-
-<span class="token function">id</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li>解释：Type 可以代表任意类型，无法保证一定存在 length 属性，比如 number 类型就没有 length</li>
-<li>此时，就需要<strong>为泛型添加约束来<code v-pre>收缩类型</code>(缩窄类型取值范围)</strong></li>
-<li>添加泛型约束收缩类型，主要有以下两种方式：1 指定更加具体的类型  2 添加约束</li>
-</ul>
-<h3 id="_8-2-1-指定更加具体的类型" tabindex="-1"><a class="header-anchor" href="#_8-2-1-指定更加具体的类型" aria-hidden="true">#</a> 8.2.1 指定更加具体的类型</h3>
-<p>比如，将类型修改为 <code v-pre>Type[]</code>(Type 类型的数组)，因为只要是数组就一定存在 length 属性，因此就可以访问了</p>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">function</span> <span class="token generic-function"><span class="token function">id</span><span class="token generic class-name"><span class="token operator">&lt;</span>Type<span class="token operator">></span></span></span><span class="token punctuation">(</span>value<span class="token operator">:</span> Type<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">:</span> Type<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">{</span>
-  <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>value<span class="token punctuation">.</span>length<span class="token punctuation">)</span>
-  <span class="token keyword">return</span> value
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_8-2-2-添加约束" tabindex="-1"><a class="header-anchor" href="#_8-2-2-添加约束" aria-hidden="true">#</a> 8.2.2 添加约束</h3>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token comment">// 创建一个接口</span>
-<span class="token keyword">interface</span> <span class="token class-name">ILength</span> <span class="token punctuation">{</span> length<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">}</span>
-
-<span class="token comment">// Type extends ILength 添加泛型约束</span>
-<span class="token comment">// 解释：表示传入的 类型 必须满足 ILength 接口的要求才行，也就是得有一个 number 类型的 length 属性</span>
-<span class="token keyword">function</span> <span class="token generic-function"><span class="token function">id</span><span class="token generic class-name"><span class="token operator">&lt;</span>Type <span class="token keyword">extends</span> ILength<span class="token operator">></span></span></span><span class="token punctuation">(</span>value<span class="token operator">:</span> Type<span class="token punctuation">)</span><span class="token operator">:</span> Type <span class="token punctuation">{</span>
-  <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>value<span class="token punctuation">.</span>length<span class="token punctuation">)</span>
-  <span class="token keyword">return</span> value
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li>解释:
-<ol>
-<li>创建描述约束的接口 ILength，该接口要求提供 length 属性</li>
-<li>通过 <code v-pre>extends</code> 关键字使用该接口，为泛型(类型变量)添加约束</li>
-<li>该约束表示：<strong>传入的类型必须具有 length 属性</strong></li>
-</ol>
-</li>
-<li>注意:传入的实参(比如，数组)只要有 length 属性即可（类型兼容性)</li>
-</ul>
-<h2 id="_8-3-泛型接口" tabindex="-1"><a class="header-anchor" href="#_8-3-泛型接口" aria-hidden="true">#</a> 8.3 泛型接口</h2>
-<p>泛型接口：接口也可以配合泛型来使用，以增加其灵活性，增强其复用性</p>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">IdFunc<span class="token operator">&lt;</span>Type<span class="token operator">></span></span> <span class="token punctuation">{</span>
-  <span class="token function-variable function">id</span><span class="token operator">:</span> <span class="token punctuation">(</span>value<span class="token operator">:</span> Type<span class="token punctuation">)</span> <span class="token operator">=></span> Type
-  <span class="token function-variable function">ids</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> Type<span class="token punctuation">[</span><span class="token punctuation">]</span>
-<span class="token punctuation">}</span>
-
-<span class="token keyword">let</span> obj<span class="token operator">:</span> IdFunc<span class="token operator">&lt;</span><span class="token builtin">number</span><span class="token operator">></span> <span class="token operator">=</span> <span class="token punctuation">{</span>
-  <span class="token function">id</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> value <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token function">ids</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li>解释:
-<ol>
-<li>在接口名称的后面添加 <code v-pre>&lt;类型变量&gt;</code>，那么，这个接口就变成了泛型接口。</li>
-<li>接口的类型变量，对接口中所有其他成员可见，也就是<strong>接口中所有成员都可以使用类型变量</strong>。</li>
-<li>使用泛型接口时，<strong>需要显式指定具体的类型</strong>(比如，此处的 IdFunc)。</li>
-<li>此时，id 方法的参数和返回值类型都是 number;ids 方法的返回值类型是 number[]。</li>
-</ol>
-</li>
-</ul>
-<p><strong>JS 中的泛型接口</strong></p>
-<p>实际上，JS 中的数组在 TS 中就是一个泛型接口。</p>
-<div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">const</span> strs <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">]</span>
-<span class="token comment">// 鼠标放在 forEach 上查看类型</span>
-strs<span class="token punctuation">.</span>forEach
-
-<span class="token keyword">const</span> nums <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span>
-<span class="token comment">// 鼠标放在 forEach 上查看类型</span>
-nums<span class="token punctuation">.</span>forEach
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li>解释:当我们在使用数组时，TS 会根据数组的不同类型，来自动将类型变量设置为相应的类型</li>
-<li>技巧:可以通过 Ctrl + 鼠标左键来查看具体的类型信息。</li>
-</ul>
 </div></template>
 
 

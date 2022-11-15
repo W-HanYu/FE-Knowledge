@@ -16,23 +16,26 @@
 <li>批量发送多个请求</li>
 </ol>
 <h3 id="_1-3-axios-常用语法" tabindex="-1"><a class="header-anchor" href="#_1-3-axios-常用语法" aria-hidden="true">#</a> 1.3 axios 常用语法</h3>
-<p>axios(config): 通用/最本质的发任意类型请求的方式
-axios(url[, config]): 可以只指定url 发get 请求
-axios.request(config): 等同于axios(config)
-axios.get(url[, config]): 发get 请求
-axios.delete(url[, config]): 发delete 请求
-axios.post(url[, data, config]): 发post 请求
-axios.put(url[, data, config]): 发put 请求</p>
-<p>axios.defaults.xxx: 请求的默认全局配置（method\baseURL\params\timeout…）
-axios.interceptors.request.use(): 添加请求拦截器
-axios.interceptors.response.use(): 添加响应拦截器</p>
-<p>axios.create([config]): 创建一个新的axios(它没有下面的功能)</p>
-<p>axios.Cancel(): 用于创建取消请求的错误对象
-axios.CancelToken(): 用于创建取消请求的 token 对象
-axios.isCancel(): 是否是一个取消请求的错误
-axios.all(promises): 用于批量执行多个异步请求
-axios.spread(): 用来指定接收所有成功数据的回调函数的方法</p>
-<p><img src="https://i0.hdslb.com/bfs/album/ddc28465dad12c1c979947998de61a0ca9bd3968.png" alt="image-20220625194840070"></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token function">axios</span><span class="token punctuation">(</span>config<span class="token punctuation">)</span><span class="token operator">:</span> 通用<span class="token operator">/</span>最本质的发任意类型请求的方式
+<span class="token function">axios</span><span class="token punctuation">(</span>url<span class="token punctuation">[</span><span class="token punctuation">,</span> config<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">:</span> 可以只指定url 发<span class="token keyword">get</span> 请求
+axios<span class="token punctuation">.</span><span class="token function">request</span><span class="token punctuation">(</span>config<span class="token punctuation">)</span><span class="token operator">:</span> <span class="token function">等同于axios</span><span class="token punctuation">(</span>config<span class="token punctuation">)</span>
+axios<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>url<span class="token punctuation">[</span><span class="token punctuation">,</span> config<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">:</span> 发<span class="token keyword">get</span> 请求
+axios<span class="token punctuation">.</span><span class="token function">delete</span><span class="token punctuation">(</span>url<span class="token punctuation">[</span><span class="token punctuation">,</span> config<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">:</span> 发<span class="token keyword">delete</span> 请求
+axios<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span>url<span class="token punctuation">[</span><span class="token punctuation">,</span> data<span class="token punctuation">,</span> config<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">:</span> 发post 请求
+axios<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span>url<span class="token punctuation">[</span><span class="token punctuation">,</span> data<span class="token punctuation">,</span> config<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">:</span> 发put 请求
+
+axios<span class="token punctuation">.</span>defaults<span class="token punctuation">.</span>xxx<span class="token operator">:</span> 请求的默认全局配置（method\baseURL\params\timeout…）
+axios<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>request<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> 添加请求拦截器
+axios<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> 添加响应拦截器
+
+axios<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">[</span>config<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token function">创建一个新的axios</span><span class="token punctuation">(</span>它没有下面的功能<span class="token punctuation">)</span>
+
+axios<span class="token punctuation">.</span><span class="token function">Cancel</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> 用于创建取消请求的错误对象
+axios<span class="token punctuation">.</span><span class="token function">CancelToken</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> 用于创建取消请求的 token 对象
+axios<span class="token punctuation">.</span><span class="token function">isCancel</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> 是否是一个取消请求的错误
+axios<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span>promises<span class="token punctuation">)</span><span class="token operator">:</span> 用于批量执行多个异步请求
+axios<span class="token punctuation">.</span><span class="token function">spread</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> 用来指定接收所有成功数据的回调函数的方法
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://i0.hdslb.com/bfs/album/ddc28465dad12c1c979947998de61a0ca9bd3968.png" alt="image-20220625194840070"></p>
 <h3 id="_1-4-使用" tabindex="-1"><a class="header-anchor" href="#_1-4-使用" aria-hidden="true">#</a> 1.4 使用</h3>
 <h5 id="配置对象常用的配置项" tabindex="-1"><a class="header-anchor" href="#配置对象常用的配置项" aria-hidden="true">#</a> 配置对象常用的配置项</h5>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token punctuation">{</span>
@@ -117,7 +120,7 @@ axios.spread(): 用来指定接收所有成功数据的回调函数的方法</p>
         <span class="token literal-property property">url</span><span class="token operator">:</span><span class="token string">"http://localhost:3000/posts"</span><span class="token punctuation">,</span>
         <span class="token literal-property property">data</span><span class="token operator">:</span><span class="token punctuation">{</span>
             <span class="token literal-property property">title</span><span class="token operator">:</span><span class="token string">"axios学习"</span><span class="token punctuation">,</span>
-            <span class="token literal-property property">author</span><span class="token operator">:</span><span class="token string">"Yehaocong"</span>
+            <span class="token literal-property property">author</span><span class="token operator">:</span><span class="token string">"wanghanyu"</span>
         <span class="token punctuation">}</span>
        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token operator">=></span><span class="token punctuation">{</span>
            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -130,7 +133,7 @@ axios.spread(): 用来指定接收所有成功数据的回调函数的方法</p>
         <span class="token literal-property property">url</span><span class="token operator">:</span><span class="token string">"http://localhost:3000/posts/2"</span><span class="token punctuation">,</span>
         <span class="token literal-property property">data</span><span class="token operator">:</span><span class="token punctuation">{</span>
             <span class="token literal-property property">title</span><span class="token operator">:</span><span class="token string">"axios学习"</span><span class="token punctuation">,</span>
-            <span class="token literal-property property">author</span><span class="token operator">:</span><span class="token string">"Liaoxiaoyan"</span>
+            <span class="token literal-property property">author</span><span class="token operator">:</span><span class="token string">"wanghanyu1"</span>
         <span class="token punctuation">}</span>
        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token operator">=></span><span class="token punctuation">{</span>
            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -163,7 +166,7 @@ axios.spread(): 用来指定接收所有成功数据的回调函数的方法</p>
         <span class="token comment">//发送post请求，第一个参数时url，第二个参数时请求体，第三个参数时config配置对象</span>
         axios<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">"http://localhost:3000/posts"</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span><span class="token literal-property property">title</span><span class="token operator">:</span><span class="token string">"axios学习2"</span><span class="token punctuation">,</span>
-            <span class="token literal-property property">author</span><span class="token operator">:</span><span class="token string">"Yehaocong2"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+            <span class="token literal-property property">author</span><span class="token operator">:</span><span class="token string">"wanghanyu2"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
             <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token operator">=></span><span class="token punctuation">{</span>
            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>
        <span class="token punctuation">}</span><span class="token punctuation">)</span>
@@ -172,7 +175,7 @@ axios.spread(): 用来指定接收所有成功数据的回调函数的方法</p>
     document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">"btn7"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function-variable function">onclick</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
         <span class="token comment">//发送put,接收三个参数，url  请求体 、 config配置对象</span>
        axios<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span><span class="token string">"http://localhost:3000/posts/2"</span><span class="token punctuation">,</span><span class="token punctuation">{</span><span class="token literal-property property">title</span><span class="token operator">:</span><span class="token string">"axios学习"</span><span class="token punctuation">,</span>
-            <span class="token literal-property property">author</span><span class="token operator">:</span><span class="token string">"Liaoxiaoyan"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+            <span class="token literal-property property">author</span><span class="token operator">:</span><span class="token string">"wanghanyu3"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
        <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token operator">=></span><span class="token punctuation">{</span>
            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>
        <span class="token punctuation">}</span><span class="token punctuation">)</span>
@@ -391,7 +394,7 @@ requests<span class="token punctuation">.</span>interceptors<span class="token p
   <span class="token parameter">err</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
     <span class="token comment">//温馨提示:某一天发请求,请求失败,请求失败的信息打印出来</span>
     <span class="token function">alert</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment">//终止Promise链</span>
+    <span class="token comment">//终止Promise链 其实就是返回一个空的promise（也就是状态为pending的promise）</span>
     <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">)</span><span class="token punctuation">;</span>

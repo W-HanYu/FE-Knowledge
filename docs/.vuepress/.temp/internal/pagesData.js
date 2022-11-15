@@ -51,8 +51,6 @@ export const pagesData = {
   "v-13c72f52": () => import(/* webpackChunkName: "v-13c72f52" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/git/03.html.js").then(({ data }) => data),
   // path: /notes/git/04.html
   "v-157c07f1": () => import(/* webpackChunkName: "v-157c07f1" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/git/04.html.js").then(({ data }) => data),
-  // path: /notes/less/01.html
-  "v-bd87976e": () => import(/* webpackChunkName: "v-bd87976e" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/less/01.html.js").then(({ data }) => data),
   // path: /notes/js/01.html
   "v-630b15b9": () => import(/* webpackChunkName: "v-630b15b9" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/js/01.html.js").then(({ data }) => data),
   // path: /notes/js/02.html
@@ -125,6 +123,8 @@ export const pagesData = {
   "v-089129f8": () => import(/* webpackChunkName: "v-089129f8" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/js/35.html.js").then(({ data }) => data),
   // path: /notes/js/36.html
   "v-0a460297": () => import(/* webpackChunkName: "v-0a460297" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/js/36.html.js").then(({ data }) => data),
+  // path: /notes/less/01.html
+  "v-bd87976e": () => import(/* webpackChunkName: "v-bd87976e" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/less/01.html.js").then(({ data }) => data),
   // path: /notes/linux/01.html
   "v-51d06af6": () => import(/* webpackChunkName: "v-51d06af6" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/linux/01.html.js").then(({ data }) => data),
   // path: /notes/linux/02.html
@@ -266,17 +266,21 @@ export const pagesData = {
   // path: /notes/tailwindcss/04.html
   "v-509e6cca": () => import(/* webpackChunkName: "v-509e6cca" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/tailwindcss/04.html.js").then(({ data }) => data),
   // path: /notes/typescript/01.html
-  "v-99fabc16": () => import(/* webpackChunkName: "v-99fabc16" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/typescript/01.html.js").then(({ data }) => data),
+  "v-99fabc16": () => import(/* webpackChunkName: "v-99fabc16" */"../pages/notes/typescript/01.html.js").then(({ data }) => data),
   // path: /notes/typescript/02.html
-  "v-96910ad8": () => import(/* webpackChunkName: "v-96910ad8" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/typescript/02.html.js").then(({ data }) => data),
+  "v-96910ad8": () => import(/* webpackChunkName: "v-96910ad8" */"../pages/notes/typescript/02.html.js").then(({ data }) => data),
   // path: /notes/typescript/03.html
-  "v-9327599a": () => import(/* webpackChunkName: "v-9327599a" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/typescript/03.html.js").then(({ data }) => data),
+  "v-9327599a": () => import(/* webpackChunkName: "v-9327599a" */"../pages/notes/typescript/03.html.js").then(({ data }) => data),
   // path: /notes/typescript/04.html
-  "v-8fbda85c": () => import(/* webpackChunkName: "v-8fbda85c" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/typescript/04.html.js").then(({ data }) => data),
+  "v-8fbda85c": () => import(/* webpackChunkName: "v-8fbda85c" */"../pages/notes/typescript/04.html.js").then(({ data }) => data),
   // path: /notes/typescript/05.html
-  "v-8c53f71e": () => import(/* webpackChunkName: "v-8c53f71e" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/typescript/05.html.js").then(({ data }) => data),
+  "v-8c53f71e": () => import(/* webpackChunkName: "v-8c53f71e" */"../pages/notes/typescript/05.html.js").then(({ data }) => data),
   // path: /notes/typescript/06.html
-  "v-88ea45e0": () => import(/* webpackChunkName: "v-88ea45e0" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/typescript/06.html.js").then(({ data }) => data),
+  "v-88ea45e0": () => import(/* webpackChunkName: "v-88ea45e0" */"../pages/notes/typescript/06.html.js").then(({ data }) => data),
+  // path: /notes/typescript/07.html
+  "v-858094a2": () => import(/* webpackChunkName: "v-858094a2" */"../pages/notes/typescript/07.html.js").then(({ data }) => data),
+  // path: /notes/typescript/08.html
+  "v-8216e364": () => import(/* webpackChunkName: "v-8216e364" */"../pages/notes/typescript/08.html.js").then(({ data }) => data),
   // path: /notes/uniapp/01.html
   "v-21771421": () => import(/* webpackChunkName: "v-21771421" */"D:/Ustinian/docs/.vuepress/.temp/pages/notes/uniapp/01.html.js").then(({ data }) => data),
   // path: /notes/uniapp/02.html
