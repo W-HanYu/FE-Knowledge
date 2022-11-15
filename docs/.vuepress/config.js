@@ -15,7 +15,7 @@ export default defineUserConfig({
   head: [
     ['meta', { name: 'referrer', content: 'no-referrer' }],
     ['meta', { name: 'baidu-site-verification', content: 'code-iW58SZ4SVS' }],
- ['meta', { name: 'google-site-verification', content: 'XVRUSmXYuJfszJ50uwUc7phaeM7EtTrtaIzFGPROgEA' }],
+    ['meta', { name: 'google-site-verification', content: 'XVRUSmXYuJfszJ50uwUc7phaeM7EtTrtaIzFGPROgEA' }],
     [
       'link',
       {
@@ -74,41 +74,41 @@ export default defineUserConfig({
           {
             text: '前端基础',
             children: [
-              { text: 'html/css', link: '/notes/html+css/01' },
-              { text: 'javaScript', link: '/notes/js/01' },
+              { text: 'Html/Css', link: '/notes/html+css/01' },
+              { text: 'JavaScript', link: '/notes/js/01' },
             ],
           },
           {
             text: 'Css进阶',
             children: [
-              { text: 'less', link: '/notes/less/01' },
-              { text: 'sass', link: '/notes/sass/01' },
+              { text: 'Less', link: '/notes/less/01' },
+              { text: 'Sass', link: '/notes/sass/01' },
               { text: 'tailwindcss', link: '/notes/tailwindcss/01' },
             ],
           },
           {
             text: 'JS进阶',
             children: [
-              { text: 'es6-?', link: '/notes/es6/01' },
-              { text: 'ajax', link: '/notes/ajax/01' },
-              { text: 'echarts', link: '/notes/echarts/01' },
-              { text: 'webpack', link: '/notes/webpack/01' },
-              { text: 'typescript', link: '/notes/typescript/01' },
+              { text: ' ES6', link: '/notes/es6/01' },
+              { text: 'Ajax', link: '/notes/ajax/01' },
+              { text: 'Echarts', link: '/notes/echarts/01' },
+              { text: 'Webpack', link: '/notes/webpack/01' },
+              { text: 'Typescript', link: '/notes/typescript/01' },
             ],
           },
           {
             text: '框架',
             children: [
-              { text: 'vue2', link: '/notes/vue2/01 ' },
-              { text: 'vue3', link: '/notes/vue3/01' },
-              { text: 'react', link: '/notes/react/01' },
+              { text: 'Vue2', link: '/notes/vue2/01 ' },
+              { text: 'Vue3', link: '/notes/vue3/01' },
+              { text: 'React', link: '/notes/react/01' },
             ],
           },
           {
             text: '其它',
             children: [
-              { text: 'git', link: '/notes/git/01' },
-              { text: 'uniapp', link: '/notes/uniapp/01' },
+              { text: 'Git', link: '/notes/git/01' },
+              { text: 'Uniapp', link: '/notes/uniapp/01' },
             ],
           },
         ],

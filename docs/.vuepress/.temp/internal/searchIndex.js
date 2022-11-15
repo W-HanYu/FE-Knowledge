@@ -2367,193 +2367,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Less基础",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.维护CSS的弊端",
-        "slug": "_1-维护css的弊端",
-        "link": "#_1-维护css的弊端",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.Less介绍",
-        "slug": "_2-less介绍",
-        "link": "#_2-less介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.Less安装（注意如果使用VSCode无需安装Less）",
-        "slug": "_3-less安装-注意如果使用vscode无需安装less",
-        "link": "#_3-less安装-注意如果使用vscode无需安装less",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.注释(Comments)",
-        "slug": "_4-注释-comments",
-        "link": "#_4-注释-comments",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.变量(Variables)",
-        "slug": "_5-变量-variables",
-        "link": "#_5-变量-variables",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 变量命名规范",
-            "slug": "_5-1-变量命名规范",
-            "link": "#_5-1-变量命名规范",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 基本使用",
-            "slug": "_5-2-基本使用",
-            "link": "#_5-2-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.3 变量插值(Variable Interpolation)",
-            "slug": "_5-3-变量插值-variable-interpolation",
-            "link": "#_5-3-变量插值-variable-interpolation",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.4 延迟加载(Lazy Evaluation)",
-            "slug": "_5-4-延迟加载-lazy-evaluation",
-            "link": "#_5-4-延迟加载-lazy-evaluation",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.5 属性名变量(Properties as Variables)",
-            "slug": "_5-5-属性名变量-properties-as-variables",
-            "link": "#_5-5-属性名变量-properties-as-variables",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6.嵌套(Nesting)",
-        "slug": "_6-嵌套-nesting",
-        "link": "#_6-嵌套-nesting",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 基本使用",
-            "slug": "_6-1-基本使用",
-            "link": "#_6-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 父选择器 (Parent Selectors)",
-            "slug": "_6-2-父选择器-parent-selectors",
-            "link": "#_6-2-父选择器-parent-selectors",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "7.混合(Mixins)",
-        "slug": "_7-混合-mixins",
-        "link": "#_7-混合-mixins",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.1 普通混合",
-            "slug": "_7-1-普通混合",
-            "link": "#_7-1-普通混合",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.2 带参数的混合(Parametric Mixins)",
-            "slug": "_7-2-带参数的混合-parametric-mixins",
-            "link": "#_7-2-带参数的混合-parametric-mixins",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.3 命名参数",
-            "slug": "_7-3-命名参数",
-            "link": "#_7-3-命名参数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.4 @arguments 变量",
-            "slug": "_7-4-arguments-变量",
-            "link": "#_7-4-arguments-变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.5 匹配模式(Pattern-matching)",
-            "slug": "_7-5-匹配模式-pattern-matching",
-            "link": "#_7-5-匹配模式-pattern-matching",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.6 运算(Operations)",
-            "slug": "_7-6-运算-operations",
-            "link": "#_7-6-运算-operations",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "8.继承(Extend)",
-        "slug": "_8-继承-extend",
-        "link": "#_8-继承-extend",
-        "children": [
-          {
-            "level": 3,
-            "title": "9.避免编译",
-            "slug": "_9-避免编译",
-            "link": "#_9-避免编译",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "10.函数（Functions）",
-        "slug": "_10-函数-functions",
-        "link": "#_10-函数-functions",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "11.导入（Importing）",
-        "slug": "_11-导入-importing",
-        "link": "#_11-导入-importing",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "12.导出",
-        "slug": "_12-导出",
-        "link": "#_12-导出",
-        "children": []
-      }
-    ],
-    "path": "/notes/less/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "1.基础语法&基本数据类型",
     "headers": [
       {
@@ -6205,6 +6018,193 @@ export const searchIndex = [
     "title": "节流和防抖",
     "headers": [],
     "path": "/notes/js/36.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Less基础",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.维护CSS的弊端",
+        "slug": "_1-维护css的弊端",
+        "link": "#_1-维护css的弊端",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.Less介绍",
+        "slug": "_2-less介绍",
+        "link": "#_2-less介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.Less安装（注意如果使用VSCode无需安装Less）",
+        "slug": "_3-less安装-注意如果使用vscode无需安装less",
+        "link": "#_3-less安装-注意如果使用vscode无需安装less",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.注释(Comments)",
+        "slug": "_4-注释-comments",
+        "link": "#_4-注释-comments",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.变量(Variables)",
+        "slug": "_5-变量-variables",
+        "link": "#_5-变量-variables",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 变量命名规范",
+            "slug": "_5-1-变量命名规范",
+            "link": "#_5-1-变量命名规范",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.2 基本使用",
+            "slug": "_5-2-基本使用",
+            "link": "#_5-2-基本使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.3 变量插值(Variable Interpolation)",
+            "slug": "_5-3-变量插值-variable-interpolation",
+            "link": "#_5-3-变量插值-variable-interpolation",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.4 延迟加载(Lazy Evaluation)",
+            "slug": "_5-4-延迟加载-lazy-evaluation",
+            "link": "#_5-4-延迟加载-lazy-evaluation",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.5 属性名变量(Properties as Variables)",
+            "slug": "_5-5-属性名变量-properties-as-variables",
+            "link": "#_5-5-属性名变量-properties-as-variables",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.嵌套(Nesting)",
+        "slug": "_6-嵌套-nesting",
+        "link": "#_6-嵌套-nesting",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.1 基本使用",
+            "slug": "_6-1-基本使用",
+            "link": "#_6-1-基本使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 父选择器 (Parent Selectors)",
+            "slug": "_6-2-父选择器-parent-selectors",
+            "link": "#_6-2-父选择器-parent-selectors",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "7.混合(Mixins)",
+        "slug": "_7-混合-mixins",
+        "link": "#_7-混合-mixins",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1 普通混合",
+            "slug": "_7-1-普通混合",
+            "link": "#_7-1-普通混合",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 带参数的混合(Parametric Mixins)",
+            "slug": "_7-2-带参数的混合-parametric-mixins",
+            "link": "#_7-2-带参数的混合-parametric-mixins",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 命名参数",
+            "slug": "_7-3-命名参数",
+            "link": "#_7-3-命名参数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.4 @arguments 变量",
+            "slug": "_7-4-arguments-变量",
+            "link": "#_7-4-arguments-变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.5 匹配模式(Pattern-matching)",
+            "slug": "_7-5-匹配模式-pattern-matching",
+            "link": "#_7-5-匹配模式-pattern-matching",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.6 运算(Operations)",
+            "slug": "_7-6-运算-operations",
+            "link": "#_7-6-运算-operations",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "8.继承(Extend)",
+        "slug": "_8-继承-extend",
+        "link": "#_8-继承-extend",
+        "children": [
+          {
+            "level": 3,
+            "title": "9.避免编译",
+            "slug": "_9-避免编译",
+            "link": "#_9-避免编译",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "10.函数（Functions）",
+        "slug": "_10-函数-functions",
+        "link": "#_10-函数-functions",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "11.导入（Importing）",
+        "slug": "_11-导入-importing",
+        "link": "#_11-导入-importing",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "12.导出",
+        "slug": "_12-导出",
+        "link": "#_12-导出",
+        "children": []
+      }
+    ],
+    "path": "/notes/less/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -13952,7 +13952,15 @@ export const searchIndex = [
         "slug": "_1-3-typescript相比js的优势",
         "link": "#_1-3-typescript相比js的优势",
         "children": []
-      },
+      }
+    ],
+    "path": "/notes/typescript/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2.TypeScript初体验",
+    "headers": [
       {
         "level": 2,
         "title": "2.1 TypeScript 开发环境搭建",
@@ -13982,7 +13990,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/notes/typescript/01.html",
+    "path": "/notes/typescript/02.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -14210,15 +14218,7 @@ export const searchIndex = [
             "children": []
           }
         ]
-      }
-    ],
-    "path": "/notes/typescript/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
+      },
       {
         "level": 2,
         "title": "3.11 字面量类型",
@@ -14369,6 +14369,13 @@ export const searchIndex = [
   },
   {
     "title": "4.编译选项",
+    "headers": [],
+    "path": "/notes/typescript/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5.webpack配置",
     "headers": [
       {
         "level": 2,
@@ -14385,7 +14392,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/notes/typescript/04.html",
+    "path": "/notes/typescript/05.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -14441,7 +14448,15 @@ export const searchIndex = [
             "children": []
           }
         ]
-      },
+      }
+    ],
+    "path": "/notes/typescript/06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7. interface vs type",
+    "headers": [
       {
         "level": 2,
         "title": "7.1 Objects / Functions",
@@ -14486,7 +14501,7 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/notes/typescript/05.html",
+    "path": "/notes/typescript/07.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -14530,7 +14545,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/notes/typescript/06.html",
+    "path": "/notes/typescript/08.html",
     "pathLocale": "/",
     "extraFields": []
   },
