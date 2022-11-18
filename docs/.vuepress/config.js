@@ -113,6 +113,15 @@ export default defineUserConfig({
           },
         ],
       },
+      { text: '后端',
+        children: [
+          { text: 'Java', link: '/index' },
+          { text: 'python', link: '/index' },
+          { text: 'Go', link: '/index' },
+          { text: 'C++', link: '/index' },
+          { text: 'C#', link: '/index' },
+        ],
+      },
       {
         text: '服务端',
         children: [
