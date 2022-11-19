@@ -122,6 +122,13 @@ export default defineUserConfig({
           { text: 'C#', link: '/index' },
         ],
       },
+      { text: 'Typescript挑战',
+        children: [
+          { text: '简单', link: '/index' },
+          { text: '中等', link: '/index' },
+          { text: '困难', link: '/index' },
+        ],
+      },
       {
         text: '服务端',
         children: [
