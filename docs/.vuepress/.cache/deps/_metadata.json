@@ -1,23 +1,23 @@
 {
-  "hash": "0cf6bc4c",
-  "browserHash": "0e236268",
+  "hash": "da7d3823",
+  "browserHash": "beaa6b2b",
   "optimized": {
     "@vuepress/shared": {
       "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "e1c7314d",
+      "fileHash": "dbed20d0",
       "needsInterop": false
     },
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "e50f3fc9",
+      "fileHash": "5ee91678",
       "needsInterop": false
     },
     "vue-router": {
       "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "bcbb8f4a",
+      "fileHash": "9aeb7cd6",
       "needsInterop": false
     }
   },

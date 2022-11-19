@@ -7,6 +7,213 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "1.Echarts-介绍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "3.1使用script标签引入",
+        "slug": "_3-1使用script标签引入",
+        "link": "#_3-1使用script标签引入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.2使用CDN方法",
+        "slug": "_3-2使用cdn方法",
+        "link": "#_3-2使用cdn方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.3npm方法",
+        "slug": "_3-3npm方法",
+        "link": "#_3-3npm方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.1title标题",
+        "slug": "_4-1title标题",
+        "link": "#_4-1title标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.2tooltip提示",
+        "slug": "_4-2tooltip提示",
+        "link": "#_4-2tooltip提示",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.3toolbox工具按钮",
+        "slug": "_4-3toolbox工具按钮",
+        "link": "#_4-3toolbox工具按钮",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.4legend图例筛选",
+        "slug": "_4-4legend图例筛选",
+        "link": "#_4-4legend图例筛选",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "注释：以下为直角坐标系中的常用配置",
+        "slug": "注释-以下为直角坐标系中的常用配置",
+        "link": "#注释-以下为直角坐标系中的常用配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.5grid网格",
+        "slug": "_4-5grid网格",
+        "link": "#_4-5grid网格",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.6axis坐标轴",
+        "slug": "_4-6axis坐标轴",
+        "link": "#_4-6axis坐标轴",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.7dataZoom区域缩放",
+        "slug": "_4-7datazoom区域缩放",
+        "link": "#_4-7datazoom区域缩放",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.8series中的type类型",
+        "slug": "_4-8series中的type类型",
+        "link": "#_4-8series中的type类型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.9小结",
+        "slug": "_4-9小结",
+        "link": "#_4-9小结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.10案例",
+        "slug": "_4-10案例",
+        "link": "#_4-10案例",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5.echarts 各个配置项详细说明总结",
+    "headers": [],
+    "path": "/notes/echarts/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6.柱状图",
+    "headers": [
+      {
+        "level": 2,
+        "title": "6.1柱状图图表（两大步骤）",
+        "slug": "_6-1柱状图图表-两大步骤",
+        "link": "#_6-1柱状图图表-两大步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.2找官网实例",
+        "slug": "_6-2找官网实例",
+        "link": "#_6-2找官网实例",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.3根据需求定制",
+        "slug": "_6-3根据需求定制",
+        "link": "#_6-3根据需求定制",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.4柱状图2定制",
+        "slug": "_6-4柱状图2定制",
+        "link": "#_6-4柱状图2定制",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7.折线图",
+    "headers": [
+      {
+        "level": 2,
+        "title": "7.1常见效果",
+        "slug": "_7-1常见效果",
+        "link": "#_7-1常见效果",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.2折线图1 人员变化模块制作",
+        "slug": "_7-2折线图1-人员变化模块制作",
+        "link": "#_7-2折线图1-人员变化模块制作",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.3折线图2 播放量模块制作",
+        "slug": "_7-3折线图2-播放量模块制作",
+        "link": "#_7-3折线图2-播放量模块制作",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "8.饼图",
+    "headers": [
+      {
+        "level": 2,
+        "title": "8.1常见效果",
+        "slug": "_8-1常见效果",
+        "link": "#_8-1常见效果",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.2饼形图 1年龄分布模块制作",
+        "slug": "_8-2饼形图-1年龄分布模块制作",
+        "link": "#_8-2饼形图-1年龄分布模块制作",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.3饼形图2 地区分布模块制作（南丁格尔玫瑰图）",
+        "slug": "_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
+        "link": "#_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "01 【AJAX概述 HTTP相关问题】",
     "headers": [
       {
@@ -281,209 +488,336 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1.Echarts-介绍",
+    "title": "01 【版本控制和Git的安装介绍】",
     "headers": [
       {
         "level": 2,
-        "title": "3.1使用script标签引入",
-        "slug": "_3-1使用script标签引入",
-        "link": "#_3-1使用script标签引入",
+        "title": "1.目的",
+        "slug": "_1-目的",
+        "link": "#_1-目的",
         "children": []
       },
       {
         "level": 2,
-        "title": "3.2使用CDN方法",
-        "slug": "_3-2使用cdn方法",
-        "link": "#_3-2使用cdn方法",
-        "children": []
+        "title": "2. 工具",
+        "slug": "_2-工具",
+        "link": "#_2-工具",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 集中式版本控制工具",
+            "slug": "_2-1-集中式版本控制工具",
+            "link": "#_2-1-集中式版本控制工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 分布式版本控制工具",
+            "slug": "_2-2-分布式版本控制工具",
+            "link": "#_2-2-分布式版本控制工具",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
-        "title": "3.3npm方法",
-        "slug": "_3-3npm方法",
-        "link": "#_3-3npm方法",
-        "children": []
+        "title": "3.Git 简介",
+        "slug": "_3-git-简介",
+        "link": "#_3-git-简介",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.2 Git：分布式版本控制系统",
+            "slug": "_3-2-git-分布式版本控制系统",
+            "link": "#_3-2-git-分布式版本控制系统",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 发展史",
+            "slug": "_3-2-发展史",
+            "link": "#_3-2-发展史",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 优势",
+            "slug": "_3-3-优势",
+            "link": "#_3-3-优势",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
-        "title": "4.1title标题",
-        "slug": "_4-1title标题",
-        "link": "#_4-1title标题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.2tooltip提示",
-        "slug": "_4-2tooltip提示",
-        "link": "#_4-2tooltip提示",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.3toolbox工具按钮",
-        "slug": "_4-3toolbox工具按钮",
-        "link": "#_4-3toolbox工具按钮",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.4legend图例筛选",
-        "slug": "_4-4legend图例筛选",
-        "link": "#_4-4legend图例筛选",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "注释：以下为直角坐标系中的常用配置",
-        "slug": "注释-以下为直角坐标系中的常用配置",
-        "link": "#注释-以下为直角坐标系中的常用配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.5grid网格",
-        "slug": "_4-5grid网格",
-        "link": "#_4-5grid网格",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.6axis坐标轴",
-        "slug": "_4-6axis坐标轴",
-        "link": "#_4-6axis坐标轴",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.7dataZoom区域缩放",
-        "slug": "_4-7datazoom区域缩放",
-        "link": "#_4-7datazoom区域缩放",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.8series中的type类型",
-        "slug": "_4-8series中的type类型",
-        "link": "#_4-8series中的type类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.9小结",
-        "slug": "_4-9小结",
-        "link": "#_4-9小结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.10案例",
-        "slug": "_4-10案例",
-        "link": "#_4-10案例",
+        "title": "4.Git 软件的安装",
+        "slug": "_4-git-软件的安装",
+        "link": "#_4-git-软件的安装",
         "children": []
       }
     ],
-    "path": "/notes/echarts/01.html",
+    "path": "/notes/git/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "5.echarts 各个配置项详细说明总结",
+    "title": "02 【本地库操作】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.git的结构",
+        "slug": "_1-git的结构",
+        "link": "#_1-git的结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.Git 远程库——代码托管中心",
+        "slug": "_2-git-远程库——代码托管中心",
+        "link": "#_2-git-远程库——代码托管中心",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 git工作流程",
+            "slug": "_2-1-git工作流程",
+            "link": "#_2-1-git工作流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 Github:开源社区",
+            "slug": "_2-2-github-开源社区",
+            "link": "#_2-2-github-开源社区",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.初始化配置",
+        "slug": "_3-初始化配置",
+        "link": "#_3-初始化配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 设置签名",
+            "slug": "_3-1-设置签名",
+            "link": "#_3-1-设置签名",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 配置编辑器",
+            "slug": "_3-2-配置编辑器",
+            "link": "#_3-2-配置编辑器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 配置信息",
+            "slug": "_3-3-配置信息",
+            "link": "#_3-3-配置信息",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.版本控制",
+        "slug": "_4-版本控制",
+        "link": "#_4-版本控制",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 在项目中新建文件",
+            "slug": "_4-1-在项目中新建文件",
+            "link": "#_4-1-在项目中新建文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 修改文件内容",
+            "slug": "_4-2-修改文件内容",
+            "link": "#_4-2-修改文件内容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3 查看提交的版本记录",
+            "slug": "_4-3-查看提交的版本记录",
+            "link": "#_4-3-查看提交的版本记录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.4 版本的切换",
+            "slug": "_4-4-版本的切换",
+            "link": "#_4-4-版本的切换",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.5 文件的删除与找回",
+            "slug": "_4-5-文件的删除与找回",
+            "link": "#_4-5-文件的删除与找回",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.6 文件差异性比较",
+            "slug": "_4-6-文件差异性比较",
+            "link": "#_4-6-文件差异性比较",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.7  分支管理",
+            "slug": "_4-7-分支管理",
+            "link": "#_4-7-分支管理",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/git/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "03 【远程库操作】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.推送到远程库",
+        "slug": "_1-推送到远程库",
+        "link": "#_1-推送到远程库",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 创建github仓库",
+            "slug": "_1-1-创建github仓库",
+            "link": "#_1-1-创建github仓库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 创建远程库地址别名",
+            "slug": "_1-2-创建远程库地址别名",
+            "link": "#_1-2-创建远程库地址别名",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 推送",
+            "slug": "_1-3-推送",
+            "link": "#_1-3-推送",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.加入团队并推送",
+        "slug": "_2-加入团队并推送",
+        "link": "#_2-加入团队并推送",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 克隆项目到本地",
+            "slug": "_2-1-克隆项目到本地",
+            "link": "#_2-1-克隆项目到本地",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 添加新成员加入团队",
+            "slug": "_2-2-添加新成员加入团队",
+            "link": "#_2-2-添加新成员加入团队",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 推送更新到远程库",
+            "slug": "_2-3-推送更新到远程库",
+            "link": "#_2-3-推送更新到远程库",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.远程库的 SSH 登录",
+        "slug": "_3-远程库的-ssh-登录",
+        "link": "#_3-远程库的-ssh-登录",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1   在本地 Home 目录生成 GitHub 公/私钥",
+            "slug": "_3-1-在本地-home-目录生成-github-公-私钥",
+            "link": "#_3-1-在本地-home-目录生成-github-公-私钥",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2   查看 .ssh 目录下的文件",
+            "slug": "_3-2-查看-ssh-目录下的文件",
+            "link": "#_3-2-查看-ssh-目录下的文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3  在 GitHub 配置该 SSH 公钥",
+            "slug": "_3-3-在-github-配置该-ssh-公钥",
+            "link": "#_3-3-在-github-配置该-ssh-公钥",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 更改在本地的远程库地址",
+            "slug": "_3-4-更改在本地的远程库地址",
+            "link": "#_3-4-更改在本地的远程库地址",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.解决冲突",
+        "slug": "_4-解决冲突",
+        "link": "#_4-解决冲突",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 冲突的产生",
+            "slug": "_4-1-冲突的产生",
+            "link": "#_4-1-冲突的产生",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 解决冲突",
+            "slug": "_4-2-解决冲突",
+            "link": "#_4-2-解决冲突",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5.跨团队协作",
+        "slug": "_5-跨团队协作",
+        "link": "#_5-跨团队协作",
+        "children": []
+      }
+    ],
+    "path": "/notes/git/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "04 【忽略某些文件】",
     "headers": [],
-    "path": "/notes/echarts/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6.柱状图",
-    "headers": [
-      {
-        "level": 2,
-        "title": "6.1柱状图图表（两大步骤）",
-        "slug": "_6-1柱状图图表-两大步骤",
-        "link": "#_6-1柱状图图表-两大步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.2找官网实例",
-        "slug": "_6-2找官网实例",
-        "link": "#_6-2找官网实例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.3根据需求定制",
-        "slug": "_6-3根据需求定制",
-        "link": "#_6-3根据需求定制",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.4柱状图2定制",
-        "slug": "_6-4柱状图2定制",
-        "link": "#_6-4柱状图2定制",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7.折线图",
-    "headers": [
-      {
-        "level": 2,
-        "title": "7.1常见效果",
-        "slug": "_7-1常见效果",
-        "link": "#_7-1常见效果",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.2折线图1 人员变化模块制作",
-        "slug": "_7-2折线图1-人员变化模块制作",
-        "link": "#_7-2折线图1-人员变化模块制作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.3折线图2 播放量模块制作",
-        "slug": "_7-3折线图2-播放量模块制作",
-        "link": "#_7-3折线图2-播放量模块制作",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "8.饼图",
-    "headers": [
-      {
-        "level": 2,
-        "title": "8.1常见效果",
-        "slug": "_8-1常见效果",
-        "link": "#_8-1常见效果",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.2饼形图 1年龄分布模块制作",
-        "slug": "_8-2饼形图-1年龄分布模块制作",
-        "link": "#_8-2饼形图-1年龄分布模块制作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.3饼形图2 地区分布模块制作（南丁格尔玫瑰图）",
-        "slug": "_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
-        "link": "#_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/05.html",
+    "path": "/notes/git/04.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2029,340 +2363,6 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/es6/14.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "01 【版本控制和Git的安装介绍】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.目的",
-        "slug": "_1-目的",
-        "link": "#_1-目的",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 工具",
-        "slug": "_2-工具",
-        "link": "#_2-工具",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 集中式版本控制工具",
-            "slug": "_2-1-集中式版本控制工具",
-            "link": "#_2-1-集中式版本控制工具",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 分布式版本控制工具",
-            "slug": "_2-2-分布式版本控制工具",
-            "link": "#_2-2-分布式版本控制工具",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.Git 简介",
-        "slug": "_3-git-简介",
-        "link": "#_3-git-简介",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.2 Git：分布式版本控制系统",
-            "slug": "_3-2-git-分布式版本控制系统",
-            "link": "#_3-2-git-分布式版本控制系统",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 发展史",
-            "slug": "_3-2-发展史",
-            "link": "#_3-2-发展史",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 优势",
-            "slug": "_3-3-优势",
-            "link": "#_3-3-优势",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.Git 软件的安装",
-        "slug": "_4-git-软件的安装",
-        "link": "#_4-git-软件的安装",
-        "children": []
-      }
-    ],
-    "path": "/notes/git/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "02 【本地库操作】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.git的结构",
-        "slug": "_1-git的结构",
-        "link": "#_1-git的结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.Git 远程库——代码托管中心",
-        "slug": "_2-git-远程库——代码托管中心",
-        "link": "#_2-git-远程库——代码托管中心",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 git工作流程",
-            "slug": "_2-1-git工作流程",
-            "link": "#_2-1-git工作流程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 Github:开源社区",
-            "slug": "_2-2-github-开源社区",
-            "link": "#_2-2-github-开源社区",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.初始化配置",
-        "slug": "_3-初始化配置",
-        "link": "#_3-初始化配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 设置签名",
-            "slug": "_3-1-设置签名",
-            "link": "#_3-1-设置签名",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 配置编辑器",
-            "slug": "_3-2-配置编辑器",
-            "link": "#_3-2-配置编辑器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 配置信息",
-            "slug": "_3-3-配置信息",
-            "link": "#_3-3-配置信息",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.版本控制",
-        "slug": "_4-版本控制",
-        "link": "#_4-版本控制",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 在项目中新建文件",
-            "slug": "_4-1-在项目中新建文件",
-            "link": "#_4-1-在项目中新建文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 修改文件内容",
-            "slug": "_4-2-修改文件内容",
-            "link": "#_4-2-修改文件内容",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 查看提交的版本记录",
-            "slug": "_4-3-查看提交的版本记录",
-            "link": "#_4-3-查看提交的版本记录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.4 版本的切换",
-            "slug": "_4-4-版本的切换",
-            "link": "#_4-4-版本的切换",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.5 文件的删除与找回",
-            "slug": "_4-5-文件的删除与找回",
-            "link": "#_4-5-文件的删除与找回",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.6 文件差异性比较",
-            "slug": "_4-6-文件差异性比较",
-            "link": "#_4-6-文件差异性比较",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.7  分支管理",
-            "slug": "_4-7-分支管理",
-            "link": "#_4-7-分支管理",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/git/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "03 【远程库操作】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.推送到远程库",
-        "slug": "_1-推送到远程库",
-        "link": "#_1-推送到远程库",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 创建github仓库",
-            "slug": "_1-1-创建github仓库",
-            "link": "#_1-1-创建github仓库",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 创建远程库地址别名",
-            "slug": "_1-2-创建远程库地址别名",
-            "link": "#_1-2-创建远程库地址别名",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 推送",
-            "slug": "_1-3-推送",
-            "link": "#_1-3-推送",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.加入团队并推送",
-        "slug": "_2-加入团队并推送",
-        "link": "#_2-加入团队并推送",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 克隆项目到本地",
-            "slug": "_2-1-克隆项目到本地",
-            "link": "#_2-1-克隆项目到本地",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 添加新成员加入团队",
-            "slug": "_2-2-添加新成员加入团队",
-            "link": "#_2-2-添加新成员加入团队",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 推送更新到远程库",
-            "slug": "_2-3-推送更新到远程库",
-            "link": "#_2-3-推送更新到远程库",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.远程库的 SSH 登录",
-        "slug": "_3-远程库的-ssh-登录",
-        "link": "#_3-远程库的-ssh-登录",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1   在本地 Home 目录生成 GitHub 公/私钥",
-            "slug": "_3-1-在本地-home-目录生成-github-公-私钥",
-            "link": "#_3-1-在本地-home-目录生成-github-公-私钥",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2   查看 .ssh 目录下的文件",
-            "slug": "_3-2-查看-ssh-目录下的文件",
-            "link": "#_3-2-查看-ssh-目录下的文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3  在 GitHub 配置该 SSH 公钥",
-            "slug": "_3-3-在-github-配置该-ssh-公钥",
-            "link": "#_3-3-在-github-配置该-ssh-公钥",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.4 更改在本地的远程库地址",
-            "slug": "_3-4-更改在本地的远程库地址",
-            "link": "#_3-4-更改在本地的远程库地址",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.解决冲突",
-        "slug": "_4-解决冲突",
-        "link": "#_4-解决冲突",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 冲突的产生",
-            "slug": "_4-1-冲突的产生",
-            "link": "#_4-1-冲突的产生",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 解决冲突",
-            "slug": "_4-2-解决冲突",
-            "link": "#_4-2-解决冲突",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5.跨团队协作",
-        "slug": "_5-跨团队协作",
-        "link": "#_5-跨团队协作",
-        "children": []
-      }
-    ],
-    "path": "/notes/git/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "04 【忽略某些文件】",
-    "headers": [],
-    "path": "/notes/git/04.html",
     "pathLocale": "/",
     "extraFields": []
   },
