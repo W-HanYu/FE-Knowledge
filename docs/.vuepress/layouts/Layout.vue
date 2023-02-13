@@ -28,7 +28,6 @@ onMounted(() => {
     attributes: true,
   })
 })
-
 onBeforeUnmount(() => {
   observer.disconnect()
 })

@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-184a227d\",\"path\":\"/notes/reactAlgorithm/04.html\",\"title\":\"4.堆排序\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"4.堆排序\",\"toc\":\"content\",\"tocDepth\":4},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"概念\",\"slug\":\"概念\",\"link\":\"#概念\",\"children\":[]},{\"level\":2,\"title\":\"特性\",\"slug\":\"特性\",\"link\":\"#特性\",\"children\":[]},{\"level\":2,\"title\":\"基本使用\",\"slug\":\"基本使用\",\"link\":\"#基本使用\",\"children\":[]},{\"level\":2,\"title\":\"代码演示\",\"slug\":\"代码演示\",\"link\":\"#代码演示\",\"children\":[]},{\"level\":2,\"title\":\"React 当中的使用场景\",\"slug\":\"react-当中的使用场景\",\"link\":\"#react-当中的使用场景\",\"children\":[]},{\"level\":2,\"title\":\"总结\",\"slug\":\"总结\",\"link\":\"#总结\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"notes/reactAlgorithm/04.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

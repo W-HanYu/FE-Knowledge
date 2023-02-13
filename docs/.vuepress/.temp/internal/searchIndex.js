@@ -7,213 +7,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1.Echarts-介绍",
-    "headers": [
-      {
-        "level": 2,
-        "title": "3.1使用script标签引入",
-        "slug": "_3-1使用script标签引入",
-        "link": "#_3-1使用script标签引入",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.2使用CDN方法",
-        "slug": "_3-2使用cdn方法",
-        "link": "#_3-2使用cdn方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.3npm方法",
-        "slug": "_3-3npm方法",
-        "link": "#_3-3npm方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.1title标题",
-        "slug": "_4-1title标题",
-        "link": "#_4-1title标题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.2tooltip提示",
-        "slug": "_4-2tooltip提示",
-        "link": "#_4-2tooltip提示",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.3toolbox工具按钮",
-        "slug": "_4-3toolbox工具按钮",
-        "link": "#_4-3toolbox工具按钮",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.4legend图例筛选",
-        "slug": "_4-4legend图例筛选",
-        "link": "#_4-4legend图例筛选",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "注释：以下为直角坐标系中的常用配置",
-        "slug": "注释-以下为直角坐标系中的常用配置",
-        "link": "#注释-以下为直角坐标系中的常用配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.5grid网格",
-        "slug": "_4-5grid网格",
-        "link": "#_4-5grid网格",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.6axis坐标轴",
-        "slug": "_4-6axis坐标轴",
-        "link": "#_4-6axis坐标轴",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.7dataZoom区域缩放",
-        "slug": "_4-7datazoom区域缩放",
-        "link": "#_4-7datazoom区域缩放",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.8series中的type类型",
-        "slug": "_4-8series中的type类型",
-        "link": "#_4-8series中的type类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.9小结",
-        "slug": "_4-9小结",
-        "link": "#_4-9小结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.10案例",
-        "slug": "_4-10案例",
-        "link": "#_4-10案例",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "5.echarts 各个配置项详细说明总结",
-    "headers": [],
-    "path": "/notes/echarts/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6.柱状图",
-    "headers": [
-      {
-        "level": 2,
-        "title": "6.1柱状图图表（两大步骤）",
-        "slug": "_6-1柱状图图表-两大步骤",
-        "link": "#_6-1柱状图图表-两大步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.2找官网实例",
-        "slug": "_6-2找官网实例",
-        "link": "#_6-2找官网实例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.3根据需求定制",
-        "slug": "_6-3根据需求定制",
-        "link": "#_6-3根据需求定制",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.4柱状图2定制",
-        "slug": "_6-4柱状图2定制",
-        "link": "#_6-4柱状图2定制",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7.折线图",
-    "headers": [
-      {
-        "level": 2,
-        "title": "7.1常见效果",
-        "slug": "_7-1常见效果",
-        "link": "#_7-1常见效果",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.2折线图1 人员变化模块制作",
-        "slug": "_7-2折线图1-人员变化模块制作",
-        "link": "#_7-2折线图1-人员变化模块制作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.3折线图2 播放量模块制作",
-        "slug": "_7-3折线图2-播放量模块制作",
-        "link": "#_7-3折线图2-播放量模块制作",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "8.饼图",
-    "headers": [
-      {
-        "level": 2,
-        "title": "8.1常见效果",
-        "slug": "_8-1常见效果",
-        "link": "#_8-1常见效果",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.2饼形图 1年龄分布模块制作",
-        "slug": "_8-2饼形图-1年龄分布模块制作",
-        "link": "#_8-2饼形图-1年龄分布模块制作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.3饼形图2 地区分布模块制作（南丁格尔玫瑰图）",
-        "slug": "_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
-        "link": "#_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "01 【AJAX概述 HTTP相关问题】",
     "headers": [
       {
@@ -488,336 +281,1804 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "01 【版本控制和Git的安装介绍】",
+    "title": "1.两数之和",
     "headers": [
       {
         "level": 2,
-        "title": "1.目的",
-        "slug": "_1-目的",
-        "link": "#_1-目的",
+        "title": "题目",
+        "slug": "题目",
+        "link": "#题目",
         "children": []
       },
       {
         "level": 2,
-        "title": "2. 工具",
-        "slug": "_2-工具",
-        "link": "#_2-工具",
+        "title": "代码",
+        "slug": "代码",
+        "link": "#代码",
         "children": [
           {
             "level": 3,
-            "title": "2.1 集中式版本控制工具",
-            "slug": "_2-1-集中式版本控制工具",
-            "link": "#_2-1-集中式版本控制工具",
+            "title": "解法一：常规思路",
+            "slug": "解法一-常规思路",
+            "link": "#解法一-常规思路",
             "children": []
           },
           {
             "level": 3,
-            "title": "2.2 分布式版本控制工具",
-            "slug": "_2-2-分布式版本控制工具",
-            "link": "#_2-2-分布式版本控制工具",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.Git 简介",
-        "slug": "_3-git-简介",
-        "link": "#_3-git-简介",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.2 Git：分布式版本控制系统",
-            "slug": "_3-2-git-分布式版本控制系统",
-            "link": "#_3-2-git-分布式版本控制系统",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 发展史",
-            "slug": "_3-2-发展史",
-            "link": "#_3-2-发展史",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 优势",
-            "slug": "_3-3-优势",
-            "link": "#_3-3-优势",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.Git 软件的安装",
-        "slug": "_4-git-软件的安装",
-        "link": "#_4-git-软件的安装",
-        "children": []
-      }
-    ],
-    "path": "/notes/git/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "02 【本地库操作】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.git的结构",
-        "slug": "_1-git的结构",
-        "link": "#_1-git的结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.Git 远程库——代码托管中心",
-        "slug": "_2-git-远程库——代码托管中心",
-        "link": "#_2-git-远程库——代码托管中心",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 git工作流程",
-            "slug": "_2-1-git工作流程",
-            "link": "#_2-1-git工作流程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 Github:开源社区",
-            "slug": "_2-2-github-开源社区",
-            "link": "#_2-2-github-开源社区",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.初始化配置",
-        "slug": "_3-初始化配置",
-        "link": "#_3-初始化配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 设置签名",
-            "slug": "_3-1-设置签名",
-            "link": "#_3-1-设置签名",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 配置编辑器",
-            "slug": "_3-2-配置编辑器",
-            "link": "#_3-2-配置编辑器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 配置信息",
-            "slug": "_3-3-配置信息",
-            "link": "#_3-3-配置信息",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.版本控制",
-        "slug": "_4-版本控制",
-        "link": "#_4-版本控制",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 在项目中新建文件",
-            "slug": "_4-1-在项目中新建文件",
-            "link": "#_4-1-在项目中新建文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 修改文件内容",
-            "slug": "_4-2-修改文件内容",
-            "link": "#_4-2-修改文件内容",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 查看提交的版本记录",
-            "slug": "_4-3-查看提交的版本记录",
-            "link": "#_4-3-查看提交的版本记录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.4 版本的切换",
-            "slug": "_4-4-版本的切换",
-            "link": "#_4-4-版本的切换",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.5 文件的删除与找回",
-            "slug": "_4-5-文件的删除与找回",
-            "link": "#_4-5-文件的删除与找回",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.6 文件差异性比较",
-            "slug": "_4-6-文件差异性比较",
-            "link": "#_4-6-文件差异性比较",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.7  分支管理",
-            "slug": "_4-7-分支管理",
-            "link": "#_4-7-分支管理",
+            "title": "解法二：hashMap 求解",
+            "slug": "解法二-hashmap-求解",
+            "link": "#解法二-hashmap-求解",
             "children": []
           }
         ]
       }
     ],
-    "path": "/notes/git/02.html",
+    "path": "/notes/dailyquestion/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "03 【远程库操作】",
+    "title": "01.数据结构",
     "headers": [
       {
         "level": 2,
-        "title": "1.推送到远程库",
-        "slug": "_1-推送到远程库",
-        "link": "#_1-推送到远程库",
+        "title": "线性结构",
+        "slug": "线性结构",
+        "link": "#线性结构",
         "children": [
           {
             "level": 3,
-            "title": "1.1 创建github仓库",
-            "slug": "_1-1-创建github仓库",
-            "link": "#_1-1-创建github仓库",
+            "title": "数组",
+            "slug": "数组",
+            "link": "#数组",
             "children": []
           },
           {
             "level": 3,
-            "title": "1.2 创建远程库地址别名",
-            "slug": "_1-2-创建远程库地址别名",
-            "link": "#_1-2-创建远程库地址别名",
+            "title": "队列",
+            "slug": "队列",
+            "link": "#队列",
             "children": []
           },
           {
             "level": 3,
-            "title": "1.3 推送",
-            "slug": "_1-3-推送",
-            "link": "#_1-3-推送",
+            "title": "栈",
+            "slug": "栈",
+            "link": "#栈",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链表",
+            "slug": "链表",
+            "link": "#链表",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "2.加入团队并推送",
-        "slug": "_2-加入团队并推送",
-        "link": "#_2-加入团队并推送",
+        "title": "非线性结构",
+        "slug": "非线性结构",
+        "link": "#非线性结构",
         "children": [
           {
             "level": 3,
-            "title": "2.1 克隆项目到本地",
-            "slug": "_2-1-克隆项目到本地",
-            "link": "#_2-1-克隆项目到本地",
+            "title": "树",
+            "slug": "树",
+            "link": "#树",
             "children": []
           },
           {
             "level": 3,
-            "title": "2.2 添加新成员加入团队",
-            "slug": "_2-2-添加新成员加入团队",
-            "link": "#_2-2-添加新成员加入团队",
+            "title": "二叉树",
+            "slug": "二叉树",
+            "link": "#二叉树",
             "children": []
           },
           {
             "level": 3,
-            "title": "2.3 推送更新到远程库",
-            "slug": "_2-3-推送更新到远程库",
-            "link": "#_2-3-推送更新到远程库",
+            "title": "二叉平衡树",
+            "slug": "二叉平衡树",
+            "link": "#二叉平衡树",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "字典树（前缀树）",
+            "slug": "字典树-前缀树",
+            "link": "#字典树-前缀树",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "3.远程库的 SSH 登录",
-        "slug": "_3-远程库的-ssh-登录",
-        "link": "#_3-远程库的-ssh-登录",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1   在本地 Home 目录生成 GitHub 公/私钥",
-            "slug": "_3-1-在本地-home-目录生成-github-公-私钥",
-            "link": "#_3-1-在本地-home-目录生成-github-公-私钥",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2   查看 .ssh 目录下的文件",
-            "slug": "_3-2-查看-ssh-目录下的文件",
-            "link": "#_3-2-查看-ssh-目录下的文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3  在 GitHub 配置该 SSH 公钥",
-            "slug": "_3-3-在-github-配置该-ssh-公钥",
-            "link": "#_3-3-在-github-配置该-ssh-公钥",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.4 更改在本地的远程库地址",
-            "slug": "_3-4-更改在本地的远程库地址",
-            "link": "#_3-4-更改在本地的远程库地址",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.解决冲突",
-        "slug": "_4-解决冲突",
-        "link": "#_4-解决冲突",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 冲突的产生",
-            "slug": "_4-1-冲突的产生",
-            "link": "#_4-1-冲突的产生",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 解决冲突",
-            "slug": "_4-2-解决冲突",
-            "link": "#_4-2-解决冲突",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5.跨团队协作",
-        "slug": "_5-跨团队协作",
-        "link": "#_5-跨团队协作",
+        "title": "图",
+        "slug": "图",
+        "link": "#图",
         "children": []
       }
     ],
-    "path": "/notes/git/03.html",
+    "path": "/notes/datastr/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "04 【忽略某些文件】",
-    "headers": [],
-    "path": "/notes/git/04.html",
+    "title": "02.链表专题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "简介",
+        "slug": "简介",
+        "link": "#简介",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "链表的基本操作",
+        "slug": "链表的基本操作",
+        "link": "#链表的基本操作",
+        "children": [
+          {
+            "level": 3,
+            "title": "插入",
+            "slug": "插入",
+            "link": "#插入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除",
+            "slug": "删除",
+            "link": "#删除",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "遍历",
+            "slug": "遍历",
+            "link": "#遍历",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "链表和数组到底有多大的差异？",
+        "slug": "链表和数组到底有多大的差异",
+        "link": "#链表和数组到底有多大的差异",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "链表题难度几何？",
+        "slug": "链表题难度几何",
+        "link": "#链表题难度几何",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一个原则",
+        "slug": "一个原则",
+        "link": "#一个原则",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "两个考点",
+        "slug": "两个考点",
+        "link": "#两个考点",
+        "children": [
+          {
+            "level": 3,
+            "title": "指针的修改",
+            "slug": "指针的修改",
+            "link": "#指针的修改",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链表的拼接",
+            "slug": "链表的拼接",
+            "link": "#链表的拼接",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三个注意",
+        "slug": "三个注意",
+        "link": "#三个注意",
+        "children": [
+          {
+            "level": 3,
+            "title": "环",
+            "slug": "环",
+            "link": "#环",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "边界",
+            "slug": "边界",
+            "link": "#边界",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "前后序",
+            "slug": "前后序",
+            "link": "#前后序",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四个技巧",
+        "slug": "四个技巧",
+        "link": "#四个技巧",
+        "children": [
+          {
+            "level": 3,
+            "title": "虚拟头",
+            "slug": "虚拟头",
+            "link": "#虚拟头",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "快慢指针",
+            "slug": "快慢指针",
+            "link": "#快慢指针",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "穿针引线",
+            "slug": "穿针引线",
+            "link": "#穿针引线",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "先穿再排后判空",
+            "slug": "先穿再排后判空",
+            "link": "#先穿再排后判空",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "题目推荐",
+        "slug": "题目推荐",
+        "link": "#题目推荐",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "03.树专题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一点絮叨",
+        "slug": "一点絮叨",
+        "link": "#一点絮叨",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用指南",
+        "slug": "使用指南",
+        "link": "#使用指南",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "前言",
+        "slug": "前言",
+        "link": "#前言",
+        "children": [
+          {
+            "level": 3,
+            "title": "基本概念",
+            "slug": "基本概念",
+            "link": "#基本概念",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二叉树",
+            "slug": "二叉树",
+            "link": "#二叉树",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "树题难度几何？",
+        "slug": "树题难度几何",
+        "link": "#树题难度几何",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一个中心",
+        "slug": "一个中心",
+        "link": "#一个中心",
+        "children": [
+          {
+            "level": 3,
+            "title": "树的遍历迭代写法",
+            "slug": "树的遍历迭代写法",
+            "link": "#树的遍历迭代写法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "小结",
+            "slug": "小结",
+            "link": "#小结",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "两个基本点",
+        "slug": "两个基本点",
+        "link": "#两个基本点",
+        "children": [
+          {
+            "level": 3,
+            "title": "BFS 不是 层次遍历",
+            "slug": "bfs-不是-层次遍历",
+            "link": "#bfs-不是-层次遍历",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "深度优先遍历",
+            "slug": "深度优先遍历",
+            "link": "#深度优先遍历",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "广度优先遍历",
+            "slug": "广度优先遍历",
+            "link": "#广度优先遍历",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "小结",
+            "slug": "小结-1",
+            "link": "#小结-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三种题型",
+        "slug": "三种题型",
+        "link": "#三种题型",
+        "children": [
+          {
+            "level": 3,
+            "title": "搜索类",
+            "slug": "搜索类",
+            "link": "#搜索类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "构建类",
+            "slug": "构建类",
+            "link": "#构建类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "修改类",
+            "slug": "修改类",
+            "link": "#修改类",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四个重要概念",
+        "slug": "四个重要概念",
+        "link": "#四个重要概念",
+        "children": [
+          {
+            "level": 3,
+            "title": "二叉搜索树",
+            "slug": "二叉搜索树",
+            "link": "#二叉搜索树",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "完全二叉树",
+            "slug": "完全二叉树",
+            "link": "#完全二叉树",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "路径",
+            "slug": "路径",
+            "link": "#路径",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "距离",
+            "slug": "距离",
+            "link": "#距离",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "七个技巧",
+        "slug": "七个技巧",
+        "link": "#七个技巧",
+        "children": [
+          {
+            "level": 3,
+            "title": "dfs(root)",
+            "slug": "dfs-root",
+            "link": "#dfs-root",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "单/双递归",
+            "slug": "单-双递归",
+            "link": "#单-双递归",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "前后遍历",
+            "slug": "前后遍历",
+            "link": "#前后遍历",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "虚拟节点",
+            "slug": "虚拟节点",
+            "link": "#虚拟节点",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "边界",
+            "slug": "边界",
+            "link": "#边界",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "参数扩展大法",
+            "slug": "参数扩展大法",
+            "link": "#参数扩展大法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "返回元组/列表",
+            "slug": "返回元组-列表",
+            "link": "#返回元组-列表",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "经典题目",
+        "slug": "经典题目",
+        "link": "#经典题目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "04.堆专题(进阶)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一点说明",
+        "slug": "一点说明",
+        "link": "#一点说明",
+        "children": [
+          {
+            "level": 3,
+            "title": "元组",
+            "slug": "元组",
+            "link": "#元组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "模拟大顶堆",
+            "slug": "模拟大顶堆",
+            "link": "#模拟大顶堆",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三个技巧",
+        "slug": "三个技巧",
+        "link": "#三个技巧",
+        "children": [
+          {
+            "level": 3,
+            "title": "技巧一 固定堆",
+            "slug": "技巧一-固定堆",
+            "link": "#技巧一-固定堆",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "技巧二 - 多路归并",
+            "slug": "技巧二-多路归并",
+            "link": "#技巧二-多路归并",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "技巧三 - 事后小诸葛",
+            "slug": "技巧三-事后小诸葛",
+            "link": "#技巧三-事后小诸葛",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四大应用",
+        "slug": "四大应用",
+        "link": "#四大应用",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. topK",
+            "slug": "_1-topk",
+            "link": "#_1-topk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 带权最短距离",
+            "slug": "_2-带权最短距离",
+            "link": "#_2-带权最短距离",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 因子分解",
+            "slug": "_3-因子分解",
+            "link": "#_3-因子分解",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 堆排序",
+            "slug": "_4-堆排序",
+            "link": "#_4-堆排序",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "05.图论",
+    "headers": [
+      {
+        "level": 2,
+        "title": "基本概念",
+        "slug": "基本概念",
+        "link": "#基本概念",
+        "children": [
+          {
+            "level": 3,
+            "title": "无向图 & 有向图〔Undirected Graph & Deriected Graph〕",
+            "slug": "无向图-有向图〔undirected-graph-deriected-graph〕",
+            "link": "#无向图-有向图〔undirected-graph-deriected-graph〕",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "有权图 & 无权图〔Weighted Graph & Unweighted Graph〕",
+            "slug": "有权图-无权图〔weighted-graph-unweighted-graph〕",
+            "link": "#有权图-无权图〔weighted-graph-unweighted-graph〕",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "入度 & 出度〔Indegree & Outdegree〕",
+            "slug": "入度-出度〔indegree-outdegree〕",
+            "link": "#入度-出度〔indegree-outdegree〕",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "路径 & 环〔路径：Path〕",
+            "slug": "路径-环〔路径-path〕",
+            "link": "#路径-环〔路径-path〕",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "连通图 & 强连通图",
+            "slug": "连通图-强连通图",
+            "link": "#连通图-强连通图",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "生成树",
+            "slug": "生成树",
+            "link": "#生成树",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "图的建立",
+        "slug": "图的建立",
+        "link": "#图的建立",
+        "children": [
+          {
+            "level": 3,
+            "title": "邻接矩阵（常见）〔Adjacency Matrixs〕",
+            "slug": "邻接矩阵-常见-〔adjacency-matrixs〕",
+            "link": "#邻接矩阵-常见-〔adjacency-matrixs〕",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "邻接表〔Adjacency List〕",
+            "slug": "邻接表〔adjacency-list〕",
+            "link": "#邻接表〔adjacency-list〕",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "图的遍历",
+        "slug": "图的遍历",
+        "link": "#图的遍历",
+        "children": [
+          {
+            "level": 3,
+            "title": "深度优先遍历〔Depth First Search, DFS〕",
+            "slug": "深度优先遍历〔depth-first-search-dfs〕",
+            "link": "#深度优先遍历〔depth-first-search-dfs〕",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "广度优先搜索〔Breadth First Search, BFS〕",
+            "slug": "广度优先搜索〔breadth-first-search-bfs〕",
+            "link": "#广度优先搜索〔breadth-first-search-bfs〕",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "常见算法",
+        "slug": "常见算法",
+        "link": "#常见算法",
+        "children": [
+          {
+            "level": 3,
+            "title": "最短距离，最短路径",
+            "slug": "最短距离-最短路径",
+            "link": "#最短距离-最短路径",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "拓扑排序",
+            "slug": "拓扑排序",
+            "link": "#拓扑排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "最小生成树",
+            "slug": "最小生成树",
+            "link": "#最小生成树",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "其他算法",
+            "slug": "其他算法",
+            "link": "#其他算法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "07.动态规划",
+    "headers": [
+      {
+        "level": 2,
+        "title": "记忆化递归",
+        "slug": "记忆化递归",
+        "link": "#记忆化递归",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么是递归？",
+            "slug": "什么是递归",
+            "link": "#什么是递归",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "不仅仅是普通的递归函数",
+            "slug": "不仅仅是普通的递归函数",
+            "link": "#不仅仅是普通的递归函数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "什么是记忆化？",
+            "slug": "什么是记忆化",
+            "link": "#什么是记忆化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "小结",
+            "slug": "小结",
+            "link": "#小结",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "动态规划",
+        "slug": "动态规划-1",
+        "link": "#动态规划-1",
+        "children": [
+          {
+            "level": 3,
+            "title": "动态规划的基本概念",
+            "slug": "动态规划的基本概念",
+            "link": "#动态规划的基本概念",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "动态规划三要素",
+            "slug": "动态规划三要素",
+            "link": "#动态规划三要素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "动态规划 VS 记忆化递归",
+            "slug": "动态规划-vs-记忆化递归",
+            "link": "#动态规划-vs-记忆化递归",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "滚动数组优化",
+            "slug": "滚动数组优化",
+            "link": "#滚动数组优化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "动态规划的基本类型",
+            "slug": "动态规划的基本类型",
+            "link": "#动态规划的基本类型",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "什么时候用记忆化递归？",
+        "slug": "什么时候用记忆化递归",
+        "link": "#什么时候用记忆化递归",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "热身开始",
+        "slug": "热身开始",
+        "link": "#热身开始",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "推荐练习题目",
+        "slug": "推荐练习题目",
+        "link": "#推荐练习题目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考",
+        "slug": "参考",
+        "link": "#参考",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "08.位运算",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本使用",
+        "slug": "基本使用",
+        "link": "#基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "优先级管理 lanes",
+            "slug": "优先级管理-lanes",
+            "link": "#优先级管理-lanes",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "执行上下文 ExecutionContext",
+            "slug": "执行上下文-executioncontext",
+            "link": "#执行上下文-executioncontext",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "例题",
+        "slug": "例题",
+        "link": "#例题",
+        "children": [
+          {
+            "level": 3,
+            "title": "136. 只出现一次的数字 1",
+            "slug": "_136-只出现一次的数字-1",
+            "link": "#_136-只出现一次的数字-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "137. 只出现一次的数字 2",
+            "slug": "_137-只出现一次的数字-2",
+            "link": "#_137-只出现一次的数字-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "645. 错误的集合",
+            "slug": "_645-错误的集合",
+            "link": "#_645-错误的集合",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "260. 只出现一次的数字 3",
+            "slug": "_260-只出现一次的数字-3",
+            "link": "#_260-只出现一次的数字-3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "相关题目",
+        "slug": "相关题目",
+        "link": "#相关题目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考资料",
+        "slug": "参考资料",
+        "link": "#参考资料",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/08.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "09.搜索",
+    "headers": [
+      {
+        "level": 2,
+        "title": "搜索的核心是什么？",
+        "slug": "搜索的核心是什么",
+        "link": "#搜索的核心是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "状态空间",
+        "slug": "状态空间",
+        "link": "#状态空间",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "DFS 和 BFS",
+        "slug": "dfs-和-bfs",
+        "link": "#dfs-和-bfs",
+        "children": [
+          {
+            "level": 3,
+            "title": "DFS",
+            "slug": "dfs",
+            "link": "#dfs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "BFS",
+            "slug": "bfs",
+            "link": "#bfs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "DFS 和 BFS 的对比",
+            "slug": "dfs-和-bfs-的对比",
+            "link": "#dfs-和-bfs-的对比",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结-1",
+        "link": "#总结-1",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/09.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "11.游程编码和哈夫曼编码",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Huffman encode(哈夫曼编码)",
+        "slug": "huffman-encode-哈夫曼编码",
+        "link": "#huffman-encode-哈夫曼编码",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实例",
+        "slug": "实例",
+        "link": "#实例",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "run-length encode(游程编码)",
+        "slug": "run-length-encode-游程编码",
+        "link": "#run-length-encode-游程编码",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "相关题目",
+        "slug": "相关题目",
+        "link": "#相关题目",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/11.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "12.布隆过滤器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "场景",
+        "slug": "场景",
+        "link": "#场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "hashtable 可以么",
+            "slug": "hashtable-可以么",
+            "link": "#hashtable-可以么",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "bit",
+            "slug": "bit",
+            "link": "#bit",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "布隆过滤器",
+            "slug": "布隆过滤器-1",
+            "link": "#布隆过滤器-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "误报",
+            "slug": "误报",
+            "link": "#误报",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "布隆过滤器的应用",
+            "slug": "布隆过滤器的应用",
+            "link": "#布隆过滤器的应用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码",
+            "slug": "代码",
+            "link": "#代码",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/12.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "13.前缀树",
+    "headers": [
+      {
+        "level": 2,
+        "title": "简介",
+        "slug": "简介",
+        "link": "#简介",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本概念",
+        "slug": "基本概念",
+        "link": "#基本概念",
+        "children": [
+          {
+            "level": 3,
+            "title": "节点：",
+            "slug": "节点",
+            "link": "#节点",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Trie 的插入",
+            "slug": "trie-的插入",
+            "link": "#trie-的插入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Trie 的查询",
+            "slug": "trie-的查询",
+            "link": "#trie-的查询",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Trie 模版",
+        "slug": "trie-模版",
+        "link": "#trie-模版",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "回答开头的问题",
+        "slug": "回答开头的问题",
+        "link": "#回答开头的问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "前缀树的特点",
+        "slug": "前缀树的特点",
+        "link": "#前缀树的特点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "应用场景及分析",
+        "slug": "应用场景及分析",
+        "link": "#应用场景及分析",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "题目推荐",
+        "slug": "题目推荐",
+        "link": "#题目推荐",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/13.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "15.滑动窗口（Sliding Window）",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "link": "#介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "常见套路",
+        "slug": "常见套路",
+        "link": "#常见套路",
+        "children": [
+          {
+            "level": 3,
+            "title": "固定窗口大小",
+            "slug": "固定窗口大小",
+            "link": "#固定窗口大小",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "可变窗口大小",
+            "slug": "可变窗口大小",
+            "link": "#可变窗口大小",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "模板代码",
+        "slug": "模板代码",
+        "link": "#模板代码",
+        "children": [
+          {
+            "level": 3,
+            "title": "伪代码",
+            "slug": "伪代码",
+            "link": "#伪代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码",
+            "slug": "代码",
+            "link": "#代码",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "题目列表（有题解）",
+        "slug": "题目列表-有题解",
+        "link": "#题目列表-有题解",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "扩展阅读",
+        "slug": "扩展阅读",
+        "link": "#扩展阅读",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/15.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "16.最大公约数",
+    "headers": [
+      {
+        "level": 2,
+        "title": "如何求最大公约数？",
+        "slug": "如何求最大公约数",
+        "link": "#如何求最大公约数",
+        "children": [
+          {
+            "level": 3,
+            "title": "定义法",
+            "slug": "定义法",
+            "link": "#定义法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "辗转相除法",
+            "slug": "辗转相除法",
+            "link": "#辗转相除法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更相减损术",
+            "slug": "更相减损术",
+            "link": "#更相减损术",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "形象化解释",
+        "slug": "形象化解释",
+        "link": "#形象化解释",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实例解析",
+        "slug": "实例解析",
+        "link": "#实例解析",
+        "children": [
+          {
+            "level": 3,
+            "title": "题目描述",
+            "slug": "题目描述",
+            "link": "#题目描述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "思路",
+            "slug": "思路",
+            "link": "#思路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码（Python3）",
+            "slug": "代码-python3",
+            "link": "#代码-python3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/16.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "17.并查集",
+    "headers": [
+      {
+        "level": 2,
+        "title": "背景",
+        "slug": "背景",
+        "link": "#背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "概述",
+        "slug": "概述",
+        "link": "#概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "形象解释",
+        "slug": "形象解释",
+        "link": "#形象解释",
+        "children": [
+          {
+            "level": 3,
+            "title": "判断两个节点是否联通",
+            "slug": "判断两个节点是否联通",
+            "link": "#判断两个节点是否联通",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "合并两个联通区域",
+            "slug": "合并两个联通区域",
+            "link": "#合并两个联通区域",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "核心 API",
+        "slug": "核心-api",
+        "link": "#核心-api",
+        "children": [
+          {
+            "level": 3,
+            "title": "find",
+            "slug": "find",
+            "link": "#find",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "connected",
+            "slug": "connected",
+            "link": "#connected",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "union",
+            "slug": "union",
+            "link": "#union",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "不带权并查集",
+        "slug": "不带权并查集",
+        "link": "#不带权并查集",
+        "children": [
+          {
+            "level": 3,
+            "title": "代码模板",
+            "slug": "代码模板",
+            "link": "#代码模板",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "带权并查集",
+        "slug": "带权并查集",
+        "link": "#带权并查集",
+        "children": [
+          {
+            "level": 3,
+            "title": "代码模板",
+            "slug": "代码模板-1",
+            "link": "#代码模板-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "复杂度分析",
+        "slug": "复杂度分析",
+        "link": "#复杂度分析",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "应用",
+        "slug": "应用",
+        "link": "#应用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "练习",
+        "slug": "练习",
+        "link": "#练习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/17.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "18.平衡二叉树专题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "110. 平衡二叉树（简单）",
+        "slug": "_110-平衡二叉树-简单",
+        "link": "#_110-平衡二叉树-简单",
+        "children": [
+          {
+            "level": 3,
+            "title": "题目描述",
+            "slug": "题目描述",
+            "link": "#题目描述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "思路",
+            "slug": "思路",
+            "link": "#思路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码",
+            "slug": "代码",
+            "link": "#代码",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "108. 将有序数组转换为二叉搜索树（简单）",
+        "slug": "_108-将有序数组转换为二叉搜索树-简单",
+        "link": "#_108-将有序数组转换为二叉搜索树-简单",
+        "children": [
+          {
+            "level": 3,
+            "title": "题目描述",
+            "slug": "题目描述-1",
+            "link": "#题目描述-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "思路",
+            "slug": "思路-1",
+            "link": "#思路-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码",
+            "slug": "代码-1",
+            "link": "#代码-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "109. 有序链表转换二叉搜索树（中等）",
+        "slug": "_109-有序链表转换二叉搜索树-中等",
+        "link": "#_109-有序链表转换二叉搜索树-中等",
+        "children": [
+          {
+            "level": 3,
+            "title": "题目描述",
+            "slug": "题目描述-2",
+            "link": "#题目描述-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "思路",
+            "slug": "思路-2",
+            "link": "#思路-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码",
+            "slug": "代码-2",
+            "link": "#代码-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码",
+            "slug": "代码-3",
+            "link": "#代码-3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "1382. 将二叉搜索树变平衡（中等）",
+        "slug": "_1382-将二叉搜索树变平衡-中等",
+        "link": "#_1382-将二叉搜索树变平衡-中等",
+        "children": [
+          {
+            "level": 3,
+            "title": "题目描述",
+            "slug": "题目描述-3",
+            "link": "#题目描述-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "思路",
+            "slug": "思路-3",
+            "link": "#思路-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码",
+            "slug": "代码-4",
+            "link": "#代码-4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/18.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "19.单调栈",
+    "headers": [
+      {
+        "level": 2,
+        "title": "栈是什么？",
+        "slug": "栈是什么",
+        "link": "#栈是什么",
+        "children": [
+          {
+            "level": 3,
+            "title": "栈的常用操作",
+            "slug": "栈的常用操作",
+            "link": "#栈的常用操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "栈的常用操作时间复杂度",
+            "slug": "栈的常用操作时间复杂度",
+            "link": "#栈的常用操作时间复杂度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "应用",
+            "slug": "应用",
+            "link": "#应用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "题目推荐",
+            "slug": "题目推荐",
+            "link": "#题目推荐",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "单调栈又是什么？",
+        "slug": "单调栈又是什么",
+        "link": "#单调栈又是什么",
+        "children": [
+          {
+            "level": 3,
+            "title": "适用场景",
+            "slug": "适用场景",
+            "link": "#适用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "伪代码",
+            "slug": "伪代码",
+            "link": "#伪代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码",
+            "slug": "代码",
+            "link": "#代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "题目推荐",
+            "slug": "题目推荐-1",
+            "link": "#题目推荐-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/19.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "16.小岛问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "套路",
+        "slug": "套路",
+        "link": "#套路",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "相关题目",
+        "slug": "相关题目",
+        "link": "#相关题目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "扩展",
+        "slug": "扩展",
+        "link": "#扩展",
+        "children": []
+      }
+    ],
+    "path": "/notes/datastr/is.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2363,6 +3624,547 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/es6/14.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1.Echarts-介绍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "3.1使用script标签引入",
+        "slug": "_3-1使用script标签引入",
+        "link": "#_3-1使用script标签引入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.2使用CDN方法",
+        "slug": "_3-2使用cdn方法",
+        "link": "#_3-2使用cdn方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.3npm方法",
+        "slug": "_3-3npm方法",
+        "link": "#_3-3npm方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.1title标题",
+        "slug": "_4-1title标题",
+        "link": "#_4-1title标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.2tooltip提示",
+        "slug": "_4-2tooltip提示",
+        "link": "#_4-2tooltip提示",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.3toolbox工具按钮",
+        "slug": "_4-3toolbox工具按钮",
+        "link": "#_4-3toolbox工具按钮",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.4legend图例筛选",
+        "slug": "_4-4legend图例筛选",
+        "link": "#_4-4legend图例筛选",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "注释：以下为直角坐标系中的常用配置",
+        "slug": "注释-以下为直角坐标系中的常用配置",
+        "link": "#注释-以下为直角坐标系中的常用配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.5grid网格",
+        "slug": "_4-5grid网格",
+        "link": "#_4-5grid网格",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.6axis坐标轴",
+        "slug": "_4-6axis坐标轴",
+        "link": "#_4-6axis坐标轴",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.7dataZoom区域缩放",
+        "slug": "_4-7datazoom区域缩放",
+        "link": "#_4-7datazoom区域缩放",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.8series中的type类型",
+        "slug": "_4-8series中的type类型",
+        "link": "#_4-8series中的type类型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.9小结",
+        "slug": "_4-9小结",
+        "link": "#_4-9小结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.10案例",
+        "slug": "_4-10案例",
+        "link": "#_4-10案例",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5.echarts 各个配置项详细说明总结",
+    "headers": [],
+    "path": "/notes/echarts/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6.柱状图",
+    "headers": [
+      {
+        "level": 2,
+        "title": "6.1柱状图图表（两大步骤）",
+        "slug": "_6-1柱状图图表-两大步骤",
+        "link": "#_6-1柱状图图表-两大步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.2找官网实例",
+        "slug": "_6-2找官网实例",
+        "link": "#_6-2找官网实例",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.3根据需求定制",
+        "slug": "_6-3根据需求定制",
+        "link": "#_6-3根据需求定制",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.4柱状图2定制",
+        "slug": "_6-4柱状图2定制",
+        "link": "#_6-4柱状图2定制",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7.折线图",
+    "headers": [
+      {
+        "level": 2,
+        "title": "7.1常见效果",
+        "slug": "_7-1常见效果",
+        "link": "#_7-1常见效果",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.2折线图1 人员变化模块制作",
+        "slug": "_7-2折线图1-人员变化模块制作",
+        "link": "#_7-2折线图1-人员变化模块制作",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.3折线图2 播放量模块制作",
+        "slug": "_7-3折线图2-播放量模块制作",
+        "link": "#_7-3折线图2-播放量模块制作",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "8.饼图",
+    "headers": [
+      {
+        "level": 2,
+        "title": "8.1常见效果",
+        "slug": "_8-1常见效果",
+        "link": "#_8-1常见效果",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.2饼形图 1年龄分布模块制作",
+        "slug": "_8-2饼形图-1年龄分布模块制作",
+        "link": "#_8-2饼形图-1年龄分布模块制作",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.3饼形图2 地区分布模块制作（南丁格尔玫瑰图）",
+        "slug": "_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
+        "link": "#_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "01 【版本控制和Git的安装介绍】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.目的",
+        "slug": "_1-目的",
+        "link": "#_1-目的",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 工具",
+        "slug": "_2-工具",
+        "link": "#_2-工具",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 集中式版本控制工具",
+            "slug": "_2-1-集中式版本控制工具",
+            "link": "#_2-1-集中式版本控制工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 分布式版本控制工具",
+            "slug": "_2-2-分布式版本控制工具",
+            "link": "#_2-2-分布式版本控制工具",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.Git 简介",
+        "slug": "_3-git-简介",
+        "link": "#_3-git-简介",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.2 Git：分布式版本控制系统",
+            "slug": "_3-2-git-分布式版本控制系统",
+            "link": "#_3-2-git-分布式版本控制系统",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 发展史",
+            "slug": "_3-2-发展史",
+            "link": "#_3-2-发展史",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 优势",
+            "slug": "_3-3-优势",
+            "link": "#_3-3-优势",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.Git 软件的安装",
+        "slug": "_4-git-软件的安装",
+        "link": "#_4-git-软件的安装",
+        "children": []
+      }
+    ],
+    "path": "/notes/git/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "02 【本地库操作】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.git的结构",
+        "slug": "_1-git的结构",
+        "link": "#_1-git的结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.Git 远程库——代码托管中心",
+        "slug": "_2-git-远程库——代码托管中心",
+        "link": "#_2-git-远程库——代码托管中心",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 git工作流程",
+            "slug": "_2-1-git工作流程",
+            "link": "#_2-1-git工作流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 Github:开源社区",
+            "slug": "_2-2-github-开源社区",
+            "link": "#_2-2-github-开源社区",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.初始化配置",
+        "slug": "_3-初始化配置",
+        "link": "#_3-初始化配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 设置签名",
+            "slug": "_3-1-设置签名",
+            "link": "#_3-1-设置签名",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 配置编辑器",
+            "slug": "_3-2-配置编辑器",
+            "link": "#_3-2-配置编辑器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 配置信息",
+            "slug": "_3-3-配置信息",
+            "link": "#_3-3-配置信息",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.版本控制",
+        "slug": "_4-版本控制",
+        "link": "#_4-版本控制",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 在项目中新建文件",
+            "slug": "_4-1-在项目中新建文件",
+            "link": "#_4-1-在项目中新建文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 修改文件内容",
+            "slug": "_4-2-修改文件内容",
+            "link": "#_4-2-修改文件内容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3 查看提交的版本记录",
+            "slug": "_4-3-查看提交的版本记录",
+            "link": "#_4-3-查看提交的版本记录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.4 版本的切换",
+            "slug": "_4-4-版本的切换",
+            "link": "#_4-4-版本的切换",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.5 文件的删除与找回",
+            "slug": "_4-5-文件的删除与找回",
+            "link": "#_4-5-文件的删除与找回",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.6 文件差异性比较",
+            "slug": "_4-6-文件差异性比较",
+            "link": "#_4-6-文件差异性比较",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.7  分支管理",
+            "slug": "_4-7-分支管理",
+            "link": "#_4-7-分支管理",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/git/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "03 【远程库操作】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.推送到远程库",
+        "slug": "_1-推送到远程库",
+        "link": "#_1-推送到远程库",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 创建github仓库",
+            "slug": "_1-1-创建github仓库",
+            "link": "#_1-1-创建github仓库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 创建远程库地址别名",
+            "slug": "_1-2-创建远程库地址别名",
+            "link": "#_1-2-创建远程库地址别名",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 推送",
+            "slug": "_1-3-推送",
+            "link": "#_1-3-推送",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.加入团队并推送",
+        "slug": "_2-加入团队并推送",
+        "link": "#_2-加入团队并推送",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 克隆项目到本地",
+            "slug": "_2-1-克隆项目到本地",
+            "link": "#_2-1-克隆项目到本地",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 添加新成员加入团队",
+            "slug": "_2-2-添加新成员加入团队",
+            "link": "#_2-2-添加新成员加入团队",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 推送更新到远程库",
+            "slug": "_2-3-推送更新到远程库",
+            "link": "#_2-3-推送更新到远程库",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.远程库的 SSH 登录",
+        "slug": "_3-远程库的-ssh-登录",
+        "link": "#_3-远程库的-ssh-登录",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1   在本地 Home 目录生成 GitHub 公/私钥",
+            "slug": "_3-1-在本地-home-目录生成-github-公-私钥",
+            "link": "#_3-1-在本地-home-目录生成-github-公-私钥",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2   查看 .ssh 目录下的文件",
+            "slug": "_3-2-查看-ssh-目录下的文件",
+            "link": "#_3-2-查看-ssh-目录下的文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3  在 GitHub 配置该 SSH 公钥",
+            "slug": "_3-3-在-github-配置该-ssh-公钥",
+            "link": "#_3-3-在-github-配置该-ssh-公钥",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 更改在本地的远程库地址",
+            "slug": "_3-4-更改在本地的远程库地址",
+            "link": "#_3-4-更改在本地的远程库地址",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.解决冲突",
+        "slug": "_4-解决冲突",
+        "link": "#_4-解决冲突",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 冲突的产生",
+            "slug": "_4-1-冲突的产生",
+            "link": "#_4-1-冲突的产生",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 解决冲突",
+            "slug": "_4-2-解决冲突",
+            "link": "#_4-2-解决冲突",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5.跨团队协作",
+        "slug": "_5-跨团队协作",
+        "link": "#_5-跨团队协作",
+        "children": []
+      }
+    ],
+    "path": "/notes/git/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "04 【忽略某些文件】",
+    "headers": [],
+    "path": "/notes/git/04.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -10445,6 +12247,382 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "1.位运算",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": [
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结",
+            "link": "#总结",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "基本使用",
+        "slug": "基本使用",
+        "link": "#基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "优先级管理 lanes",
+            "slug": "优先级管理-lanes",
+            "link": "#优先级管理-lanes",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "执行上下文 ExecutionContext",
+            "slug": "执行上下文-executioncontext",
+            "link": "#执行上下文-executioncontext",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结-1",
+        "link": "#总结-1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考资料",
+        "slug": "参考资料",
+        "link": "#参考资料",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2.深度优先遍历",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实现方式",
+        "slug": "实现方式",
+        "link": "#实现方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "ReactElement \"树\"的构造",
+            "slug": "reactelement-树-的构造",
+            "link": "#reactelement-树-的构造",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "fiber 树的构造",
+            "slug": "fiber-树的构造",
+            "link": "#fiber-树的构造",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查找 context 的消费节点",
+            "slug": "查找-context-的消费节点",
+            "link": "#查找-context-的消费节点",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考资料",
+        "slug": "参考资料",
+        "link": "#参考资料",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "3.调和算法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本原理",
+        "slug": "基本原理",
+        "link": "#基本原理",
+        "children": [
+          {
+            "level": 3,
+            "title": "单节点比较",
+            "slug": "单节点比较",
+            "link": "#单节点比较",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "可迭代节点比较(数组类型, [Symbol.iterator]=fn,[@@iterator]=fn)",
+            "slug": "可迭代节点比较-数组类型-symbol-iterator-fn-iterator-fn",
+            "link": "#可迭代节点比较-数组类型-symbol-iterator-fn-iterator-fn",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "结果",
+            "slug": "结果",
+            "link": "#结果",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "4.堆排序",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本使用",
+        "slug": "基本使用",
+        "link": "#基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "代码演示",
+        "slug": "代码演示",
+        "link": "#代码演示",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5.链表操作",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本使用",
+        "slug": "基本使用",
+        "link": "#基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "fiber 对象",
+            "slug": "fiber-对象",
+            "link": "#fiber-对象",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Hook 对象",
+            "slug": "hook-对象",
+            "link": "#hook-对象",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链表合并",
+            "slug": "链表合并",
+            "link": "#链表合并",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考资料",
+        "slug": "参考资料",
+        "link": "#参考资料",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6.栈操作",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本使用",
+        "slug": "基本使用",
+        "link": "#基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "Context 状态管理 {#context}",
+            "slug": "context-状态管理-context",
+            "link": "#context-状态管理-context",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "executionContext 执行上下文",
+            "slug": "executioncontext-执行上下文",
+            "link": "#executioncontext-执行上下文",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考资料",
+        "slug": "参考资料",
+        "link": "#参考资料",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "01 【react入门】",
     "headers": [
       {
@@ -13930,28 +16108,43 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1.简介",
+    "title": "一、什么是Typescript",
     "headers": [
       {
         "level": 2,
-        "title": "1.1 TypeScript简介",
-        "slug": "_1-1-typescript简介",
-        "link": "#_1-1-typescript简介",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.2 为什么要有 typescript",
-        "slug": "_1-2-为什么要有-typescript",
-        "link": "#_1-2-为什么要有-typescript",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.3 TypeScript相比JS的优势",
-        "slug": "_1-3-typescript相比js的优势",
-        "link": "#_1-3-typescript相比js的优势",
-        "children": []
+        "title": "一、什么是 typescript？",
+        "slug": "一、什么是-typescript",
+        "link": "#一、什么是-typescript",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 typescript 与 javascript 区别",
+            "slug": "_1-1-typescript-与-javascript-区别",
+            "link": "#_1-1-typescript-与-javascript-区别",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 获取 TypeScript",
+            "slug": "_1-2-获取-typescript",
+            "link": "#_1-2-获取-typescript",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 典型 Typescript 编译流程",
+            "slug": "_1-3-典型-typescript-编译流程",
+            "link": "#_1-3-典型-typescript-编译流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4 Typescript 初体验",
+            "slug": "_1-4-typescript-初体验",
+            "link": "#_1-4-typescript-初体验",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/notes/typescript/01.html",
@@ -13959,35 +16152,113 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "2.TypeScript初体验",
+    "title": "二、Typescript 基础类型",
     "headers": [
       {
         "level": 2,
-        "title": "2.1 TypeScript 开发环境搭建",
-        "slug": "_2-1-typescript-开发环境搭建",
-        "link": "#_2-1-typescript-开发环境搭建",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.2 编译并运行TS代码",
-        "slug": "_2-2-编译并运行ts代码",
-        "link": "#_2-2-编译并运行ts代码",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.3 简化运行TS的步骤",
-        "slug": "_2-3-简化运行ts的步骤",
-        "link": "#_2-3-简化运行ts的步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.4 官方playground",
-        "slug": "_2-4-官方playground",
-        "link": "#_2-4-官方playground",
-        "children": []
+        "title": "二、typescript 基础类型",
+        "slug": "二、typescript-基础类型",
+        "link": "#二、typescript-基础类型",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 Boolean 类型",
+            "slug": "_2-1-boolean-类型",
+            "link": "#_2-1-boolean-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 Number 类型",
+            "slug": "_2-2-number-类型",
+            "link": "#_2-2-number-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 String 类型",
+            "slug": "_2-3-string-类型",
+            "link": "#_2-3-string-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4 Symbol 类型",
+            "slug": "_2-4-symbol-类型",
+            "link": "#_2-4-symbol-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.5 Array 类型",
+            "slug": "_2-5-array-类型",
+            "link": "#_2-5-array-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.6 Enum 类型",
+            "slug": "_2-6-enum-类型",
+            "link": "#_2-6-enum-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.7 Any 类型",
+            "slug": "_2-7-any-类型",
+            "link": "#_2-7-any-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.8 Unknown 类型",
+            "slug": "_2-8-unknown-类型",
+            "link": "#_2-8-unknown-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.9 Tuple 类型",
+            "slug": "_2-9-tuple-类型",
+            "link": "#_2-9-tuple-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.10 Void 类型",
+            "slug": "_2-10-void-类型",
+            "link": "#_2-10-void-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.11 Null 和 Undefined 类型",
+            "slug": "_2-11-null-和-undefined-类型",
+            "link": "#_2-11-null-和-undefined-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.12 object, Object 和 {} 类型",
+            "slug": "_2-12-object-object-和-类型",
+            "link": "#_2-12-object-object-和-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.13 Never 类型",
+            "slug": "_2-13-never-类型",
+            "link": "#_2-13-never-类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.14 练习题 知识巩固",
+            "slug": "_2-14-练习题-知识巩固",
+            "link": "#_2-14-练习题-知识巩固",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/notes/typescript/02.html",
@@ -13995,557 +16266,39 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "3.TypeScript常用类型",
+    "title": "三、typescript 断言",
     "headers": [
       {
         "level": 2,
-        "title": "3.1 概述",
-        "slug": "_3-1-概述",
-        "link": "#_3-1-概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.2 TypeScript常见类型",
-        "slug": "_3-2-typescript常见类型",
-        "link": "#_3-2-typescript常见类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.3 原始类型",
-        "slug": "_3-3-原始类型",
-        "link": "#_3-3-原始类型",
+        "title": "三、typescript 断言",
+        "slug": "三、typescript-断言",
+        "link": "#三、typescript-断言",
         "children": [
           {
             "level": 3,
-            "title": "3.3.1 JS的八种内置类型",
-            "slug": "_3-3-1-js的八种内置类型",
-            "link": "#_3-3-1-js的八种内置类型",
+            "title": "3.1 类型断言",
+            "slug": "_3-1-类型断言",
+            "link": "#_3-1-类型断言",
             "children": []
           },
           {
             "level": 3,
-            "title": "3.3.2注意点",
-            "slug": "_3-3-2注意点",
-            "link": "#_3-3-2注意点",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.4 数组类型",
-        "slug": "_3-4-数组类型",
-        "link": "#_3-4-数组类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.5 联合类型与交叉类型",
-        "slug": "_3-5-联合类型与交叉类型",
-        "link": "#_3-5-联合类型与交叉类型",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.5.1 联合类型",
-            "slug": "_3-5-1-联合类型",
-            "link": "#_3-5-1-联合类型",
+            "title": "3.2 非空断言",
+            "slug": "_3-2-非空断言",
+            "link": "#_3-2-非空断言",
             "children": []
           },
           {
             "level": 3,
-            "title": "3.5.1 交叉类型",
-            "slug": "_3-5-1-交叉类型",
-            "link": "#_3-5-1-交叉类型",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.6 类型别名",
-        "slug": "_3-6-类型别名",
-        "link": "#_3-6-类型别名",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.7 函数类型",
-        "slug": "_3-7-函数类型",
-        "link": "#_3-7-函数类型",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.7.1 基本使用",
-            "slug": "_3-7-1-基本使用",
-            "link": "#_3-7-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.7.2 void 类型",
-            "slug": "_3-7-2-void-类型",
-            "link": "#_3-7-2-void-类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.7.3 never 类型",
-            "slug": "_3-7-3-never-类型",
-            "link": "#_3-7-3-never-类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.7.4 可选参数",
-            "slug": "_3-7-4-可选参数",
-            "link": "#_3-7-4-可选参数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.7.5 参数默认值",
-            "slug": "_3-7-5-参数默认值",
-            "link": "#_3-7-5-参数默认值",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.7.6 剩余参数",
-            "slug": "_3-7-6-剩余参数",
-            "link": "#_3-7-6-剩余参数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.7.7 函数重载",
-            "slug": "_3-7-7-函数重载",
-            "link": "#_3-7-7-函数重载",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.8 类型推断",
-        "slug": "_3-8-类型推断",
-        "link": "#_3-8-类型推断",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.9 对象类型",
-        "slug": "_3-9-对象类型",
-        "link": "#_3-9-对象类型",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.9.1 基本使用",
-            "slug": "_3-9-1-基本使用",
-            "link": "#_3-9-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.9.2 箭头函数形式的方法类型",
-            "slug": "_3-9-2-箭头函数形式的方法类型",
-            "link": "#_3-9-2-箭头函数形式的方法类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.9.3 对象可选属性",
-            "slug": "_3-9-3-对象可选属性",
-            "link": "#_3-9-3-对象可选属性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.9.4 使用类型别名",
-            "slug": "_3-9-4-使用类型别名",
-            "link": "#_3-9-4-使用类型别名",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.9.5 任意属性",
-            "slug": "_3-9-5-任意属性",
-            "link": "#_3-9-5-任意属性",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.10 元组类型",
-        "slug": "_3-10-元组类型",
-        "link": "#_3-10-元组类型",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.10.1 元祖定义",
-            "slug": "_3-10-1-元祖定义",
-            "link": "#_3-10-1-元祖定义",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.10.2 元祖类型的解构赋值",
-            "slug": "_3-10-2-元祖类型的解构赋值",
-            "link": "#_3-10-2-元祖类型的解构赋值",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.10.3 元组类型的可选元素",
-            "slug": "_3-10-3-元组类型的可选元素",
-            "link": "#_3-10-3-元组类型的可选元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.10.4 元组类型的剩余元素",
-            "slug": "_3-10-4-元组类型的剩余元素",
-            "link": "#_3-10-4-元组类型的剩余元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.10.5 只读的元组类型",
-            "slug": "_3-10-5-只读的元组类型",
-            "link": "#_3-10-5-只读的元组类型",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.11 字面量类型",
-        "slug": "_3-11-字面量类型",
-        "link": "#_3-11-字面量类型",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.11.1 基本使用",
-            "slug": "_3-11-1-基本使用",
-            "link": "#_3-11-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.11.2 字符串字面量类型",
-            "slug": "_3-11-2-字符串字面量类型",
-            "link": "#_3-11-2-字符串字面量类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.11.3 数字字面量类型及布尔字面量类型",
-            "slug": "_3-11-3-数字字面量类型及布尔字面量类型",
-            "link": "#_3-11-3-数字字面量类型及布尔字面量类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.11.4 let和const分析",
-            "slug": "_3-11-4-let和const分析",
-            "link": "#_3-11-4-let和const分析",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.11.5 使用模式和场景",
-            "slug": "_3-11-5-使用模式和场景",
-            "link": "#_3-11-5-使用模式和场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.11.6 类型拓宽(Type Widening)",
-            "slug": "_3-11-6-类型拓宽-type-widening",
-            "link": "#_3-11-6-类型拓宽-type-widening",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.11.7 类型缩小(Type Narrowing)",
-            "slug": "_3-11-7-类型缩小-type-narrowing",
-            "link": "#_3-11-7-类型缩小-type-narrowing",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.12 枚举类型",
-        "slug": "_3-12-枚举类型",
-        "link": "#_3-12-枚举类型",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.12.1 基本使用",
-            "slug": "_3-12-1-基本使用",
-            "link": "#_3-12-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.12.2 数字枚举",
-            "slug": "_3-12-2-数字枚举",
-            "link": "#_3-12-2-数字枚举",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.12.3 字符串枚举-了解即可",
-            "slug": "_3-12-3-字符串枚举-了解即可",
-            "link": "#_3-12-3-字符串枚举-了解即可",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.12.4 枚举实现原理",
-            "slug": "_3-12-4-枚举实现原理",
-            "link": "#_3-12-4-枚举实现原理",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.13 any 类型",
-        "slug": "_3-13-any-类型",
-        "link": "#_3-13-any-类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.14 unknown 类型",
-        "slug": "_3-14-unknown-类型",
-        "link": "#_3-14-unknown-类型",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.14.1 基本使用",
-            "slug": "_3-14-1-基本使用",
-            "link": "#_3-14-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.14.2 类型断言",
-            "slug": "_3-14-2-类型断言",
-            "link": "#_3-14-2-类型断言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.14.3 非空断言",
-            "slug": "_3-14-3-非空断言",
-            "link": "#_3-14-3-非空断言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.14.4 确定赋值断言",
-            "slug": "_3-14-4-确定赋值断言",
-            "link": "#_3-14-4-确定赋值断言",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.15 总结",
-        "slug": "_3-15-总结",
-        "link": "#_3-15-总结",
-        "children": []
-      }
-    ],
-    "path": "/notes/typescript/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "4.编译选项",
-    "headers": [],
-    "path": "/notes/typescript/04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "5.webpack配置",
-    "headers": [
-      {
-        "level": 2,
-        "title": "5.1 项目基本配置",
-        "slug": "_5-1-项目基本配置",
-        "link": "#_5-1-项目基本配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.2 Babel配置",
-        "slug": "_5-2-babel配置",
-        "link": "#_5-2-babel配置",
-        "children": []
-      }
-    ],
-    "path": "/notes/typescript/05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6.接口（ interface）",
-    "headers": [
-      {
-        "level": 2,
-        "title": "6.1 什么是接口",
-        "slug": "_6-1-什么是接口",
-        "link": "#_6-1-什么是接口",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.2 基本使用",
-        "slug": "_6-2-基本使用",
-        "link": "#_6-2-基本使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.3 可选 | 只读属性",
-        "slug": "_6-3-可选-只读属性",
-        "link": "#_6-3-可选-只读属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.4 任意属性",
-        "slug": "_6-4-任意属性",
-        "link": "#_6-4-任意属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.5 绕开额外属性检查的方式",
-        "slug": "_6-5-绕开额外属性检查的方式",
-        "link": "#_6-5-绕开额外属性检查的方式",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.5.1 类型断言",
-            "slug": "_6-5-1-类型断言",
-            "link": "#_6-5-1-类型断言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.5.2 索引签名",
-            "slug": "_6-5-2-索引签名",
-            "link": "#_6-5-2-索引签名",
+            "title": "3.3 确定赋值断言",
+            "slug": "_3-3-确定赋值断言",
+            "link": "#_3-3-确定赋值断言",
             "children": []
           }
         ]
       }
     ],
-    "path": "/notes/typescript/06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7. interface vs type",
-    "headers": [
-      {
-        "level": 2,
-        "title": "7.1 Objects / Functions",
-        "slug": "_7-1-objects-functions",
-        "link": "#_7-1-objects-functions",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.2 Other Types",
-        "slug": "_7-2-other-types",
-        "link": "#_7-2-other-types",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.3 接口可以定义多次,类型别名不可以",
-        "slug": "_7-3-接口可以定义多次-类型别名不可以",
-        "link": "#_7-3-接口可以定义多次-类型别名不可以",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.4 扩展",
-        "slug": "_7-4-扩展",
-        "link": "#_7-4-扩展",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.4.1 基本使用",
-            "slug": "_7-4-1-基本使用",
-            "link": "#_7-4-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.4.2 和type的区别",
-            "slug": "_7-4-2-和type的区别",
-            "link": "#_7-4-2-和type的区别",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/typescript/07.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "8.泛型",
-    "headers": [
-      {
-        "level": 2,
-        "title": "8.1 基本介绍",
-        "slug": "_8-1-基本介绍",
-        "link": "#_8-1-基本介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.2 泛型约束",
-        "slug": "_8-2-泛型约束",
-        "link": "#_8-2-泛型约束",
-        "children": [
-          {
-            "level": 3,
-            "title": "8.2.1 指定更加具体的类型",
-            "slug": "_8-2-1-指定更加具体的类型",
-            "link": "#_8-2-1-指定更加具体的类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.2.2 添加约束",
-            "slug": "_8-2-2-添加约束",
-            "link": "#_8-2-2-添加约束",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "8.3 泛型接口",
-        "slug": "_8-3-泛型接口",
-        "link": "#_8-3-泛型接口",
-        "children": []
-      }
-    ],
-    "path": "/notes/typescript/08.html",
+    "path": "/notes/typescript/03.html",
     "pathLocale": "/",
     "extraFields": []
   },
