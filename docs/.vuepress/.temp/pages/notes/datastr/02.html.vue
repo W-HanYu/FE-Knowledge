@@ -74,7 +74,7 @@ while 当前节点不为空 {
     <span class="token keyword">return</span> <span class="token function">dfs</span><span class="token punctuation">(</span>cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="链表和数组到底有多大的差异" tabindex="-1"><a class="header-anchor" href="#链表和数组到底有多大的差异" aria-hidden="true">#</a> 链表和数组到底有多大的差异？</h2>
-<p>熟悉我的小伙伴应该经常听到我说过一句话，那就是<strong>数组和链表同样作为线性的数组结构，二者在很多方便都是相同的，只在细微的操作和使用场景上有差异而已</strong>。而使用场景，很难在题目中直接考察。</p>
+<p>熟悉我的小伙伴应该经常听到我说过一句话，那就是<strong>数组和链表同样作为线性的数组结构，二者在很多方面都是相同的，只在细微的操作和使用场景上有差异而已</strong>。而使用场景，很难在题目中直接考察。</p>
 <blockquote>
 <p>实际上，使用场景是可以死记硬背的。</p>
 </blockquote>
@@ -90,7 +90,7 @@ while 当前节点不为空 {
     <span class="token function">print</span><span class="token punctuation">(</span>cur<span class="token punctuation">.</span>val<span class="token punctuation">)</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>是不是很像？</p>
-<p>**可以看出二者逻辑是一致的，只不过细微操作不一样。**比如：</p>
+<p><strong>可以看出二者逻辑是一致的，只不过细微操作不一样。</strong> 比如：</p>
 <ul>
 <li>数组是索引 ++</li>
 <li>链表是 cur = cur.next</li>

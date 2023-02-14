@@ -90,23 +90,23 @@ app<span class="token punctuation">.</span><span class="token function">listen</
         <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
-        <span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%</span><span class="token language-javascript"> <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span> </span><span class="token delimiter punctuation">%></span></span>
-            <span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%=</span><span class="token language-javascript"> i </span><span class="token delimiter punctuation">%></span></span>
-        <span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%</span><span class="token language-javascript"> <span class="token punctuation">}</span> </span><span class="token delimiter punctuation">%></span></span>
+        ___EJS0___
+            ___EJS1___
+        ___EJS2___
         <span class="token comment">&lt;!-- 获取变量 --></span>
         <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>datas<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
             <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>获取变量：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-            <span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%-</span><span class="token language-javascript"> title </span><span class="token delimiter punctuation">%></span></span>
-            <span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%=</span><span class="token language-javascript"> title </span><span class="token delimiter punctuation">%></span></span>
+            ___EJS3___
+            ___EJS4___
         <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>由此可以知道：</p>
-<div class="language-ejs line-numbers-mode" data-ext="ejs"><pre v-pre class="language-ejs"><code><span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%</span><span class="token language-javascript"> xxx </span><span class="token delimiter punctuation">%></span></span>：里面写入的是js语法，
-<span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%=</span><span class="token language-javascript"> xxx </span><span class="token delimiter punctuation">%></span></span>：里面是服务端发送给ejs模板转义后的变量，输出为原数据
-<span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%-</span><span class="token language-javascript"> xxx </span><span class="token delimiter punctuation">%></span></span>：里面也是服务端发送给ejs模板后的变量，解析html
+<div class="language-ejs line-numbers-mode" data-ext="ejs"><pre v-pre class="language-ejs"><code>___EJS0___：里面写入的是js语法，
+___EJS1___：里面是服务端发送给ejs模板转义后的变量，输出为原数据
+___EJS2___：里面也是服务端发送给ejs模板后的变量，解析html
 如果写html的注释，那样会在源码中显示，下面这种ejs注释不会在源码中显示
-<span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%</span><span class="token comment"># 注释标签，不执行、不输出内容 </span><span class="token delimiter punctuation">%></span></span>
+___EJS3___
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>同理res.render()函数也是支持回调的：</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>res<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token string">'user'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'Tobi'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> html</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>html<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -138,29 +138,23 @@ router<span class="token punctuation">.</span><span class="token function">post<
 module<span class="token punctuation">.</span>exports <span class="token operator">=</span> router<span class="token punctuation">;</span>
 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_4-ejs-标签各种含义" tabindex="-1"><a class="header-anchor" href="#_4-ejs-标签各种含义" aria-hidden="true">#</a> 4.ejs 标签各种含义</h2>
-<div class="language-ejs line-numbers-mode" data-ext="ejs"><pre v-pre class="language-ejs"><code><span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%</span><span class="token language-javascript"> <span class="token string">'脚本'</span> 标签，用于流程控制，无输出。
-<span class="token operator">&lt;</span><span class="token operator">%</span>_ 删除其前面的空格符
-<span class="token operator">&lt;</span><span class="token operator">%=</span> 输出数据到模板（输出是转义 <span class="token constant">HTML</span> 标签）
-<span class="token operator">&lt;</span><span class="token operator">%</span><span class="token operator">-</span> 输出非转义的数据到模板
-<span class="token operator">&lt;</span><span class="token operator">%</span># 注释标签，不执行、不输出内容
-<span class="token operator">&lt;</span><span class="token operator">%</span><span class="token operator">%</span> 输出字符串 <span class="token string">'&lt;%'</span>
-</span><span class="token delimiter punctuation">%></span></span> 一般结束标签
+<div class="language-ejs line-numbers-mode" data-ext="ejs"><pre v-pre class="language-ejs"><code>___EJS0___ 一般结束标签
 -%> 删除紧随其后的换行符
 _%> 将结束标签后面的空格符删除
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh7h67twj30me05tads.jpg" alt="image-20220618170943284"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh7h67twj30me05tads.jpg" alt="image-20220618170943284"></p>
 <p>以上就为ejs基本用法，往后对数据库操作就直接把json数据从服务器返送给模板引擎就行；</p>
 <h2 id="_5-导入公共模板样式" tabindex="-1"><a class="header-anchor" href="#_5-导入公共模板样式" aria-hidden="true">#</a> 5.导入公共模板样式</h2>
 <p><code v-pre>header.ejs</code></p>
 <div class="language-ejs line-numbers-mode" data-ext="ejs"><pre v-pre class="language-ejs"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">></span></span>
   我是公共样式
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
-    <span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%</span><span class="token language-javascript"> <span class="token keyword">if</span><span class="token punctuation">(</span>isShowSchool<span class="token punctuation">)</span> <span class="token punctuation">{</span></span><span class="token delimiter punctuation">%></span></span>
+    ___EJS0___
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>校园招聘<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span>
-    <span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%</span><span class="token language-javascript"> <span class="token punctuation">}</span> </span><span class="token delimiter punctuation">%></span></span>
+    ___EJS1___
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code v-pre>index.ejs</code></p>
-<div class="language-ejs line-numbers-mode" data-ext="ejs"><pre v-pre class="language-ejs"><code><span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%-</span><span class="token language-javascript"> <span class="token function">include</span><span class="token punctuation">(</span><span class="token string">"./header.ejs"</span><span class="token punctuation">,</span><span class="token punctuation">{</span> <span class="token literal-property property">isShowSchool</span><span class="token operator">:</span><span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">)</span> </span><span class="token delimiter punctuation">%></span></span> index <span class="token ejs language-ejs"><span class="token delimiter punctuation">&lt;%</span><span class="token comment"># 我的注释 </span><span class="token delimiter punctuation">%></span></span>
+<div class="language-ejs line-numbers-mode" data-ext="ejs"><pre v-pre class="language-ejs"><code>___EJS0___ index ___EJS1___
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh7cbp4jj31hc0rq7oj.jpg" alt="image-20220618191129477"></p>
 </div></template>
 

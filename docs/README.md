@@ -1,13 +1,13 @@
 ---
 home: true
 title: 首页
-heroImage: /images/logo_text.png
+heroImage: /images/logo-text.png
 actions:
-  - text: 快速上手
-    link: 'https://github.com/W-HanYu/vuepress.git'
+  - text: 开始学习
+    link: '/notes/datastr/01'
     type: primary
-  - text: 博客简介
-    link: /
+  - text: 开始挑战
+    link: '/notes/dailyquestion/01'
     type: secondary
 features:
   - title: 笔记

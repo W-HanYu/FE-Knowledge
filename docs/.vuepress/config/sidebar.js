@@ -8,7 +8,7 @@ fs.readdirSync(path.resolve(dirPath, 'notes')).forEach(notes => {
     text: '',
     children: [],
   }
-  noteObj.text = notes + '学习笔记'
+  // noteObj.text = notes + '学习笔记'
   let notePath = path.resolve(dirPath, 'notes', notes)
   fs.readdirSync(notePath).forEach(note => {
     let name = note.split('.')[0].slice(0, 2)

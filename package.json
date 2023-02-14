@@ -9,13 +9,13 @@
     "build": "vuepress build docs",
     "docs:build": "vuepress build docs"
   },
-  "author": "Ustinian-Hanyu",
+  "author": "WT",
   "keywords": [
     "front-end",
     "blog",
     "vuepress"
   ],
-  "homepage": "https://github.com/W-HanYu/Ustinian-Hanyu",
+  "homepage": "https://github.com/W-HanYu/FE-Algorithm",
   "license": "ISC",
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.53",

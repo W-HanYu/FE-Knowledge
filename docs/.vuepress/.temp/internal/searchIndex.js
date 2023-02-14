@@ -281,39 +281,81 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1.两数之和",
+    "title": "01.奇偶链表",
     "headers": [
       {
         "level": 2,
-        "title": "题目",
-        "slug": "题目",
-        "link": "#题目",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "代码",
-        "slug": "代码",
-        "link": "#代码",
+        "title": "01.不同的子序列",
+        "slug": "_01-不同的子序列",
+        "link": "#_01-不同的子序列",
         "children": [
           {
             "level": 3,
-            "title": "解法一：常规思路",
-            "slug": "解法一-常规思路",
-            "link": "#解法一-常规思路",
+            "title": "来源： LeetCode 第 115 题",
+            "slug": "来源-leetcode-第-115-题",
+            "link": "#来源-leetcode-第-115-题",
             "children": []
           },
           {
             "level": 3,
-            "title": "解法二：hashMap 求解",
-            "slug": "解法二-hashmap-求解",
-            "link": "#解法二-hashmap-求解",
+            "title": "难度： 🔥🔥🔥 困难",
+            "slug": "难度-🔥🔥🔥-困难",
+            "link": "#难度-🔥🔥🔥-困难",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "描述：",
+            "slug": "描述",
+            "link": "#描述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "示例 1:",
+            "slug": "示例-1",
+            "link": "#示例-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "示例 2:",
+            "slug": "示例-2",
+            "link": "#示例-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "提示",
+            "slug": "提示",
+            "link": "#提示",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "动态规划解决",
+            "slug": "动态规划解决",
+            "link": "#动态规划解决",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "示例代码",
+            "slug": "示例代码",
+            "link": "#示例代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "试一试",
+            "slug": "试一试",
+            "link": "#试一试",
             "children": []
           }
         ]
       }
     ],
-    "path": "/notes/dailyquestion/01.html",
+    "path": "/notes/algorithm/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3624,6 +3666,43 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/es6/14.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1.两数之和",
+    "headers": [
+      {
+        "level": 2,
+        "title": "题目",
+        "slug": "题目",
+        "link": "#题目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "代码",
+        "slug": "代码",
+        "link": "#代码",
+        "children": [
+          {
+            "level": 3,
+            "title": "解法一：常规思路",
+            "slug": "解法一-常规思路",
+            "link": "#解法一-常规思路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "解法二：hashMap 求解",
+            "slug": "解法二-hashmap-求解",
+            "link": "#解法二-hashmap-求解",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/dailyquestion/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -9080,106 +9159,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "MongoDB",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.下载安装",
-        "slug": "_1-下载安装",
-        "link": "#_1-下载安装",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 下载MongoDB",
-            "slug": "_1-1-下载mongodb",
-            "link": "#_1-1-下载mongodb",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 创建目录及配置文件",
-            "slug": "_1-2-创建目录及配置文件",
-            "link": "#_1-2-创建目录及配置文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 添加到服务（开机自动启动）",
-            "slug": "_1-3-添加到服务-开机自动启动",
-            "link": "#_1-3-添加到服务-开机自动启动",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4 检查",
-            "slug": "_1-4-检查",
-            "link": "#_1-4-检查",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.基本介绍",
-        "slug": "_2-基本介绍",
-        "link": "#_2-基本介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.基本操作",
-        "slug": "_3-基本操作",
-        "link": "#_3-基本操作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.插入文档",
-        "slug": "_4-插入文档",
-        "link": "#_4-插入文档",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.查询文档",
-        "slug": "_5-查询文档",
-        "link": "#_5-查询文档",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.删除文档",
-        "slug": "_6-删除文档",
-        "link": "#_6-删除文档",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.修改文档",
-        "slug": "_7-修改文档",
-        "link": "#_7-修改文档",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.文档之间的关系",
-        "slug": "_8-文档之间的关系",
-        "link": "#_8-文档之间的关系",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9.命令汇总",
-        "slug": "_9-命令汇总",
-        "link": "#_9-命令汇总",
-        "children": []
-      }
-    ],
-    "path": "/notes/mongodb/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "01 【数据库概述】",
     "headers": [
       {
@@ -12247,382 +12226,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1.位运算",
-    "headers": [
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念",
-        "link": "#概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "特性",
-        "slug": "特性",
-        "link": "#特性",
-        "children": [
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结",
-            "link": "#总结",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "基本使用",
-        "slug": "基本使用",
-        "link": "#基本使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "React 当中的使用场景",
-        "slug": "react-当中的使用场景",
-        "link": "#react-当中的使用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "优先级管理 lanes",
-            "slug": "优先级管理-lanes",
-            "link": "#优先级管理-lanes",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "执行上下文 ExecutionContext",
-            "slug": "执行上下文-executioncontext",
-            "link": "#执行上下文-executioncontext",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结-1",
-        "link": "#总结-1",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考资料",
-        "slug": "参考资料",
-        "link": "#参考资料",
-        "children": []
-      }
-    ],
-    "path": "/notes/reactAlgorithm/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2.深度优先遍历",
-    "headers": [
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念",
-        "link": "#概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "实现方式",
-        "slug": "实现方式",
-        "link": "#实现方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "React 当中的使用场景",
-        "slug": "react-当中的使用场景",
-        "link": "#react-当中的使用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "ReactElement \"树\"的构造",
-            "slug": "reactelement-树-的构造",
-            "link": "#reactelement-树-的构造",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "fiber 树的构造",
-            "slug": "fiber-树的构造",
-            "link": "#fiber-树的构造",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查找 context 的消费节点",
-            "slug": "查找-context-的消费节点",
-            "link": "#查找-context-的消费节点",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结",
-        "link": "#总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考资料",
-        "slug": "参考资料",
-        "link": "#参考资料",
-        "children": []
-      }
-    ],
-    "path": "/notes/reactAlgorithm/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "3.调和算法",
-    "headers": [
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念",
-        "link": "#概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "特性",
-        "slug": "特性",
-        "link": "#特性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "基本原理",
-        "slug": "基本原理",
-        "link": "#基本原理",
-        "children": [
-          {
-            "level": 3,
-            "title": "单节点比较",
-            "slug": "单节点比较",
-            "link": "#单节点比较",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "可迭代节点比较(数组类型, [Symbol.iterator]=fn,[@@iterator]=fn)",
-            "slug": "可迭代节点比较-数组类型-symbol-iterator-fn-iterator-fn",
-            "link": "#可迭代节点比较-数组类型-symbol-iterator-fn-iterator-fn",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "结果",
-            "slug": "结果",
-            "link": "#结果",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结",
-        "link": "#总结",
-        "children": []
-      }
-    ],
-    "path": "/notes/reactAlgorithm/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "4.堆排序",
-    "headers": [
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念",
-        "link": "#概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "特性",
-        "slug": "特性",
-        "link": "#特性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "基本使用",
-        "slug": "基本使用",
-        "link": "#基本使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "代码演示",
-        "slug": "代码演示",
-        "link": "#代码演示",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "React 当中的使用场景",
-        "slug": "react-当中的使用场景",
-        "link": "#react-当中的使用场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结",
-        "link": "#总结",
-        "children": []
-      }
-    ],
-    "path": "/notes/reactAlgorithm/04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "5.链表操作",
-    "headers": [
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念",
-        "link": "#概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "基本使用",
-        "slug": "基本使用",
-        "link": "#基本使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "React 当中的使用场景",
-        "slug": "react-当中的使用场景",
-        "link": "#react-当中的使用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "fiber 对象",
-            "slug": "fiber-对象",
-            "link": "#fiber-对象",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Hook 对象",
-            "slug": "hook-对象",
-            "link": "#hook-对象",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "链表合并",
-            "slug": "链表合并",
-            "link": "#链表合并",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结",
-        "link": "#总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考资料",
-        "slug": "参考资料",
-        "link": "#参考资料",
-        "children": []
-      }
-    ],
-    "path": "/notes/reactAlgorithm/05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6.栈操作",
-    "headers": [
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念",
-        "link": "#概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "特性",
-        "slug": "特性",
-        "link": "#特性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "基本使用",
-        "slug": "基本使用",
-        "link": "#基本使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "React 当中的使用场景",
-        "slug": "react-当中的使用场景",
-        "link": "#react-当中的使用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "Context 状态管理 {#context}",
-            "slug": "context-状态管理-context",
-            "link": "#context-状态管理-context",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "executionContext 执行上下文",
-            "slug": "executioncontext-执行上下文",
-            "link": "#executioncontext-执行上下文",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结",
-        "link": "#总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考资料",
-        "slug": "参考资料",
-        "link": "#参考资料",
-        "children": []
-      }
-    ],
-    "path": "/notes/reactAlgorithm/06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "01 【react入门】",
     "headers": [
       {
@@ -14925,6 +14528,382 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "1.位运算",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": [
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结",
+            "link": "#总结",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "基本使用",
+        "slug": "基本使用",
+        "link": "#基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "优先级管理 lanes",
+            "slug": "优先级管理-lanes",
+            "link": "#优先级管理-lanes",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "执行上下文 ExecutionContext",
+            "slug": "执行上下文-executioncontext",
+            "link": "#执行上下文-executioncontext",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结-1",
+        "link": "#总结-1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考资料",
+        "slug": "参考资料",
+        "link": "#参考资料",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2.深度优先遍历",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实现方式",
+        "slug": "实现方式",
+        "link": "#实现方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "ReactElement \"树\"的构造",
+            "slug": "reactelement-树-的构造",
+            "link": "#reactelement-树-的构造",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "fiber 树的构造",
+            "slug": "fiber-树的构造",
+            "link": "#fiber-树的构造",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查找 context 的消费节点",
+            "slug": "查找-context-的消费节点",
+            "link": "#查找-context-的消费节点",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考资料",
+        "slug": "参考资料",
+        "link": "#参考资料",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "3.调和算法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本原理",
+        "slug": "基本原理",
+        "link": "#基本原理",
+        "children": [
+          {
+            "level": 3,
+            "title": "单节点比较",
+            "slug": "单节点比较",
+            "link": "#单节点比较",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "可迭代节点比较(数组类型, [Symbol.iterator]=fn,[@@iterator]=fn)",
+            "slug": "可迭代节点比较-数组类型-symbol-iterator-fn-iterator-fn",
+            "link": "#可迭代节点比较-数组类型-symbol-iterator-fn-iterator-fn",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "结果",
+            "slug": "结果",
+            "link": "#结果",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "4.堆排序",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本使用",
+        "slug": "基本使用",
+        "link": "#基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "代码演示",
+        "slug": "代码演示",
+        "link": "#代码演示",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5.链表操作",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本使用",
+        "slug": "基本使用",
+        "link": "#基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "fiber 对象",
+            "slug": "fiber-对象",
+            "link": "#fiber-对象",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Hook 对象",
+            "slug": "hook-对象",
+            "link": "#hook-对象",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链表合并",
+            "slug": "链表合并",
+            "link": "#链表合并",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考资料",
+        "slug": "参考资料",
+        "link": "#参考资料",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6.栈操作",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本使用",
+        "slug": "基本使用",
+        "link": "#基本使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React 当中的使用场景",
+        "slug": "react-当中的使用场景",
+        "link": "#react-当中的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "Context 状态管理 {#context}",
+            "slug": "context-状态管理-context",
+            "link": "#context-状态管理-context",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "executionContext 执行上下文",
+            "slug": "executioncontext-执行上下文",
+            "link": "#executioncontext-执行上下文",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考资料",
+        "slug": "参考资料",
+        "link": "#参考资料",
+        "children": []
+      }
+    ],
+    "path": "/notes/reactAlgorithm/06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "01 【Sass的安装使用】",
     "headers": [
       {
@@ -15722,388 +15701,53 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1.TailWind CSS 安装使用",
+    "title": "第一章:Type Manipulation 类型操作",
     "headers": [
       {
         "level": 2,
-        "title": "1.1 使用 CDN 快速体验 Tailwind CSS",
-        "slug": "_1-1-使用-cdn-快速体验-tailwind-css",
-        "link": "#_1-1-使用-cdn-快速体验-tailwind-css",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.2 使用 npm 安装 Tailwind CSS",
-        "slug": "_1-2-使用-npm-安装-tailwind-css",
-        "link": "#_1-2-使用-npm-安装-tailwind-css",
+        "title": "1.Type Manipulation 类型操作",
+        "slug": "_1-type-manipulation-类型操作",
+        "link": "#_1-type-manipulation-类型操作",
         "children": [
           {
             "level": 3,
-            "title": "自动刷新HTML文件",
-            "slug": "自动刷新html文件",
-            "link": "#自动刷新html文件",
+            "title": "1.1 范型",
+            "slug": "_1-1-范型",
+            "link": "#_1-1-范型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 keyof 类型操作符",
+            "slug": "_1-2-keyof-类型操作符",
+            "link": "#_1-2-keyof-类型操作符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 typeof 操作符",
+            "slug": "_1-3-typeof-操作符",
+            "link": "#_1-3-typeof-操作符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4 条件类型",
+            "slug": "_1-4-条件类型",
+            "link": "#_1-4-条件类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.5 映射类型 Mapped Type",
+            "slug": "_1-5-映射类型-mapped-type",
+            "link": "#_1-5-映射类型-mapped-type",
             "children": []
           }
         ]
       }
     ],
-    "path": "/notes/tailwindcss/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1.Tailwind CSS 初体验",
-    "headers": [],
-    "path": "/notes/tailwindcss/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "布局之Aspect-Ratio Container Box-Decoration-Break Object-Fit Object-Position】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.1 快速参考",
-        "slug": "_1-1-快速参考",
-        "link": "#_1-1-快速参考",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.2 基本用法",
-        "slug": "_1-2-基本用法",
-        "link": "#_1-2-基本用法",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.2.1设置纵横比",
-            "slug": "_1-2-1设置纵横比",
-            "link": "#_1-2-1设置纵横比",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2.2 浏览器支持",
-            "slug": "_1-2-2-浏览器支持",
-            "link": "#_1-2-2-浏览器支持",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "1.3 有条件地应用",
-        "slug": "_1-3-有条件地应用",
-        "link": "#_1-3-有条件地应用",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.3.1 悬停、焦点和其他状态",
-            "slug": "_1-3-1-悬停、焦点和其他状态",
-            "link": "#_1-3-1-悬停、焦点和其他状态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3.2 断点和媒体查询",
-            "slug": "_1-3-2-断点和媒体查询",
-            "link": "#_1-3-2-断点和媒体查询",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "1.4 使用自定义值",
-        "slug": "_1-4-使用自定义值",
-        "link": "#_1-4-使用自定义值",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.4.1 自定义主题",
-            "slug": "_1-4-1-自定义主题",
-            "link": "#_1-4-1-自定义主题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4.2 任意值",
-            "slug": "_1-4-2-任意值",
-            "link": "#_1-4-2-任意值",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.1 快速参考",
-        "slug": "_2-1-快速参考",
-        "link": "#_2-1-快速参考",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.2  使用方法",
-        "slug": "_2-2-使用方法",
-        "link": "#_2-2-使用方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.3 响应式变体",
-        "slug": "_2-3-响应式变体",
-        "link": "#_2-3-响应式变体",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.4 定制",
-        "slug": "_2-4-定制",
-        "link": "#_2-4-定制",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.4.1 默认居中",
-            "slug": "_2-4-1-默认居中",
-            "link": "#_2-4-1-默认居中",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.4.2 默认添加水平填充",
-            "slug": "_2-4-2-默认添加水平填充",
-            "link": "#_2-4-2-默认添加水平填充",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.1 快速参考",
-        "slug": "_3-1-快速参考",
-        "link": "#_3-1-快速参考",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.2 基本用法",
-        "slug": "_3-2-基本用法",
-        "link": "#_3-2-基本用法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.3 有条件地应用",
-        "slug": "_3-3-有条件地应用",
-        "link": "#_3-3-有条件地应用",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.3.1 悬停、焦点和其他状态",
-            "slug": "_3-3-1-悬停、焦点和其他状态",
-            "link": "#_3-3-1-悬停、焦点和其他状态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3.2 断点和媒体查询",
-            "slug": "_3-3-2-断点和媒体查询",
-            "link": "#_3-3-2-断点和媒体查询",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.1 快速参考",
-        "slug": "_4-1-快速参考",
-        "link": "#_4-1-快速参考",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.2 基本用法",
-        "slug": "_4-2-基本用法",
-        "link": "#_4-2-基本用法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.3 有条件地应用",
-        "slug": "_4-3-有条件地应用",
-        "link": "#_4-3-有条件地应用",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.3.1 悬停、焦点和其他状态",
-            "slug": "_4-3-1-悬停、焦点和其他状态",
-            "link": "#_4-3-1-悬停、焦点和其他状态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3.2 断点和媒体查询",
-            "slug": "_4-3-2-断点和媒体查询",
-            "link": "#_4-3-2-断点和媒体查询",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5.1 快速参考",
-        "slug": "_5-1-快速参考",
-        "link": "#_5-1-快速参考",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.2 基本用法",
-        "slug": "_5-2-基本用法",
-        "link": "#_5-2-基本用法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.3 有条件地应用",
-        "slug": "_5-3-有条件地应用",
-        "link": "#_5-3-有条件地应用",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.3.1 悬停、焦点和其他状态",
-            "slug": "_5-3-1-悬停、焦点和其他状态",
-            "link": "#_5-3-1-悬停、焦点和其他状态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.3.2 断点和媒体查询",
-            "slug": "_5-3-2-断点和媒体查询",
-            "link": "#_5-3-2-断点和媒体查询",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/tailwindcss/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1.布局-Overscroll Behavior",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.1 快速参考",
-        "slug": "_1-1-快速参考",
-        "link": "#_1-1-快速参考",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.2 基本用法",
-        "slug": "_1-2-基本用法",
-        "link": "#_1-2-基本用法",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.2.1 阻止父元素的过度滚动",
-            "slug": "_1-2-1-阻止父元素的过度滚动",
-            "link": "#_1-2-1-阻止父元素的过度滚动",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2.2 阻止过度滚动的反弹",
-            "slug": "_1-2-2-阻止过度滚动的反弹",
-            "link": "#_1-2-2-阻止过度滚动的反弹",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "1.3 有条件的应用",
-        "slug": "_1-3-有条件的应用",
-        "link": "#_1-3-有条件的应用",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.3.1 悬停、焦点和其他状态",
-            "slug": "_1-3-1-悬停、焦点和其他状态",
-            "link": "#_1-3-1-悬停、焦点和其他状态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3.2 断点和媒体查询",
-            "slug": "_1-3-2-断点和媒体查询",
-            "link": "#_1-3-2-断点和媒体查询",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.1 快速参考",
-        "slug": "_2-1-快速参考",
-        "link": "#_2-1-快速参考",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.2 基本用法",
-        "slug": "_2-2-基本用法",
-        "link": "#_2-2-基本用法",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.2.1 放置定位元素",
-            "slug": "_2-2-1-放置定位元素",
-            "link": "#_2-2-1-放置定位元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2.2 使用负值",
-            "slug": "_2-2-2-使用负值",
-            "link": "#_2-2-2-使用负值",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.3 有条件的应用",
-        "slug": "_2-3-有条件的应用",
-        "link": "#_2-3-有条件的应用",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.3.1 悬停、焦点和其他状态",
-            "slug": "_2-3-1-悬停、焦点和其他状态",
-            "link": "#_2-3-1-悬停、焦点和其他状态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3.2 断点和媒体查询",
-            "slug": "_2-3-2-断点和媒体查询",
-            "link": "#_2-3-2-断点和媒体查询",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.4 自定义主题",
-        "slug": "_2-4-自定义主题",
-        "link": "#_2-4-自定义主题",
-        "children": []
-      }
-    ],
-    "path": "/notes/tailwindcss/04.html",
+    "path": "/notes/typescript-advanced/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -16147,7 +15791,7 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/notes/typescript/01.html",
+    "path": "/notes/typescript-basic/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -16261,7 +15905,7 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/notes/typescript/02.html",
+    "path": "/notes/typescript-basic/02.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -16298,7 +15942,7 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/notes/typescript/03.html",
+    "path": "/notes/typescript-basic/03.html",
     "pathLocale": "/",
     "extraFields": []
   },

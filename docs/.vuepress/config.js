@@ -82,8 +82,8 @@ export default defineUserConfig({
       },
       { text: 'Typescript',
         children: [
-          { text: '第一卷', link: '/notes/typescript/01' },
-          { text: '第二卷', link: '/index' },
+          { text: '基础概念篇', link: '/notes/typescript-basic/01' },
+          { text: '原理进阶篇', link: '/notes/typescript-advanced/01' },
         ],
       },
       { text: 'Typescript挑战',
@@ -94,7 +94,7 @@ export default defineUserConfig({
         ],
       },
       { text: '算法',
-        link: '/'
+        link: '/notes/algorithm/01'
       },
       { text: '数据结构',
         link: '/notes/datastr/01'
@@ -117,7 +117,7 @@ export default defineUserConfig({
       },
     ],
     sidebar,
-    logo: '/images/logo.png',
+    logo: '/images/logo-athena.png',
     // 默认主题
     colorMode: 'dark',
     // 仓库地址
