@@ -1,12 +1,14 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /notes/algorithm/01.html
+  "v-4ef1aef1": () => import(/* webpackChunkName: "v-4ef1aef1" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/algorithm/01.html.js").then(({ data }) => data),
   // path: /notes/ajax/01.html
   "v-25846460": () => import(/* webpackChunkName: "v-25846460" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/ajax/01.html.js").then(({ data }) => data),
   // path: /notes/ajax/02.html
   "v-221ab322": () => import(/* webpackChunkName: "v-221ab322" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/ajax/02.html.js").then(({ data }) => data),
-  // path: /notes/algorithm/01.html
-  "v-4ef1aef1": () => import(/* webpackChunkName: "v-4ef1aef1" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/algorithm/01.html.js").then(({ data }) => data),
+  // path: /notes/dailyquestion/01.html
+  "v-0f0db1fe": () => import(/* webpackChunkName: "v-0f0db1fe" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/dailyquestion/01.html.js").then(({ data }) => data),
   // path: /notes/datastr/01.html
   "v-bfd669ee": () => import(/* webpackChunkName: "v-bfd669ee" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/datastr/01.html.js").then(({ data }) => data),
   // path: /notes/datastr/02.html
@@ -69,8 +71,6 @@ export const pagesData = {
   "v-7da0e3ee": () => import(/* webpackChunkName: "v-7da0e3ee" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/es6/13.html.js").then(({ data }) => data),
   // path: /notes/es6/14.html
   "v-7a3732b0": () => import(/* webpackChunkName: "v-7a3732b0" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/es6/14.html.js").then(({ data }) => data),
-  // path: /notes/dailyquestion/01.html
-  "v-0f0db1fe": () => import(/* webpackChunkName: "v-0f0db1fe" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/dailyquestion/01.html.js").then(({ data }) => data),
   // path: /notes/echarts/01.html
   "v-e2319288": () => import(/* webpackChunkName: "v-e2319288" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/echarts/01.html.js").then(({ data }) => data),
   // path: /notes/echarts/02.html
@@ -305,14 +305,14 @@ export const pagesData = {
   "v-92935d00": () => import(/* webpackChunkName: "v-92935d00" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/sass/10.html.js").then(({ data }) => data),
   // path: /notes/sass/11.html
   "v-8f29abc2": () => import(/* webpackChunkName: "v-8f29abc2" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/sass/11.html.js").then(({ data }) => data),
-  // path: /notes/typescript-advanced/01.html
-  "v-e382aea8": () => import(/* webpackChunkName: "v-e382aea8" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-advanced/01.html.js").then(({ data }) => data),
   // path: /notes/typescript-basic/01.html
   "v-c4fcffd4": () => import(/* webpackChunkName: "v-c4fcffd4" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-basic/01.html.js").then(({ data }) => data),
   // path: /notes/typescript-basic/02.html
   "v-c1934e96": () => import(/* webpackChunkName: "v-c1934e96" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-basic/02.html.js").then(({ data }) => data),
   // path: /notes/typescript-basic/03.html
   "v-be299d58": () => import(/* webpackChunkName: "v-be299d58" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-basic/03.html.js").then(({ data }) => data),
+  // path: /notes/typescript-advanced/01.html
+  "v-e382aea8": () => import(/* webpackChunkName: "v-e382aea8" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-advanced/01.html.js").then(({ data }) => data),
   // path: /notes/uniapp/01.html
   "v-21771421": () => import(/* webpackChunkName: "v-21771421" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/uniapp/01.html.js").then(({ data }) => data),
   // path: /notes/uniapp/02.html

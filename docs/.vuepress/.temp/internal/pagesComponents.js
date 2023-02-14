@@ -3,12 +3,14 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/index.html.vue")),
+  // path: /notes/algorithm/01.html
+  "v-4ef1aef1": defineAsyncComponent(() => import(/* webpackChunkName: "v-4ef1aef1" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/algorithm/01.html.vue")),
   // path: /notes/ajax/01.html
   "v-25846460": defineAsyncComponent(() => import(/* webpackChunkName: "v-25846460" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/ajax/01.html.vue")),
   // path: /notes/ajax/02.html
   "v-221ab322": defineAsyncComponent(() => import(/* webpackChunkName: "v-221ab322" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/ajax/02.html.vue")),
-  // path: /notes/algorithm/01.html
-  "v-4ef1aef1": defineAsyncComponent(() => import(/* webpackChunkName: "v-4ef1aef1" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/algorithm/01.html.vue")),
+  // path: /notes/dailyquestion/01.html
+  "v-0f0db1fe": defineAsyncComponent(() => import(/* webpackChunkName: "v-0f0db1fe" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/dailyquestion/01.html.vue")),
   // path: /notes/datastr/01.html
   "v-bfd669ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-bfd669ee" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/datastr/01.html.vue")),
   // path: /notes/datastr/02.html
@@ -71,8 +73,6 @@ export const pagesComponents = {
   "v-7da0e3ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-7da0e3ee" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/es6/13.html.vue")),
   // path: /notes/es6/14.html
   "v-7a3732b0": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a3732b0" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/es6/14.html.vue")),
-  // path: /notes/dailyquestion/01.html
-  "v-0f0db1fe": defineAsyncComponent(() => import(/* webpackChunkName: "v-0f0db1fe" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/dailyquestion/01.html.vue")),
   // path: /notes/echarts/01.html
   "v-e2319288": defineAsyncComponent(() => import(/* webpackChunkName: "v-e2319288" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/echarts/01.html.vue")),
   // path: /notes/echarts/02.html
@@ -307,14 +307,14 @@ export const pagesComponents = {
   "v-92935d00": defineAsyncComponent(() => import(/* webpackChunkName: "v-92935d00" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/sass/10.html.vue")),
   // path: /notes/sass/11.html
   "v-8f29abc2": defineAsyncComponent(() => import(/* webpackChunkName: "v-8f29abc2" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/sass/11.html.vue")),
-  // path: /notes/typescript-advanced/01.html
-  "v-e382aea8": defineAsyncComponent(() => import(/* webpackChunkName: "v-e382aea8" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-advanced/01.html.vue")),
   // path: /notes/typescript-basic/01.html
   "v-c4fcffd4": defineAsyncComponent(() => import(/* webpackChunkName: "v-c4fcffd4" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-basic/01.html.vue")),
   // path: /notes/typescript-basic/02.html
   "v-c1934e96": defineAsyncComponent(() => import(/* webpackChunkName: "v-c1934e96" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-basic/02.html.vue")),
   // path: /notes/typescript-basic/03.html
   "v-be299d58": defineAsyncComponent(() => import(/* webpackChunkName: "v-be299d58" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-basic/03.html.vue")),
+  // path: /notes/typescript-advanced/01.html
+  "v-e382aea8": defineAsyncComponent(() => import(/* webpackChunkName: "v-e382aea8" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/typescript-advanced/01.html.vue")),
   // path: /notes/uniapp/01.html
   "v-21771421": defineAsyncComponent(() => import(/* webpackChunkName: "v-21771421" */"D:/code/project/FE-Algorithm/docs/.vuepress/.temp/pages/notes/uniapp/01.html.vue")),
   // path: /notes/uniapp/02.html

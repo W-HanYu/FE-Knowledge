@@ -33,7 +33,7 @@ babg<span class="token variable"><span class="token variable">`</span>bag<span c
 <p>这题说的是<code v-pre>s</code>的子序列中出现 t 的个数，翻译一下就是字符串 s 的所有子序列中，和字符串 t 完全一样的有多少个。
 我们定义<code v-pre>dp[i][j]</code>表示 t 的前<code v-pre>i</code>个字符可以由<code v-pre>s</code>的前<code v-pre>j</code>个字符组成的个数（也可以说是字符串<code v-pre>s</code>的前<code v-pre>j</code>个字符组成的子序列中，和字符串<code v-pre>t</code>的前 i 个字符组成的字符串一样的有多少个）。
 那么最终我们只需要求出<code v-pre>dp[tLength][sLength]</code>即可（其中<code v-pre>tLength和sLength</code>分别表示字符串<code v-pre>t</code>和<code v-pre>s</code>的长度）。</p>
-<p><img src="@source/../assets/algorithm/633.png" alt="1"></p>
+<p><img src="@source/assets/algorithm/633.png" alt="1"></p>
 <p>如上图所示我们可以有两种选择。</p>
 <p>如果字符串 <code v-pre>t</code> 的第 <code v-pre>i</code> 个字符和字符串 <code v-pre>s</code> 的第 <code v-pre>j</code> 个字符不一样，也就是说字符串 <code v-pre>s</code> 的第 <code v-pre>j</code> 个字符不能匹配字符串 <code v-pre>t</code> 的第 <code v-pre>i</code> 个字符。那么我们只能计算字符串 <code v-pre>s</code> 的前 <code v-pre>j-1</code> 个字符构成的子序列中包含字符串 <code v-pre>t</code> 的前 <code v-pre>i</code> 个字符组成的字符串的个数。</p>
 <p>所以递推公式如下</p>

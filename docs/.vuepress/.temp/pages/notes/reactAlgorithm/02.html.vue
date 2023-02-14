@@ -140,7 +140,7 @@
 <h3 id="fiber-树的构造" tabindex="-1"><a class="header-anchor" href="#fiber-树的构造" aria-hidden="true">#</a> fiber 树的构造</h3>
 <p>在<code v-pre>ReactElement</code>的构造过程中, 同时伴随着<code v-pre>fiber</code>树的构造, <code v-pre>fiber</code>树同样也是在<code v-pre>beginWork</code>阶段生成的.</p>
 <p>绘制出遍历路径如下:</p>
-<p><img src="@source/snapshots/dfs/dfs-fibertree.png" alt=""></p>
+<!-- ![](../../snapshots/dfs/dfs-fibertree.png) -->
 <h3 id="查找-context-的消费节点" tabindex="-1"><a class="header-anchor" href="#查找-context-的消费节点" aria-hidden="true">#</a> 查找 context 的消费节点</h3>
 <p>当<code v-pre>context</code>改变之后, 需要找出依赖该<code v-pre>context</code>的所有子节点(详细分析会在<code v-pre>context原理</code>章节深入解读), 这里同样也是一个<code v-pre>DFS</code>, 具体源码在<a href="https://github.com/facebook/react/blob/v17.0.2/packages/react-reconciler/src/ReactFiberNewContext.old.js#L182-L295" target="_blank" rel="noopener noreferrer">ReactFiberNewContext.js<ExternalLinkIcon/></a>.</p>
 <p>将其主干逻辑剥离出来, 可以清晰的看出采用循环递归的方式进行遍历:</p>

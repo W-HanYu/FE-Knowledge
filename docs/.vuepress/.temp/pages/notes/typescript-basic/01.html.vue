@@ -58,7 +58,7 @@
 <p>下图示例中所设置的编译目标是 ES5：
 <img src="@source/assets/0.2.jpg" alt="2"></p>
 <h3 id="_1-3-典型-typescript-编译流程" tabindex="-1"><a class="header-anchor" href="#_1-3-典型-typescript-编译流程" aria-hidden="true">#</a> 1.3 典型 Typescript 编译流程</h3>
-<p><img src="@source/notes/assets/0.3.jpeg" alt="4"></p>
+<p><img src="@source/assets/0.3.jpeg" alt="4"></p>
 <p>如你所见，在上图中包含 3 个 ts 文件：a.ts、b.ts 和 c.ts。这些文件将被 TypeScript 编译器，根据配置的编译选项编译成 3 个 js 文件，即 a.js、b.js 和 c.js。对于大多数使用 TypeScript 开发的 Web 项目，我们还会对编译生成的 js 文件进行打包处理，然后在进行部署。</p>
 <h3 id="_1-4-typescript-初体验" tabindex="-1"><a class="header-anchor" href="#_1-4-typescript-初体验" aria-hidden="true">#</a> 1.4 Typescript 初体验</h3>
 <p>新建一个 hello.ts 文件，并输入以下内容：</p>

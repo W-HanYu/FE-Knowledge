@@ -196,7 +196,7 @@ color <span class="token operator">=</span> <span class="token string">"yellow"<
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4 id="应用场景" tabindex="-1"><a class="header-anchor" href="#应用场景" aria-hidden="true">#</a> 应用场景</h4>
 <ul>
 <li>1.Get the type of the object
-<img src="@source/notes/assets/typeof-object.png" alt="1">
+<img src="@source/assets/typeof-object.png" alt="1">
 man 对象是一个常规的 JavaScript 对象，在 TypeScript 中你可以使用类型或接口来定义对象的类型。使用此对象类型，您可以使用 TypeScript 的内置实用程序类型（例如 Partial、Required、Pick 或 Readonly）来处理对象类型以满足不同的需求。
 对于简单的对象，这可能没什么大不了的。但是对于嵌套层次更深的大型复杂对象，手动定义太麻烦。要解决这个问题，可以使用 typeof 运算符。</li>
 </ul>
@@ -206,26 +206,26 @@ man 对象是一个常规的 JavaScript 对象，在 TypeScript 中你可以使�
 <ul>
 <li>2.Get a type That Represents All Enum Keys As Strings
 在 TypeScript 中，枚举类型是编译成常规 JavaScript 对象的特殊类型：
-<img src="@source/notes/assets/typeeof-enum.png" alt="2">
+<img src="@source/assets/typeeof-enum.png" alt="2">
 因此，您还可以在枚举类型上使用 typeof 运算符。但这通常没有太大的实际用途，在处理枚举类型时，通常与 keyof 运算符结合使用：
-<img src="@source/notes/assets/typeof-enum2.png" alt="3"></li>
+<img src="@source/assets/typeof-enum2.png" alt="3"></li>
 <li>3.Get the type of the Function Object
 还有另一种更常见的场景，在您的工作中使用 typeof 运算符。获取到对应的函数类型后，可以继续使用 TypeScript 内置的 ReturnType 和 Parameters 实用类型分别获取函数的返回值类型和参数类型。
-<img src="@source/notes/assets/object.png" alt="4"></li>
+<img src="@source/assets/object.png" alt="4"></li>
 <li>
 <ol start="4">
 <li>Get the Type of the Class Object
 既然 typeof 操作符可以处理函数对象，那么它可以处理 Class 对象吗？答案是肯定的。
-<img src="@source/notes/assets/class1.png" alt="4">
+<img src="@source/assets/class1.png" alt="4">
 在上面的代码中，createPoint 是一个工厂函数，它创建了一个 Point 类的实例。通过 typeof 操作符可以获取 Point 类对应的构造签名，从而实现对应的类型校验。在定义 Constructor 的参数类型时，如果没有使用 typeof 操作符，会出现如下错误信息：
-<img src="@source/notes/assets/class2.png" alt="4"></li>
+<img src="@source/assets/class2.png" alt="4"></li>
 </ol>
 </li>
 <li>
 <ol start="5">
 <li>Get a More Precise Type
 在使用 typeof 运算符时，如果你想得到更精确的类型，那么可以将它与 TypeScript 3.4 版本中引入的 const 断言结合起来。这以以下方式使用。
-<img src="@source/notes/assets/class3.png" alt="4">
+<img src="@source/assets/class3.png" alt="4">
 从上图可以看出，在使用了 const 断言之后，再使用 typeof 操作符，我们可以得到更精确的类型。</li>
 </ol>
 </li>
@@ -298,7 +298,7 @@ color <span class="token operator">=</span> <span class="token string">"yellow"<
 ● 5 Very Useful Tricks for TypeScript Typeof Operator</p>
 <h3 id="_1-4-条件类型" tabindex="-1"><a class="header-anchor" href="#_1-4-条件类型" aria-hidden="true">#</a> 1.4 条件类型</h3>
 <p>您是否使用过 Exclude、Extract、NonNullable、Parameters 和 ReturnType 实用程序类型？ 你知道他们在内部是如何工作的吗？ 其实上面的 TypeScript 内置的实用程序类型都是基于条件开发的。</p>
-<p><img src="@source/notes/assets/ConditionalTS.gif" alt="4"></p>
+<p><img src="@source/assets/ConditionalTS.gif" alt="4"></p>
 <h4 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍" aria-hidden="true">#</a> 介绍</h4>
 <p>条件类型（Conditional Types）有助于描述输入与输出类型之间的关系。</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>
@@ -323,8 +323,8 @@ color <span class="token operator">=</span> <span class="token string">"yellow"<
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">result4</span> <span class="token operator">=</span> <span class="token punctuation">{</span> a<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">;</span> b<span class="token operator">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span> <span class="token keyword">extends</span> <span class="token punctuation">{</span> a<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span> <span class="token operator">?</span> <span class="token boolean">true</span> <span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">;</span> <span class="token comment">// true</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4 id="分布式条件类型" tabindex="-1"><a class="header-anchor" href="#分布式条件类型" aria-hidden="true">#</a> 分布式条件类型</h4>
 <p>条件类型还有一个特性：分布式条件类型。在结合联合类型使用时（只针对 extends 左边的联合类型），分布式条件类型会被自动分发成联合类型。
-<img src="@source/notes/assets/ConditionalTS.gif" alt="4">
-<img src="@source/notes/assets/dis-exam.jpeg" alt="4"></p>
+<img src="@source/assets/ConditionalTS.gif" alt="4">
+<img src="@source/assets/dis-exam.jpeg" alt="4"></p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token builtin">string</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">A</span> <span class="token operator">:</span> <span class="token constant">B</span>   等价于  <span class="token builtin">string</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">A</span> <span class="token operator">:</span> <span class="token constant">B</span>
 <span class="token punctuation">(</span><span class="token builtin">string</span> <span class="token operator">|</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">A</span> <span class="token operator">:</span> <span class="token constant">B</span> <span class="token function">等价于</span> <span class="token punctuation">(</span><span class="token builtin">string</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">A</span> <span class="token operator">:</span> <span class="token constant">B</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token punctuation">(</span><span class="token builtin">number</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">A</span> <span class="token operator">:</span> <span class="token constant">B</span><span class="token punctuation">)</span>
 <span class="token punctuation">(</span><span class="token builtin">string</span> <span class="token operator">|</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token builtin">boolean</span><span class="token punctuation">)</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">A</span> <span class="token operator">:</span> <span class="token constant">B</span> <span class="token function">等价于</span> <span class="token punctuation">(</span><span class="token builtin">string</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">A</span> <span class="token operator">:</span> <span class="token constant">B</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token punctuation">(</span><span class="token builtin">number</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">A</span> <span class="token operator">:</span> <span class="token constant">B</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token punctuation">(</span><span class="token builtin">boolean</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">A</span> <span class="token operator">:</span> <span class="token constant">B</span><span class="token punctuation">)</span>
@@ -349,7 +349,7 @@ color <span class="token operator">=</span> <span class="token string">"yellow"<
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name"><span class="token constant">A</span></span> <span class="token operator">=</span> <span class="token builtin">number</span> <span class="token operator">|</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>分布式条件
 在官方文档中提到，分布式条件类型是有前提的。条件类型中待检查的类型（即 extends 左边的类型）必须是裸类型（naked type parameter）。即没有被诸如数组，元组或者函数包裹。
-<img src="@source/notes/assets/naked.jpeg" alt="4"></p>
+<img src="@source/assets/naked.jpeg" alt="4"></p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token comment">// naked type</span>
 <span class="token keyword">type</span> <span class="token class-name">NakedType<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token constant">T</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token builtin">boolean</span></span> <span class="token operator">?</span> <span class="token string">"yes"</span> <span class="token operator">:</span> <span class="token string">"no"</span><span class="token punctuation">;</span>
 <span class="token keyword">type</span> <span class="token class-name">DistributedUsage</span> <span class="token operator">=</span> NakedType<span class="token operator">&lt;</span><span class="token builtin">number</span> <span class="token operator">|</span> <span class="token builtin">boolean</span><span class="token operator">></span><span class="token punctuation">;</span> <span class="token comment">// "yes" | "no"</span>
@@ -365,24 +365,24 @@ color <span class="token operator">=</span> <span class="token string">"yellow"<
 <span class="token keyword">type</span> <span class="token class-name"><span class="token constant">T1</span></span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token builtin">string</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>条件类型允许我们检测两种类型之间的关系，通过条件类型，我们可以确定两种类型是否兼容。推断用于声明一个类型变量，以存储模式匹配期间捕获的类型。
 下边是如何捕获 T0 数组类型中的元素类型。
-<img src="@source/notes/assets/info-1.jpeg" alt="4">
+<img src="@source/assets/info-1.jpeg" alt="4">
 T extends (infer U)[] ? U : T 是条件类型语法 info U 是引入的新的类型变量来存储推类型。
 接下来看看实用类型 UnpackedArray 的执行过程。
-<img src="@source/notes/assets/infer-2.gif" alt="4"></p>
-<p><img src="@source/notes/assets/infer-3.jpeg" alt="4">
+<img src="@source/assets/infer-2.gif" alt="4"></p>
+<p><img src="@source/assets/infer-3.jpeg" alt="4">
 注意：需要注意的是，推断只能在条件类型的扩展子句中使用，而推断声明的类型变量只能在条件类型的 true 分支中使用。</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">Wrong1<span class="token operator">&lt;</span><span class="token constant">T</span> <span class="token keyword">extends</span> <span class="token punctuation">(</span><span class="token keyword">infer</span> <span class="token constant">U</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token constant">T</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// Error</span>
 <span class="token keyword">type</span> <span class="token class-name">Wrong2<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">infer</span> <span class="token constant">U</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token constant">T</span></span> <span class="token operator">?</span> <span class="token constant">U</span> <span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">;</span> <span class="token comment">// Error</span>
 <span class="token keyword">type</span> <span class="token class-name">Wrong3<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token constant">T</span> <span class="token keyword">extends</span> <span class="token punctuation">(</span><span class="token keyword">infer</span> <span class="token constant">U</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">?</span> <span class="token constant">T</span> <span class="token operator">:</span> <span class="token constant">U</span><span class="token punctuation">;</span> <span class="token comment">// Error</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/notes/assets/infer-4.jpeg" alt="4"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/assets/infer-4.jpeg" alt="4"></p>
 <ul>
 <li>获取返回值类型</li>
 </ul>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">UnpackedFn<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token constant">T</span> <span class="token keyword">extends</span> <span class="token punctuation">(</span><span class="token operator">...</span>args<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">infer</span> <span class="token constant">U</span> <span class="token operator">?</span> <span class="token constant">U</span> <span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">;</span>
 <span class="token keyword">type</span> <span class="token class-name"><span class="token constant">U1</span></span> <span class="token operator">=</span> UnpackedFn<span class="token operator">&lt;</span><span class="token constant">T1</span><span class="token operator">></span><span class="token punctuation">;</span> <span class="token comment">// string</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>当涉及到函数重载场景时，TypeScript 将使用最后一个调用签名进行类型推断。
-<img src="@source/notes/assets/infer-6.gif" alt="4"></p>
-<p><img src="@source/notes/assets/infer-7.jpeg" alt="4"></p>
+<img src="@source/assets/infer-6.gif" alt="4"></p>
+<p><img src="@source/assets/infer-7.jpeg" alt="4"></p>
 <ul>
 <li>推断对象类型</li>
 </ul>
@@ -393,13 +393,13 @@ T extends (infer U)[] ? U : T 是条件类型语法 info U 是引入的新的类
 
 <span class="token keyword">type</span> <span class="token class-name">PropertyType<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token constant">T</span> <span class="token keyword">extends</span> <span class="token punctuation">{</span> id<span class="token operator">:</span> <span class="token keyword">infer</span> <span class="token constant">U</span><span class="token punctuation">;</span> name<span class="token operator">:</span> <span class="token keyword">infer</span> <span class="token constant">R</span> <span class="token punctuation">}</span> <span class="token operator">?</span> <span class="token punctuation">[</span><span class="token constant">U</span><span class="token punctuation">,</span> <span class="token constant">R</span><span class="token punctuation">]</span> <span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">;</span>
 <span class="token keyword">type</span> <span class="token class-name"><span class="token constant">U3</span></span> <span class="token operator">=</span> PropertyType<span class="token operator">&lt;</span>User<span class="token operator">></span><span class="token punctuation">;</span> <span class="token comment">// [number, string]</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/notes/assets/infer-8.gif" alt="4">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/assets/infer-8.gif" alt="4">
 在 PropertyType 实用程序类型中，我们使用 infer 来声明两个类型变量 u 和 R，它们分别表示对象类型中 id 和 name 属性的类型。如果类型匹配，我们将 id 和 name 属性的类型作为元组返回。
 如果在 PropertyType 实用程序类型中只声明一个类型变量 U，结果会是什么？</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">PropertyType<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token constant">T</span> <span class="token keyword">extends</span> <span class="token punctuation">{</span> id<span class="token operator">:</span> <span class="token keyword">infer</span> <span class="token constant">U</span><span class="token punctuation">;</span> name<span class="token operator">:</span> <span class="token keyword">infer</span> <span class="token constant">U</span> <span class="token punctuation">}</span> <span class="token operator">?</span> <span class="token constant">U</span> <span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">;</span>
 
 <span class="token keyword">type</span> <span class="token class-name"><span class="token constant">U4</span></span> <span class="token operator">=</span> PropertyType<span class="token operator">&lt;</span>User<span class="token operator">></span><span class="token punctuation">;</span> <span class="token comment">// string | number</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/notes/assets/infer-9.gif" alt="4"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/assets/infer-9.gif" alt="4"></p>
 <p>U4 类型返回字符串和数字类型的联合。为什么它会返回这样的结果？这是因为，如果在协变位置存在同一类型变量的多个候选变量，则最终类型将被推断为联合类型。
 但是，在逆变位置，如果同一类型变量有多个候选变量，则最终类型将被推断为交集类型。</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">Bar<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token constant">T</span> <span class="token keyword">extends</span> <span class="token punctuation">{</span> <span class="token function-variable function">a</span><span class="token operator">:</span> <span class="token punctuation">(</span>x<span class="token operator">:</span> <span class="token keyword">infer</span> <span class="token constant">U</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">void</span><span class="token punctuation">;</span> <span class="token function-variable function">b</span><span class="token operator">:</span> <span class="token punctuation">(</span>x<span class="token operator">:</span> <span class="token keyword">infer</span> <span class="token constant">U</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">void</span> <span class="token punctuation">}</span>
@@ -407,13 +407,13 @@ T extends (infer U)[] ? U : T 是条件类型语法 info U 是引入的新的类
   <span class="token operator">:</span> <span class="token builtin">never</span><span class="token punctuation">;</span>
 
 <span class="token keyword">type</span> <span class="token class-name"><span class="token constant">U5</span></span> <span class="token operator">=</span> Bar<span class="token operator">&lt;</span><span class="token punctuation">{</span> <span class="token function-variable function">a</span><span class="token operator">:</span> <span class="token punctuation">(</span>x<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">void</span><span class="token punctuation">;</span> <span class="token function-variable function">b</span><span class="token operator">:</span> <span class="token punctuation">(</span>x<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">void</span> <span class="token punctuation">}</span><span class="token operator">></span><span class="token punctuation">;</span> <span class="token comment">// string &amp; number</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/notes/assets/infer-10.gif" alt="4">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/assets/infer-10.gif" alt="4">
 U5 类型返回由字符串和数字类型组成的交集类型，即最终类型从不为类型。</p>
 <h3 id="_1-5-映射类型-mapped-type" tabindex="-1"><a class="header-anchor" href="#_1-5-映射类型-mapped-type" aria-hidden="true">#</a> 1.5 映射类型 Mapped Type</h3>
 <p>在数学中，映射是指两个元素的集合之间元素相互对应的关系，可以将映射理解为函数，如上图，当我们需要将集合 A 的元素转换为集合 B 的元素，可以通过 f 函数做映射，比如将集合 A 的元素 1 对应到集合 B 中的元素 2。</p>
 <h5 id="介绍-1" tabindex="-1"><a class="header-anchor" href="#介绍-1" aria-hidden="true">#</a> 介绍</h5>
 <p>你知道 Partial, Required, Readonly, 和 Pick 实用类型的实现原理吗？
-<img src="@source/notes/assets/Mapped-1.jpeg" alt="4">
+<img src="@source/assets/Mapped-1.jpeg" alt="4">
 在这里，我们可以使用 TypeScript 来定义一个需要所有键的用户类型。</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">User</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
   name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
@@ -435,21 +435,21 @@ U5 类型返回由字符串和数字类型组成的交集类型，即最终类�
   <span class="token keyword">readonly</span> address<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
   <span class="token keyword">readonly</span> phone<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/notes/assets/Mapped-2.gif" alt="4"></p>
-<p><img src="@source/notes/assets/Mapped-3.jpeg" alt="4">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/assets/Mapped-2.gif" alt="4"></p>
+<p><img src="@source/assets/Mapped-3.jpeg" alt="4">
 使用映射类型减少重复代码，映射类型是可用于将原始对象类型映射到新对象类型的泛型类型。</p>
-<p><img src="@source/notes/assets/Mapped-4.gif" alt="4"></p>
-<p><img src="@source/notes/assets/Mapped-5.jpeg" alt="4">
+<p><img src="@source/assets/Mapped-4.gif" alt="4"></p>
+<p><img src="@source/assets/Mapped-5.jpeg" alt="4">
 查看已经定义的三个与用户相关的类型，您会发现它们包含大量重复的代码。
-<img src="@source/notes/assets/Mapped-6.gif" alt="4"></p>
-<p><img src="@source/notes/assets/Mapped-7.jpeg" alt="4"></p>
+<img src="@source/assets/Mapped-6.gif" alt="4"></p>
+<p><img src="@source/assets/Mapped-7.jpeg" alt="4"></p>
 <h4 id="映射语法" tabindex="-1"><a class="header-anchor" href="#映射语法" aria-hidden="true">#</a> 映射语法：</h4>
-<p><img src="@source/notes/assets/Mapped-8.jpeg" alt="4">
+<p><img src="@source/assets/Mapped-8.jpeg" alt="4">
 其中</p>
 <ul>
 <li>● P in K 类似于 JavaScript for. . .in 语句，用于遍历类型 K 中的所有类型，</li>
 <li>● 以及 T 类型变量，用于表示 TypeScript 中的任何类型。
-<img src="@source/notes/assets/Mapped-9.gif" alt="4">
+<img src="@source/assets/Mapped-9.gif" alt="4">
 您还可以在映射过程中使用附加的修饰符只读和问号 (?)。通过添加加号（+）和减号（-）前缀来添加和删除相应的修饰符。如果没有添加前缀，则默认使用加号。</li>
 </ul>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token punctuation">{</span> <span class="token punctuation">[</span> <span class="token constant">P</span> <span class="token keyword">in</span> <span class="token constant">K</span> <span class="token punctuation">]</span> <span class="token operator">:</span> <span class="token constant">T</span> <span class="token punctuation">}</span>
@@ -459,7 +459,7 @@ U5 类型返回由字符串和数字类型组成的交集类型，即最终类�
 <span class="token punctuation">{</span> <span class="token keyword">readonly</span> <span class="token punctuation">[</span> <span class="token constant">P</span> <span class="token keyword">in</span> <span class="token constant">K</span> <span class="token punctuation">]</span> <span class="token operator">?</span><span class="token operator">:</span> <span class="token constant">T</span> <span class="token punctuation">}</span>
 <span class="token punctuation">{</span> <span class="token operator">-</span><span class="token keyword">readonly</span> <span class="token punctuation">[</span> <span class="token constant">P</span> <span class="token keyword">in</span> <span class="token constant">K</span> <span class="token punctuation">]</span> <span class="token operator">?</span><span class="token operator">:</span> <span class="token constant">T</span> <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>eg
-<img src="@source/notes/assets/Wapped-10.jpeg" alt="4"></p>
+<img src="@source/assets/Wapped-10.jpeg" alt="4"></p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">MyPartial<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token punctuation">[</span><span class="token constant">P</span> <span class="token keyword">in</span> <span class="token keyword">keyof</span> <span class="token constant">T</span><span class="token punctuation">]</span><span class="token operator">?</span><span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">[</span><span class="token constant">P</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
@@ -477,8 +477,8 @@ U5 类型返回由字符串和数字类型组成的交集类型，即最终类�
 <li>
 <p>● { [P in keyof T] ?: T[P] | undefined}：遍历 keyof T 返回的联合类型，并定义用 P 变量接收，其每次遍历返回的值为可选类型的 T[P]。
 映射完整演示
-<img src="@source/notes/assets/Wapped-11.gif" alt="4"></p>
-<p><img src="@source/notes/assets/Wapped-12.jpeg" alt="4"></p>
+<img src="@source/assets/Wapped-11.gif" alt="4"></p>
+<p><img src="@source/assets/Wapped-12.jpeg" alt="4"></p>
 </li>
 </ul>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token comment">// Remove the 'kind' property</span>
@@ -493,8 +493,8 @@ U5 类型返回由字符串和数字类型组成的交集类型，即最终类�
 <span class="token comment">//   type KindlessCircle = {</span>
 <span class="token comment">//       radius: number;</span>
 <span class="token comment">//   };</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/notes/assets/Wapped-13.gif" alt="4"></p>
-<p><img src="@source/notes/assets/Wapped-14.jpeg" alt="4"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/assets/Wapped-13.gif" alt="4"></p>
+<p><img src="@source/assets/Wapped-14.jpeg" alt="4"></p>
 <ul>
 <li>重新映射键（TS 4.1）
 在 TypeScript 4.1 及更高版本中，您可以使用映射类型中的 as 子句重新映射映射类型中的键：</li>
@@ -519,8 +519,8 @@ U5 类型返回由字符串和数字类型组成的交集类型，即最终类�
 <span class="token comment">//   getAge: () => number;</span>
 <span class="token comment">//   getLocation: () => string;</span>
 <span class="token comment">// }</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/notes/assets/Wapped-15.gif" alt="4"></p>
-<p><img src="@source/notes/assets/Wapped-16.jpeg" alt="4"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/assets/Wapped-15.gif" alt="4"></p>
+<p><img src="@source/assets/Wapped-16.jpeg" alt="4"></p>
 </div></template>
 
 

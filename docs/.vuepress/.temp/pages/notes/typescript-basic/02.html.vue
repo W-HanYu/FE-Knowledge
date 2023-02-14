@@ -231,9 +231,9 @@ Object<span class="token punctuation">.</span><span class="token function">creat
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>ObjectConstructor 接口定义了 Object 类的属性。</p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token comment">// node_modules/typescript/lib/lib.es5.d.ts</span>
 <span class="token keyword">interface</span> <span class="token class-name">ObjectConstructor</span> <span class="token punctuation">{</span>
-  <span class="token doc-comment comment">/** Invocation via `new` \*/</span>
+  <span class="token comment">/** Invocation via `new` \*/</span>
   <span class="token keyword">new</span> <span class="token punctuation">(</span>value<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span><span class="token operator">:</span> Object<span class="token punctuation">;</span>
-  <span class="token doc-comment comment">/** Invocation via function calls \*/</span>
+  <span class="token comment">/** Invocation via function calls \*/</span>
   <span class="token punctuation">(</span>value<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span>
   <span class="token keyword">readonly</span> prototype<span class="token operator">:</span> Object<span class="token punctuation">;</span>
   <span class="token function">getPrototypeOf</span><span class="token punctuation">(</span>o<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span>
