@@ -1,8 +1,8 @@
 # Ustinian-Hanyu
-https://github.com/W-HanYu/Ustinian-Hanyu.git
+https://github.com/W-HanYu/FE-Algorithm.git
 
 # 拉去仓库代码
-> git clone https://github.com/W-HanYu/Ustinian-Hanyu.git
+> git clone https://github.com/W-HanYu/FE-Algorithm.git
 
 # 安装项目依赖
 > yarn 
