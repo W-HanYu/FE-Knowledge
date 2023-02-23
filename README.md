@@ -1,4 +1,4 @@
-# Ustinian-Hanyu
+# FE-Algorithm
 https://github.com/W-HanYu/FE-Algorithm.git
 
 # 拉去仓库代码
@@ -13,3 +13,6 @@ or
 > yarn dev
 or
 > npm run dev
+
+# 仓库功能
+## 前端基础、进阶、框架、TS、数据结构与算法（前端相关）、刷题功能、Git、Node相关知识
