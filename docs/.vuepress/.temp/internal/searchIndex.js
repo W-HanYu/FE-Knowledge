@@ -397,213 +397,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1.Echarts-介绍",
-    "headers": [
-      {
-        "level": 2,
-        "title": "3.1使用script标签引入",
-        "slug": "_3-1使用script标签引入",
-        "link": "#_3-1使用script标签引入",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.2使用CDN方法",
-        "slug": "_3-2使用cdn方法",
-        "link": "#_3-2使用cdn方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.3npm方法",
-        "slug": "_3-3npm方法",
-        "link": "#_3-3npm方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.1title标题",
-        "slug": "_4-1title标题",
-        "link": "#_4-1title标题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.2tooltip提示",
-        "slug": "_4-2tooltip提示",
-        "link": "#_4-2tooltip提示",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.3toolbox工具按钮",
-        "slug": "_4-3toolbox工具按钮",
-        "link": "#_4-3toolbox工具按钮",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.4legend图例筛选",
-        "slug": "_4-4legend图例筛选",
-        "link": "#_4-4legend图例筛选",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "注释：以下为直角坐标系中的常用配置",
-        "slug": "注释-以下为直角坐标系中的常用配置",
-        "link": "#注释-以下为直角坐标系中的常用配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.5grid网格",
-        "slug": "_4-5grid网格",
-        "link": "#_4-5grid网格",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.6axis坐标轴",
-        "slug": "_4-6axis坐标轴",
-        "link": "#_4-6axis坐标轴",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.7dataZoom区域缩放",
-        "slug": "_4-7datazoom区域缩放",
-        "link": "#_4-7datazoom区域缩放",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.8series中的type类型",
-        "slug": "_4-8series中的type类型",
-        "link": "#_4-8series中的type类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.9小结",
-        "slug": "_4-9小结",
-        "link": "#_4-9小结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.10案例",
-        "slug": "_4-10案例",
-        "link": "#_4-10案例",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "5.echarts 各个配置项详细说明总结",
-    "headers": [],
-    "path": "/notes/echarts/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6.柱状图",
-    "headers": [
-      {
-        "level": 2,
-        "title": "6.1柱状图图表（两大步骤）",
-        "slug": "_6-1柱状图图表-两大步骤",
-        "link": "#_6-1柱状图图表-两大步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.2找官网实例",
-        "slug": "_6-2找官网实例",
-        "link": "#_6-2找官网实例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.3根据需求定制",
-        "slug": "_6-3根据需求定制",
-        "link": "#_6-3根据需求定制",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.4柱状图2定制",
-        "slug": "_6-4柱状图2定制",
-        "link": "#_6-4柱状图2定制",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7.折线图",
-    "headers": [
-      {
-        "level": 2,
-        "title": "7.1常见效果",
-        "slug": "_7-1常见效果",
-        "link": "#_7-1常见效果",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.2折线图1 人员变化模块制作",
-        "slug": "_7-2折线图1-人员变化模块制作",
-        "link": "#_7-2折线图1-人员变化模块制作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.3折线图2 播放量模块制作",
-        "slug": "_7-3折线图2-播放量模块制作",
-        "link": "#_7-3折线图2-播放量模块制作",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "8.饼图",
-    "headers": [
-      {
-        "level": 2,
-        "title": "8.1常见效果",
-        "slug": "_8-1常见效果",
-        "link": "#_8-1常见效果",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.2饼形图 1年龄分布模块制作",
-        "slug": "_8-2饼形图-1年龄分布模块制作",
-        "link": "#_8-2饼形图-1年龄分布模块制作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.3饼形图2 地区分布模块制作（南丁格尔玫瑰图）",
-        "slug": "_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
-        "link": "#_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
-        "children": []
-      }
-    ],
-    "path": "/notes/echarts/05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "01.数据结构",
     "headers": [
       {
@@ -2365,6 +2158,213 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/datastr/is.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1.Echarts-介绍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "3.1使用script标签引入",
+        "slug": "_3-1使用script标签引入",
+        "link": "#_3-1使用script标签引入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.2使用CDN方法",
+        "slug": "_3-2使用cdn方法",
+        "link": "#_3-2使用cdn方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.3npm方法",
+        "slug": "_3-3npm方法",
+        "link": "#_3-3npm方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.1title标题",
+        "slug": "_4-1title标题",
+        "link": "#_4-1title标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.2tooltip提示",
+        "slug": "_4-2tooltip提示",
+        "link": "#_4-2tooltip提示",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.3toolbox工具按钮",
+        "slug": "_4-3toolbox工具按钮",
+        "link": "#_4-3toolbox工具按钮",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.4legend图例筛选",
+        "slug": "_4-4legend图例筛选",
+        "link": "#_4-4legend图例筛选",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "注释：以下为直角坐标系中的常用配置",
+        "slug": "注释-以下为直角坐标系中的常用配置",
+        "link": "#注释-以下为直角坐标系中的常用配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.5grid网格",
+        "slug": "_4-5grid网格",
+        "link": "#_4-5grid网格",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.6axis坐标轴",
+        "slug": "_4-6axis坐标轴",
+        "link": "#_4-6axis坐标轴",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.7dataZoom区域缩放",
+        "slug": "_4-7datazoom区域缩放",
+        "link": "#_4-7datazoom区域缩放",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.8series中的type类型",
+        "slug": "_4-8series中的type类型",
+        "link": "#_4-8series中的type类型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.9小结",
+        "slug": "_4-9小结",
+        "link": "#_4-9小结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.10案例",
+        "slug": "_4-10案例",
+        "link": "#_4-10案例",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5.echarts 各个配置项详细说明总结",
+    "headers": [],
+    "path": "/notes/echarts/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6.柱状图",
+    "headers": [
+      {
+        "level": 2,
+        "title": "6.1柱状图图表（两大步骤）",
+        "slug": "_6-1柱状图图表-两大步骤",
+        "link": "#_6-1柱状图图表-两大步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.2找官网实例",
+        "slug": "_6-2找官网实例",
+        "link": "#_6-2找官网实例",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.3根据需求定制",
+        "slug": "_6-3根据需求定制",
+        "link": "#_6-3根据需求定制",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.4柱状图2定制",
+        "slug": "_6-4柱状图2定制",
+        "link": "#_6-4柱状图2定制",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7.折线图",
+    "headers": [
+      {
+        "level": 2,
+        "title": "7.1常见效果",
+        "slug": "_7-1常见效果",
+        "link": "#_7-1常见效果",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.2折线图1 人员变化模块制作",
+        "slug": "_7-2折线图1-人员变化模块制作",
+        "link": "#_7-2折线图1-人员变化模块制作",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.3折线图2 播放量模块制作",
+        "slug": "_7-3折线图2-播放量模块制作",
+        "link": "#_7-3折线图2-播放量模块制作",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "8.饼图",
+    "headers": [
+      {
+        "level": 2,
+        "title": "8.1常见效果",
+        "slug": "_8-1常见效果",
+        "link": "#_8-1常见效果",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.2饼形图 1年龄分布模块制作",
+        "slug": "_8-2饼形图-1年龄分布模块制作",
+        "link": "#_8-2饼形图-1年龄分布模块制作",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.3饼形图2 地区分布模块制作（南丁格尔玫瑰图）",
+        "slug": "_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
+        "link": "#_8-3饼形图2-地区分布模块制作-南丁格尔玫瑰图",
+        "children": []
+      }
+    ],
+    "path": "/notes/echarts/05.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -8090,6 +8090,1075 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "01 【入门篇-介绍和安装】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.Linux课程介绍",
+        "slug": "_1-linux课程介绍",
+        "link": "#_1-linux课程介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 学习方向",
+            "slug": "_1-1-学习方向",
+            "link": "#_1-1-学习方向",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 应用领域",
+            "slug": "_1-2-应用领域",
+            "link": "#_1-2-应用领域",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 学习进阶",
+            "slug": "_1-3-学习进阶",
+            "link": "#_1-3-学习进阶",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.Linux介绍及安装",
+        "slug": "_2-linux介绍及安装",
+        "link": "#_2-linux介绍及安装",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 Linux介绍",
+            "slug": "_2-1-linux介绍",
+            "link": "#_2-1-linux介绍",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 Unix与Linux的关系",
+            "slug": "_2-2-unix与linux的关系",
+            "link": "#_2-2-unix与linux的关系",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 CentOS的安装",
+            "slug": "_2-3-centos的安装",
+            "link": "#_2-3-centos的安装",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.Linux基本目录机构",
+        "slug": "_3-linux基本目录机构",
+        "link": "#_3-linux基本目录机构",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 基本介绍",
+            "slug": "_3-1-基本介绍",
+            "link": "#_3-1-基本介绍",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 目录用途",
+            "slug": "_3-2-目录用途",
+            "link": "#_3-2-目录用途",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 总结",
+            "slug": "_3-3-总结",
+            "link": "#_3-3-总结",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/linux/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "02 【基础篇-vim编辑器 网络配置 远程登录】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.vi和vim编辑器",
+        "slug": "_1-vi和vim编辑器",
+        "link": "#_1-vi和vim编辑器",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 vi和vim的基本介绍",
+            "slug": "_1-1-vi和vim的基本介绍",
+            "link": "#_1-1-vi和vim的基本介绍",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 vi和vim的三种模式",
+            "slug": "_1-2-vi和vim的三种模式",
+            "link": "#_1-2-vi和vim的三种模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 vi/vim 使用实例",
+            "slug": "_1-3-vi-vim-使用实例",
+            "link": "#_1-3-vi-vim-使用实例",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4 Vim 按键说明",
+            "slug": "_1-4-vim-按键说明",
+            "link": "#_1-4-vim-按键说明",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.5 总结Vim 的常见指令",
+            "slug": "_1-5-总结vim-的常见指令",
+            "link": "#_1-5-总结vim-的常见指令",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.网络配置",
+        "slug": "_2-网络配置",
+        "link": "#_2-网络配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 三种网络模式详解",
+            "slug": "_2-1-三种网络模式详解",
+            "link": "#_2-1-三种网络模式详解",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 查看网络 IP 和 网关",
+            "slug": "_2-2-查看网络-ip-和-网关",
+            "link": "#_2-2-查看网络-ip-和-网关",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 配置网络 ip 地址",
+            "slug": "_2-3-配置网络-ip-地址",
+            "link": "#_2-3-配置网络-ip-地址",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 修改 IP 地址后可能会遇到的问题",
+            "slug": "_2-3-修改-ip-地址后可能会遇到的问题",
+            "link": "#_2-3-修改-ip-地址后可能会遇到的问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4 配置主机名",
+            "slug": "_2-4-配置主机名",
+            "link": "#_2-4-配置主机名",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.远程登录",
+        "slug": "_3-远程登录",
+        "link": "#_3-远程登录",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 远程登录方法",
+            "slug": "_3-1-远程登录方法",
+            "link": "#_3-1-远程登录方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 ftp文件传输",
+            "slug": "_3-2-ftp文件传输",
+            "link": "#_3-2-ftp文件传输",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/linux/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "03 【基础篇-系统管理】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.Linux 中的进程和服务",
+        "slug": "_1-linux-中的进程和服务",
+        "link": "#_1-linux-中的进程和服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.systemctl 服务管理",
+        "slug": "_2-systemctl-服务管理",
+        "link": "#_2-systemctl-服务管理",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 systemctl参数说明",
+            "slug": "_2-1-systemctl参数说明",
+            "link": "#_2-1-systemctl参数说明",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 systemctl使用示例",
+            "slug": "_2-2-systemctl使用示例",
+            "link": "#_2-2-systemctl使用示例",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.系统运行级别",
+        "slug": "_3-系统运行级别",
+        "link": "#_3-系统运行级别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.关机重启命令",
+        "slug": "_4-关机重启命令",
+        "link": "#_4-关机重启命令",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 关机重启命令汇总",
+            "slug": "_4-1-关机重启命令汇总",
+            "link": "#_4-1-关机重启命令汇总",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 shutdown命令",
+            "slug": "_4-2-shutdown命令",
+            "link": "#_4-2-shutdown命令",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3 sync命令",
+            "slug": "_4-3-sync命令",
+            "link": "#_4-3-sync命令",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/linux/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "04 【实操篇-帮助命令 文件目录管理基础知识】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.帮助命令",
+        "slug": "_1-帮助命令",
+        "link": "#_1-帮助命令",
+        "children": [
+          {
+            "level": 3,
+            "title": "TAB补全",
+            "slug": "tab补全",
+            "link": "#tab补全",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.文件和目录管理基础知识",
+        "slug": "_2-文件和目录管理基础知识",
+        "link": "#_2-文件和目录管理基础知识",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 文件系统的层次结构",
+            "slug": "_2-1-文件系统的层次结构",
+            "link": "#_2-1-文件系统的层次结构",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 绝对路径和相对路径详解",
+            "slug": "_2-2-绝对路径和相对路径详解",
+            "link": "#_2-2-绝对路径和相对路径详解",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 文件（目录）命名规则",
+            "slug": "_2-3-文件-目录-命名规则",
+            "link": "#_2-3-文件-目录-命名规则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4 命令基本格式",
+            "slug": "_2-4-命令基本格式",
+            "link": "#_2-4-命令基本格式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.5 命令提示符",
+            "slug": "_2-5-命令提示符",
+            "link": "#_2-5-命令提示符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.6 命令的基本格式",
+            "slug": "_2-6-命令的基本格式",
+            "link": "#_2-6-命令的基本格式",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/linux/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "05【实操篇-文件目录类命令】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.pwd 显示当前工作目录的绝对路径",
+        "slug": "_1-pwd-显示当前工作目录的绝对路径",
+        "link": "#_1-pwd-显示当前工作目录的绝对路径",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.ls 列出目录的内容",
+        "slug": "_2-ls-列出目录的内容",
+        "link": "#_2-ls-列出目录的内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.cd 切换目录",
+        "slug": "_3-cd-切换目录",
+        "link": "#_3-cd-切换目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.mkdir 创建一个新的目录",
+        "slug": "_4-mkdir-创建一个新的目录",
+        "link": "#_4-mkdir-创建一个新的目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.rmdir 删除空的目录",
+        "slug": "_5-rmdir-删除空的目录",
+        "link": "#_5-rmdir-删除空的目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.touch 创建空文件",
+        "slug": "_6-touch-创建空文件",
+        "link": "#_6-touch-创建空文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.cp 复制文件或目录",
+        "slug": "_7-cp-复制文件或目录",
+        "link": "#_7-cp-复制文件或目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.rm 删除文件或目录",
+        "slug": "_8-rm-删除文件或目录",
+        "link": "#_8-rm-删除文件或目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9.mv 移动文件与目录或重命名",
+        "slug": "_9-mv-移动文件与目录或重命名",
+        "link": "#_9-mv-移动文件与目录或重命名",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10.cat 查看文件内容",
+        "slug": "_10-cat-查看文件内容",
+        "link": "#_10-cat-查看文件内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "11.less 分屏显示文件内容",
+        "slug": "_11-less-分屏显示文件内容",
+        "link": "#_11-less-分屏显示文件内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "12.echo 输出内容到控制台",
+        "slug": "_12-echo-输出内容到控制台",
+        "link": "#_12-echo-输出内容到控制台",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "13.head 显示文件头部内容",
+        "slug": "_13-head-显示文件头部内容",
+        "link": "#_13-head-显示文件头部内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "14.tail 输出文件尾部内容",
+        "slug": "_14-tail-输出文件尾部内容",
+        "link": "#_14-tail-输出文件尾部内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "15.> 输出重定向和 >> 追加",
+        "slug": "_15-输出重定向和-追加",
+        "link": "#_15-输出重定向和-追加",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "16.history 查看已经执行过历史命令",
+        "slug": "_16-history-查看已经执行过历史命令",
+        "link": "#_16-history-查看已经执行过历史命令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "17.ln软链接",
+        "slug": "_17-ln软链接",
+        "link": "#_17-ln软链接",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "18.总结",
+        "slug": "_18-总结",
+        "link": "#_18-总结",
+        "children": [
+          {
+            "level": 3,
+            "title": "18.1 文件剪贴删除复制重名等",
+            "slug": "_18-1-文件剪贴删除复制重名等",
+            "link": "#_18-1-文件剪贴删除复制重名等",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "18.2 文件查看",
+            "slug": "_18-2-文件查看",
+            "link": "#_18-2-文件查看",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/linux/05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "06 【实操篇-时间日期类 用户和用户组管理】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.时间日期类",
+        "slug": "_1-时间日期类",
+        "link": "#_1-时间日期类",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 显示当前日期",
+            "slug": "_1-1-显示当前日期",
+            "link": "#_1-1-显示当前日期",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 显示非当前时间",
+            "slug": "_1-2-显示非当前时间",
+            "link": "#_1-2-显示非当前时间",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 设置日期",
+            "slug": "_1-3-设置日期",
+            "link": "#_1-3-设置日期",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4 cal 指令",
+            "slug": "_1-4-cal-指令",
+            "link": "#_1-4-cal-指令",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.用户管理命令",
+        "slug": "_2-用户管理命令",
+        "link": "#_2-用户管理命令",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 useradd 添加新用户",
+            "slug": "_2-1-useradd-添加新用户",
+            "link": "#_2-1-useradd-添加新用户",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 passwd 设置用户密码",
+            "slug": "_2-2-passwd-设置用户密码",
+            "link": "#_2-2-passwd-设置用户密码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 id 查看用户是否存在",
+            "slug": "_2-3-id-查看用户是否存在",
+            "link": "#_2-3-id-查看用户是否存在",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4 cat /etc/passwd 查看创建了哪些用户",
+            "slug": "_2-4-cat-etc-passwd-查看创建了哪些用户",
+            "link": "#_2-4-cat-etc-passwd-查看创建了哪些用户",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.5 su 临时切换用户身份",
+            "slug": "_2-5-su-临时切换用户身份",
+            "link": "#_2-5-su-临时切换用户身份",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.6 userdel  删除用户",
+            "slug": "_2-6-userdel-删除用户",
+            "link": "#_2-6-userdel-删除用户",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.7 who 查看登录用户信息",
+            "slug": "_2-7-who-查看登录用户信息",
+            "link": "#_2-7-who-查看登录用户信息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.8 sudo 设置普通用户具有 root 权限",
+            "slug": "_2-8-sudo-设置普通用户具有-root-权限",
+            "link": "#_2-8-sudo-设置普通用户具有-root-权限",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.9 usermod 修改用户",
+            "slug": "_2-9-usermod-修改用户",
+            "link": "#_2-9-usermod-修改用户",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.用户组管理命令",
+        "slug": "_3-用户组管理命令",
+        "link": "#_3-用户组管理命令",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 用户和用户组",
+            "slug": "_3-1-用户和用户组",
+            "link": "#_3-1-用户和用户组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 UID和GID（用户ID和组ID）",
+            "slug": "_3-2-uid和gid-用户id和组id",
+            "link": "#_3-2-uid和gid-用户id和组id",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 groupadd 新增组",
+            "slug": "_3-3-groupadd-新增组",
+            "link": "#_3-3-groupadd-新增组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 groupdel 删除组",
+            "slug": "_3-4-groupdel-删除组",
+            "link": "#_3-4-groupdel-删除组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.5 groupmod 修改",
+            "slug": "_3-5-groupmod-修改",
+            "link": "#_3-5-groupmod-修改",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.6 cat /etc/group 查看创建了哪些组",
+            "slug": "_3-6-cat-etc-group-查看创建了哪些组",
+            "link": "#_3-6-cat-etc-group-查看创建了哪些组",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/linux/06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "07 【实操篇-文件权限和搜索查找类命令】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.文件权限类",
+        "slug": "_1-文件权限类",
+        "link": "#_1-文件权限类",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 权限管理的重要性",
+            "slug": "_1-1-权限管理的重要性",
+            "link": "#_1-1-权限管理的重要性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 权限位",
+            "slug": "_1-2-权限位",
+            "link": "#_1-2-权限位",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 读写执行权限（-r、-w、-x）的含义",
+            "slug": "_1-3-读写执行权限-r、-w、-x-的含义",
+            "link": "#_1-3-读写执行权限-r、-w、-x-的含义",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4 chmod 改变权限",
+            "slug": "_1-4-chmod-改变权限",
+            "link": "#_1-4-chmod-改变权限",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.5 chown 改变所有者和所属组",
+            "slug": "_1-5-chown-改变所有者和所属组",
+            "link": "#_1-5-chown-改变所有者和所属组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.6 chgrp 改变所属组",
+            "slug": "_1-6-chgrp-改变所属组",
+            "link": "#_1-6-chgrp-改变所属组",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.搜索查找类",
+        "slug": "_2-搜索查找类",
+        "link": "#_2-搜索查找类",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 find 查找文件或者目录",
+            "slug": "_2-1-find-查找文件或者目录",
+            "link": "#_2-1-find-查找文件或者目录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 locate 快速定位文件路径",
+            "slug": "_2-2-locate-快速定位文件路径",
+            "link": "#_2-2-locate-快速定位文件路径",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 grep 过滤查找",
+            "slug": "_2-3-grep-过滤查找",
+            "link": "#_2-3-grep-过滤查找",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4 “|”管道符",
+            "slug": "_2-4-管道符",
+            "link": "#_2-4-管道符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.5 wc 计算字数",
+            "slug": "_2-5-wc-计算字数",
+            "link": "#_2-5-wc-计算字数",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/linux/07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "08 【实操篇-压缩和解压类】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.打包（归档）和压缩",
+        "slug": "_1-打包-归档-和压缩",
+        "link": "#_1-打包-归档-和压缩",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.gzip/gunzip 压缩",
+        "slug": "_2-gzip-gunzip-压缩",
+        "link": "#_2-gzip-gunzip-压缩",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 gzip压缩文件",
+            "slug": "_2-1-gzip压缩文件",
+            "link": "#_2-1-gzip压缩文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 gunzip解压缩文件",
+            "slug": "_2-2-gunzip解压缩文件",
+            "link": "#_2-2-gunzip解压缩文件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.zip/unzip 压缩",
+        "slug": "_3-zip-unzip-压缩",
+        "link": "#_3-zip-unzip-压缩",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 zip压缩文件或目录",
+            "slug": "_3-1-zip压缩文件或目录",
+            "link": "#_3-1-zip压缩文件或目录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 unzip解压zip文件",
+            "slug": "_3-2-unzip解压zip文件",
+            "link": "#_3-2-unzip解压zip文件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.tar 打包",
+        "slug": "_4-tar-打包",
+        "link": "#_4-tar-打包",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 tar命令做打包操作",
+            "slug": "_4-1-tar命令做打包操作",
+            "link": "#_4-1-tar命令做打包操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 tar命令做解打包操作",
+            "slug": "_4-2-tar命令做解打包操作",
+            "link": "#_4-2-tar命令做解打包操作",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/linux/08.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "09 【实操篇-磁盘查看和分区类】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.du 查看文件和目录占用的磁盘空间",
+        "slug": "_1-du-查看文件和目录占用的磁盘空间",
+        "link": "#_1-du-查看文件和目录占用的磁盘空间",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.df 查看磁盘空间使用情况",
+        "slug": "_2-df-查看磁盘空间使用情况",
+        "link": "#_2-df-查看磁盘空间使用情况",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.du命令和df命令的区别",
+        "slug": "_3-du命令和df命令的区别",
+        "link": "#_3-du命令和df命令的区别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.lsblk 查看设备挂载情况",
+        "slug": "_4-lsblk-查看设备挂载情况",
+        "link": "#_4-lsblk-查看设备挂载情况",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.mount/umount 挂载/卸载",
+        "slug": "_5-mount-umount-挂载-卸载",
+        "link": "#_5-mount-umount-挂载-卸载",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 mount 挂载",
+            "slug": "_5-1-mount-挂载",
+            "link": "#_5-1-mount-挂载",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.2 umount 卸载",
+            "slug": "_5-2-umount-卸载",
+            "link": "#_5-2-umount-卸载",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.fdisk 分区",
+        "slug": "_6-fdisk-分区",
+        "link": "#_6-fdisk-分区",
+        "children": []
+      }
+    ],
+    "path": "/notes/linux/09.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "10 【实操篇-进程管理类】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.什么是进程和程序",
+        "slug": "_1-什么是进程和程序",
+        "link": "#_1-什么是进程和程序",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.进程管理的作用",
+        "slug": "_2-进程管理的作用",
+        "link": "#_2-进程管理的作用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.ps 查看当前系统进程状态",
+        "slug": "_3-ps-查看当前系统进程状态",
+        "link": "#_3-ps-查看当前系统进程状态",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.kill 终止进程",
+        "slug": "_4-kill-终止进程",
+        "link": "#_4-kill-终止进程",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 kill 终止进程",
+            "slug": "_4-1-kill-终止进程",
+            "link": "#_4-1-kill-终止进程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2  killall 终止特定的一类进程",
+            "slug": "_4-2-killall-终止特定的一类进程",
+            "link": "#_4-2-killall-终止特定的一类进程",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5.pstree 查看进程树",
+        "slug": "_5-pstree-查看进程树",
+        "link": "#_5-pstree-查看进程树",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.top 实时监控系统进程状态",
+        "slug": "_6-top-实时监控系统进程状态",
+        "link": "#_6-top-实时监控系统进程状态",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.netstat 显示网络状态和端口占用信息",
+        "slug": "_7-netstat-显示网络状态和端口占用信息",
+        "link": "#_7-netstat-显示网络状态和端口占用信息",
+        "children": []
+      }
+    ],
+    "path": "/notes/linux/10.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "11 【实操篇-定时任务 软件安装 克隆虚拟机】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.crontab 系统定时任务",
+        "slug": "_1-crontab-系统定时任务",
+        "link": "#_1-crontab-系统定时任务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.软件包管理",
+        "slug": "_2-软件包管理",
+        "link": "#_2-软件包管理",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 源码包和二进制包",
+            "slug": "_2-1-源码包和二进制包",
+            "link": "#_2-1-源码包和二进制包",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 RPM包统一命名规则",
+            "slug": "_2-2-rpm包统一命名规则",
+            "link": "#_2-2-rpm包统一命名规则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 RPM包安装、卸载和升级",
+            "slug": "_2-3-rpm包安装、卸载和升级",
+            "link": "#_2-3-rpm包安装、卸载和升级",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4 rpm命令查询软件包",
+            "slug": "_2-4-rpm命令查询软件包",
+            "link": "#_2-4-rpm命令查询软件包",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.5 yum是什么",
+            "slug": "_2-5-yum是什么",
+            "link": "#_2-5-yum是什么",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.6 yum命令（查询、安装、升级和卸载软件包）",
+            "slug": "_2-6-yum命令-查询、安装、升级和卸载软件包",
+            "link": "#_2-6-yum命令-查询、安装、升级和卸载软件包",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.7 yum命令补充",
+            "slug": "_2-7-yum命令补充",
+            "link": "#_2-7-yum命令补充",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.克隆虚拟机",
+        "slug": "_3-克隆虚拟机",
+        "link": "#_3-克隆虚拟机",
+        "children": []
+      }
+    ],
+    "path": "/notes/linux/11.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "01 【数据库概述】",
     "headers": [
       {
@@ -9503,1075 +10572,6 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/mysql/11.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "01 【入门篇-介绍和安装】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.Linux课程介绍",
-        "slug": "_1-linux课程介绍",
-        "link": "#_1-linux课程介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 学习方向",
-            "slug": "_1-1-学习方向",
-            "link": "#_1-1-学习方向",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 应用领域",
-            "slug": "_1-2-应用领域",
-            "link": "#_1-2-应用领域",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 学习进阶",
-            "slug": "_1-3-学习进阶",
-            "link": "#_1-3-学习进阶",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.Linux介绍及安装",
-        "slug": "_2-linux介绍及安装",
-        "link": "#_2-linux介绍及安装",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 Linux介绍",
-            "slug": "_2-1-linux介绍",
-            "link": "#_2-1-linux介绍",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 Unix与Linux的关系",
-            "slug": "_2-2-unix与linux的关系",
-            "link": "#_2-2-unix与linux的关系",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 CentOS的安装",
-            "slug": "_2-3-centos的安装",
-            "link": "#_2-3-centos的安装",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.Linux基本目录机构",
-        "slug": "_3-linux基本目录机构",
-        "link": "#_3-linux基本目录机构",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 基本介绍",
-            "slug": "_3-1-基本介绍",
-            "link": "#_3-1-基本介绍",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 目录用途",
-            "slug": "_3-2-目录用途",
-            "link": "#_3-2-目录用途",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 总结",
-            "slug": "_3-3-总结",
-            "link": "#_3-3-总结",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/linux/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "02 【基础篇-vim编辑器 网络配置 远程登录】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.vi和vim编辑器",
-        "slug": "_1-vi和vim编辑器",
-        "link": "#_1-vi和vim编辑器",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 vi和vim的基本介绍",
-            "slug": "_1-1-vi和vim的基本介绍",
-            "link": "#_1-1-vi和vim的基本介绍",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 vi和vim的三种模式",
-            "slug": "_1-2-vi和vim的三种模式",
-            "link": "#_1-2-vi和vim的三种模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 vi/vim 使用实例",
-            "slug": "_1-3-vi-vim-使用实例",
-            "link": "#_1-3-vi-vim-使用实例",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4 Vim 按键说明",
-            "slug": "_1-4-vim-按键说明",
-            "link": "#_1-4-vim-按键说明",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.5 总结Vim 的常见指令",
-            "slug": "_1-5-总结vim-的常见指令",
-            "link": "#_1-5-总结vim-的常见指令",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.网络配置",
-        "slug": "_2-网络配置",
-        "link": "#_2-网络配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 三种网络模式详解",
-            "slug": "_2-1-三种网络模式详解",
-            "link": "#_2-1-三种网络模式详解",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 查看网络 IP 和 网关",
-            "slug": "_2-2-查看网络-ip-和-网关",
-            "link": "#_2-2-查看网络-ip-和-网关",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 配置网络 ip 地址",
-            "slug": "_2-3-配置网络-ip-地址",
-            "link": "#_2-3-配置网络-ip-地址",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 修改 IP 地址后可能会遇到的问题",
-            "slug": "_2-3-修改-ip-地址后可能会遇到的问题",
-            "link": "#_2-3-修改-ip-地址后可能会遇到的问题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.4 配置主机名",
-            "slug": "_2-4-配置主机名",
-            "link": "#_2-4-配置主机名",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.远程登录",
-        "slug": "_3-远程登录",
-        "link": "#_3-远程登录",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 远程登录方法",
-            "slug": "_3-1-远程登录方法",
-            "link": "#_3-1-远程登录方法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 ftp文件传输",
-            "slug": "_3-2-ftp文件传输",
-            "link": "#_3-2-ftp文件传输",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/linux/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "03 【基础篇-系统管理】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.Linux 中的进程和服务",
-        "slug": "_1-linux-中的进程和服务",
-        "link": "#_1-linux-中的进程和服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.systemctl 服务管理",
-        "slug": "_2-systemctl-服务管理",
-        "link": "#_2-systemctl-服务管理",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 systemctl参数说明",
-            "slug": "_2-1-systemctl参数说明",
-            "link": "#_2-1-systemctl参数说明",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 systemctl使用示例",
-            "slug": "_2-2-systemctl使用示例",
-            "link": "#_2-2-systemctl使用示例",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.系统运行级别",
-        "slug": "_3-系统运行级别",
-        "link": "#_3-系统运行级别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.关机重启命令",
-        "slug": "_4-关机重启命令",
-        "link": "#_4-关机重启命令",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 关机重启命令汇总",
-            "slug": "_4-1-关机重启命令汇总",
-            "link": "#_4-1-关机重启命令汇总",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 shutdown命令",
-            "slug": "_4-2-shutdown命令",
-            "link": "#_4-2-shutdown命令",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 sync命令",
-            "slug": "_4-3-sync命令",
-            "link": "#_4-3-sync命令",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/linux/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "04 【实操篇-帮助命令 文件目录管理基础知识】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.帮助命令",
-        "slug": "_1-帮助命令",
-        "link": "#_1-帮助命令",
-        "children": [
-          {
-            "level": 3,
-            "title": "TAB补全",
-            "slug": "tab补全",
-            "link": "#tab补全",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.文件和目录管理基础知识",
-        "slug": "_2-文件和目录管理基础知识",
-        "link": "#_2-文件和目录管理基础知识",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 文件系统的层次结构",
-            "slug": "_2-1-文件系统的层次结构",
-            "link": "#_2-1-文件系统的层次结构",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 绝对路径和相对路径详解",
-            "slug": "_2-2-绝对路径和相对路径详解",
-            "link": "#_2-2-绝对路径和相对路径详解",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 文件（目录）命名规则",
-            "slug": "_2-3-文件-目录-命名规则",
-            "link": "#_2-3-文件-目录-命名规则",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.4 命令基本格式",
-            "slug": "_2-4-命令基本格式",
-            "link": "#_2-4-命令基本格式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.5 命令提示符",
-            "slug": "_2-5-命令提示符",
-            "link": "#_2-5-命令提示符",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.6 命令的基本格式",
-            "slug": "_2-6-命令的基本格式",
-            "link": "#_2-6-命令的基本格式",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/linux/04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "05【实操篇-文件目录类命令】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.pwd 显示当前工作目录的绝对路径",
-        "slug": "_1-pwd-显示当前工作目录的绝对路径",
-        "link": "#_1-pwd-显示当前工作目录的绝对路径",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.ls 列出目录的内容",
-        "slug": "_2-ls-列出目录的内容",
-        "link": "#_2-ls-列出目录的内容",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.cd 切换目录",
-        "slug": "_3-cd-切换目录",
-        "link": "#_3-cd-切换目录",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.mkdir 创建一个新的目录",
-        "slug": "_4-mkdir-创建一个新的目录",
-        "link": "#_4-mkdir-创建一个新的目录",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.rmdir 删除空的目录",
-        "slug": "_5-rmdir-删除空的目录",
-        "link": "#_5-rmdir-删除空的目录",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.touch 创建空文件",
-        "slug": "_6-touch-创建空文件",
-        "link": "#_6-touch-创建空文件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.cp 复制文件或目录",
-        "slug": "_7-cp-复制文件或目录",
-        "link": "#_7-cp-复制文件或目录",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.rm 删除文件或目录",
-        "slug": "_8-rm-删除文件或目录",
-        "link": "#_8-rm-删除文件或目录",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9.mv 移动文件与目录或重命名",
-        "slug": "_9-mv-移动文件与目录或重命名",
-        "link": "#_9-mv-移动文件与目录或重命名",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10.cat 查看文件内容",
-        "slug": "_10-cat-查看文件内容",
-        "link": "#_10-cat-查看文件内容",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "11.less 分屏显示文件内容",
-        "slug": "_11-less-分屏显示文件内容",
-        "link": "#_11-less-分屏显示文件内容",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "12.echo 输出内容到控制台",
-        "slug": "_12-echo-输出内容到控制台",
-        "link": "#_12-echo-输出内容到控制台",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "13.head 显示文件头部内容",
-        "slug": "_13-head-显示文件头部内容",
-        "link": "#_13-head-显示文件头部内容",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "14.tail 输出文件尾部内容",
-        "slug": "_14-tail-输出文件尾部内容",
-        "link": "#_14-tail-输出文件尾部内容",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "15.> 输出重定向和 >> 追加",
-        "slug": "_15-输出重定向和-追加",
-        "link": "#_15-输出重定向和-追加",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "16.history 查看已经执行过历史命令",
-        "slug": "_16-history-查看已经执行过历史命令",
-        "link": "#_16-history-查看已经执行过历史命令",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "17.ln软链接",
-        "slug": "_17-ln软链接",
-        "link": "#_17-ln软链接",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "18.总结",
-        "slug": "_18-总结",
-        "link": "#_18-总结",
-        "children": [
-          {
-            "level": 3,
-            "title": "18.1 文件剪贴删除复制重名等",
-            "slug": "_18-1-文件剪贴删除复制重名等",
-            "link": "#_18-1-文件剪贴删除复制重名等",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "18.2 文件查看",
-            "slug": "_18-2-文件查看",
-            "link": "#_18-2-文件查看",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/linux/05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "06 【实操篇-时间日期类 用户和用户组管理】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.时间日期类",
-        "slug": "_1-时间日期类",
-        "link": "#_1-时间日期类",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 显示当前日期",
-            "slug": "_1-1-显示当前日期",
-            "link": "#_1-1-显示当前日期",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 显示非当前时间",
-            "slug": "_1-2-显示非当前时间",
-            "link": "#_1-2-显示非当前时间",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 设置日期",
-            "slug": "_1-3-设置日期",
-            "link": "#_1-3-设置日期",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4 cal 指令",
-            "slug": "_1-4-cal-指令",
-            "link": "#_1-4-cal-指令",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.用户管理命令",
-        "slug": "_2-用户管理命令",
-        "link": "#_2-用户管理命令",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 useradd 添加新用户",
-            "slug": "_2-1-useradd-添加新用户",
-            "link": "#_2-1-useradd-添加新用户",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 passwd 设置用户密码",
-            "slug": "_2-2-passwd-设置用户密码",
-            "link": "#_2-2-passwd-设置用户密码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 id 查看用户是否存在",
-            "slug": "_2-3-id-查看用户是否存在",
-            "link": "#_2-3-id-查看用户是否存在",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.4 cat /etc/passwd 查看创建了哪些用户",
-            "slug": "_2-4-cat-etc-passwd-查看创建了哪些用户",
-            "link": "#_2-4-cat-etc-passwd-查看创建了哪些用户",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.5 su 临时切换用户身份",
-            "slug": "_2-5-su-临时切换用户身份",
-            "link": "#_2-5-su-临时切换用户身份",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.6 userdel  删除用户",
-            "slug": "_2-6-userdel-删除用户",
-            "link": "#_2-6-userdel-删除用户",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.7 who 查看登录用户信息",
-            "slug": "_2-7-who-查看登录用户信息",
-            "link": "#_2-7-who-查看登录用户信息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.8 sudo 设置普通用户具有 root 权限",
-            "slug": "_2-8-sudo-设置普通用户具有-root-权限",
-            "link": "#_2-8-sudo-设置普通用户具有-root-权限",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.9 usermod 修改用户",
-            "slug": "_2-9-usermod-修改用户",
-            "link": "#_2-9-usermod-修改用户",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.用户组管理命令",
-        "slug": "_3-用户组管理命令",
-        "link": "#_3-用户组管理命令",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 用户和用户组",
-            "slug": "_3-1-用户和用户组",
-            "link": "#_3-1-用户和用户组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 UID和GID（用户ID和组ID）",
-            "slug": "_3-2-uid和gid-用户id和组id",
-            "link": "#_3-2-uid和gid-用户id和组id",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 groupadd 新增组",
-            "slug": "_3-3-groupadd-新增组",
-            "link": "#_3-3-groupadd-新增组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.4 groupdel 删除组",
-            "slug": "_3-4-groupdel-删除组",
-            "link": "#_3-4-groupdel-删除组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.5 groupmod 修改",
-            "slug": "_3-5-groupmod-修改",
-            "link": "#_3-5-groupmod-修改",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.6 cat /etc/group 查看创建了哪些组",
-            "slug": "_3-6-cat-etc-group-查看创建了哪些组",
-            "link": "#_3-6-cat-etc-group-查看创建了哪些组",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/linux/06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "07 【实操篇-文件权限和搜索查找类命令】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.文件权限类",
-        "slug": "_1-文件权限类",
-        "link": "#_1-文件权限类",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 权限管理的重要性",
-            "slug": "_1-1-权限管理的重要性",
-            "link": "#_1-1-权限管理的重要性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 权限位",
-            "slug": "_1-2-权限位",
-            "link": "#_1-2-权限位",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 读写执行权限（-r、-w、-x）的含义",
-            "slug": "_1-3-读写执行权限-r、-w、-x-的含义",
-            "link": "#_1-3-读写执行权限-r、-w、-x-的含义",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4 chmod 改变权限",
-            "slug": "_1-4-chmod-改变权限",
-            "link": "#_1-4-chmod-改变权限",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.5 chown 改变所有者和所属组",
-            "slug": "_1-5-chown-改变所有者和所属组",
-            "link": "#_1-5-chown-改变所有者和所属组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.6 chgrp 改变所属组",
-            "slug": "_1-6-chgrp-改变所属组",
-            "link": "#_1-6-chgrp-改变所属组",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.搜索查找类",
-        "slug": "_2-搜索查找类",
-        "link": "#_2-搜索查找类",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 find 查找文件或者目录",
-            "slug": "_2-1-find-查找文件或者目录",
-            "link": "#_2-1-find-查找文件或者目录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 locate 快速定位文件路径",
-            "slug": "_2-2-locate-快速定位文件路径",
-            "link": "#_2-2-locate-快速定位文件路径",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 grep 过滤查找",
-            "slug": "_2-3-grep-过滤查找",
-            "link": "#_2-3-grep-过滤查找",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.4 “|”管道符",
-            "slug": "_2-4-管道符",
-            "link": "#_2-4-管道符",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.5 wc 计算字数",
-            "slug": "_2-5-wc-计算字数",
-            "link": "#_2-5-wc-计算字数",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/linux/07.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "08 【实操篇-压缩和解压类】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.打包（归档）和压缩",
-        "slug": "_1-打包-归档-和压缩",
-        "link": "#_1-打包-归档-和压缩",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.gzip/gunzip 压缩",
-        "slug": "_2-gzip-gunzip-压缩",
-        "link": "#_2-gzip-gunzip-压缩",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 gzip压缩文件",
-            "slug": "_2-1-gzip压缩文件",
-            "link": "#_2-1-gzip压缩文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 gunzip解压缩文件",
-            "slug": "_2-2-gunzip解压缩文件",
-            "link": "#_2-2-gunzip解压缩文件",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.zip/unzip 压缩",
-        "slug": "_3-zip-unzip-压缩",
-        "link": "#_3-zip-unzip-压缩",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 zip压缩文件或目录",
-            "slug": "_3-1-zip压缩文件或目录",
-            "link": "#_3-1-zip压缩文件或目录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 unzip解压zip文件",
-            "slug": "_3-2-unzip解压zip文件",
-            "link": "#_3-2-unzip解压zip文件",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.tar 打包",
-        "slug": "_4-tar-打包",
-        "link": "#_4-tar-打包",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 tar命令做打包操作",
-            "slug": "_4-1-tar命令做打包操作",
-            "link": "#_4-1-tar命令做打包操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 tar命令做解打包操作",
-            "slug": "_4-2-tar命令做解打包操作",
-            "link": "#_4-2-tar命令做解打包操作",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/linux/08.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "09 【实操篇-磁盘查看和分区类】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.du 查看文件和目录占用的磁盘空间",
-        "slug": "_1-du-查看文件和目录占用的磁盘空间",
-        "link": "#_1-du-查看文件和目录占用的磁盘空间",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.df 查看磁盘空间使用情况",
-        "slug": "_2-df-查看磁盘空间使用情况",
-        "link": "#_2-df-查看磁盘空间使用情况",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.du命令和df命令的区别",
-        "slug": "_3-du命令和df命令的区别",
-        "link": "#_3-du命令和df命令的区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.lsblk 查看设备挂载情况",
-        "slug": "_4-lsblk-查看设备挂载情况",
-        "link": "#_4-lsblk-查看设备挂载情况",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.mount/umount 挂载/卸载",
-        "slug": "_5-mount-umount-挂载-卸载",
-        "link": "#_5-mount-umount-挂载-卸载",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 mount 挂载",
-            "slug": "_5-1-mount-挂载",
-            "link": "#_5-1-mount-挂载",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 umount 卸载",
-            "slug": "_5-2-umount-卸载",
-            "link": "#_5-2-umount-卸载",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6.fdisk 分区",
-        "slug": "_6-fdisk-分区",
-        "link": "#_6-fdisk-分区",
-        "children": []
-      }
-    ],
-    "path": "/notes/linux/09.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "10 【实操篇-进程管理类】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.什么是进程和程序",
-        "slug": "_1-什么是进程和程序",
-        "link": "#_1-什么是进程和程序",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.进程管理的作用",
-        "slug": "_2-进程管理的作用",
-        "link": "#_2-进程管理的作用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.ps 查看当前系统进程状态",
-        "slug": "_3-ps-查看当前系统进程状态",
-        "link": "#_3-ps-查看当前系统进程状态",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.kill 终止进程",
-        "slug": "_4-kill-终止进程",
-        "link": "#_4-kill-终止进程",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 kill 终止进程",
-            "slug": "_4-1-kill-终止进程",
-            "link": "#_4-1-kill-终止进程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2  killall 终止特定的一类进程",
-            "slug": "_4-2-killall-终止特定的一类进程",
-            "link": "#_4-2-killall-终止特定的一类进程",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5.pstree 查看进程树",
-        "slug": "_5-pstree-查看进程树",
-        "link": "#_5-pstree-查看进程树",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.top 实时监控系统进程状态",
-        "slug": "_6-top-实时监控系统进程状态",
-        "link": "#_6-top-实时监控系统进程状态",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.netstat 显示网络状态和端口占用信息",
-        "slug": "_7-netstat-显示网络状态和端口占用信息",
-        "link": "#_7-netstat-显示网络状态和端口占用信息",
-        "children": []
-      }
-    ],
-    "path": "/notes/linux/10.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "11 【实操篇-定时任务 软件安装 克隆虚拟机】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.crontab 系统定时任务",
-        "slug": "_1-crontab-系统定时任务",
-        "link": "#_1-crontab-系统定时任务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.软件包管理",
-        "slug": "_2-软件包管理",
-        "link": "#_2-软件包管理",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 源码包和二进制包",
-            "slug": "_2-1-源码包和二进制包",
-            "link": "#_2-1-源码包和二进制包",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 RPM包统一命名规则",
-            "slug": "_2-2-rpm包统一命名规则",
-            "link": "#_2-2-rpm包统一命名规则",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 RPM包安装、卸载和升级",
-            "slug": "_2-3-rpm包安装、卸载和升级",
-            "link": "#_2-3-rpm包安装、卸载和升级",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.4 rpm命令查询软件包",
-            "slug": "_2-4-rpm命令查询软件包",
-            "link": "#_2-4-rpm命令查询软件包",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.5 yum是什么",
-            "slug": "_2-5-yum是什么",
-            "link": "#_2-5-yum是什么",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.6 yum命令（查询、安装、升级和卸载软件包）",
-            "slug": "_2-6-yum命令-查询、安装、升级和卸载软件包",
-            "link": "#_2-6-yum命令-查询、安装、升级和卸载软件包",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.7 yum命令补充",
-            "slug": "_2-7-yum命令补充",
-            "link": "#_2-7-yum命令补充",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.克隆虚拟机",
-        "slug": "_3-克隆虚拟机",
-        "link": "#_3-克隆虚拟机",
-        "children": []
-      }
-    ],
-    "path": "/notes/linux/11.html",
     "pathLocale": "/",
     "extraFields": []
   },
