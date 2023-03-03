@@ -1,18 +1,2 @@
-# FE-Algorithm
-https://github.com/W-HanYu/FE-Algorithm.git
 
-# 拉去仓库代码
-> git clone https://github.com/W-HanYu/FE-Algorithm.git
-
-# 安装项目依赖
-> yarn 
-or
-> npm install
-
-# 运行项目
-> yarn dev
-or
-> npm run dev
-
-# 仓库功能
-## 前端基础、进阶、框架、TS、数据结构与算法（前端相关）、刷题功能、Git、Node相关知识
+#### 🔥🔥🔥集合了前端基础、框架、数据结构与算法、TS从入门到进阶、数据库、Git、计算机网络等知识的库，同时也提供刷题功能，让你边学边练习，更好的学习前端知识🔥🔥🔥。
