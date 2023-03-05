@@ -5,44 +5,6 @@ export const pagesData = {
   "v-25846460": () => import(/* webpackChunkName: "v-25846460" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/ajax/01.html.js").then(({ data }) => data),
   // path: /notes/ajax/02.html
   "v-221ab322": () => import(/* webpackChunkName: "v-221ab322" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/ajax/02.html.js").then(({ data }) => data),
-  // path: /notes/algorithm/01.html
-  "v-4ef1aef1": () => import(/* webpackChunkName: "v-4ef1aef1" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/algorithm/01.html.js").then(({ data }) => data),
-  // path: /notes/dailyquestion/01.html
-  "v-0f0db1fe": () => import(/* webpackChunkName: "v-0f0db1fe" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/dailyquestion/01.html.js").then(({ data }) => data),
-  // path: /notes/datastr/01.html
-  "v-bfd669ee": () => import(/* webpackChunkName: "v-bfd669ee" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/01.html.js").then(({ data }) => data),
-  // path: /notes/datastr/02.html
-  "v-bc6cb8b0": () => import(/* webpackChunkName: "v-bc6cb8b0" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/02.html.js").then(({ data }) => data),
-  // path: /notes/datastr/03.html
-  "v-b9030772": () => import(/* webpackChunkName: "v-b9030772" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/03.html.js").then(({ data }) => data),
-  // path: /notes/datastr/04.html
-  "v-b5995634": () => import(/* webpackChunkName: "v-b5995634" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/04.html.js").then(({ data }) => data),
-  // path: /notes/datastr/05.html
-  "v-b22fa4f6": () => import(/* webpackChunkName: "v-b22fa4f6" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/05.html.js").then(({ data }) => data),
-  // path: /notes/datastr/07.html
-  "v-ab5c427a": () => import(/* webpackChunkName: "v-ab5c427a" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/07.html.js").then(({ data }) => data),
-  // path: /notes/datastr/08.html
-  "v-a7f2913c": () => import(/* webpackChunkName: "v-a7f2913c" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/08.html.js").then(({ data }) => data),
-  // path: /notes/datastr/09.html
-  "v-a488dffe": () => import(/* webpackChunkName: "v-a488dffe" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/09.html.js").then(({ data }) => data),
-  // path: /notes/datastr/11.html
-  "v-5609f36c": () => import(/* webpackChunkName: "v-5609f36c" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/11.html.js").then(({ data }) => data),
-  // path: /notes/datastr/12.html
-  "v-52a0422e": () => import(/* webpackChunkName: "v-52a0422e" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/12.html.js").then(({ data }) => data),
-  // path: /notes/datastr/13.html
-  "v-4f3690f0": () => import(/* webpackChunkName: "v-4f3690f0" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/13.html.js").then(({ data }) => data),
-  // path: /notes/datastr/15.html
-  "v-48632e74": () => import(/* webpackChunkName: "v-48632e74" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/15.html.js").then(({ data }) => data),
-  // path: /notes/datastr/16.html
-  "v-44f97d36": () => import(/* webpackChunkName: "v-44f97d36" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/16.html.js").then(({ data }) => data),
-  // path: /notes/datastr/17.html
-  "v-418fcbf8": () => import(/* webpackChunkName: "v-418fcbf8" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/17.html.js").then(({ data }) => data),
-  // path: /notes/datastr/18.html
-  "v-3e261aba": () => import(/* webpackChunkName: "v-3e261aba" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/18.html.js").then(({ data }) => data),
-  // path: /notes/datastr/19.html
-  "v-3abc697c": () => import(/* webpackChunkName: "v-3abc697c" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/19.html.js").then(({ data }) => data),
-  // path: /notes/datastr/is.html
-  "v-50105500": () => import(/* webpackChunkName: "v-50105500" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/datastr/is.html.js").then(({ data }) => data),
   // path: /notes/echarts/01.html
   "v-e2319288": () => import(/* webpackChunkName: "v-e2319288" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/01.html.js").then(({ data }) => data),
   // path: /notes/echarts/02.html
@@ -53,6 +15,8 @@ export const pagesData = {
   "v-d7f47ece": () => import(/* webpackChunkName: "v-d7f47ece" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/04.html.js").then(({ data }) => data),
   // path: /notes/echarts/05.html
   "v-d48acd90": () => import(/* webpackChunkName: "v-d48acd90" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/05.html.js").then(({ data }) => data),
+  // path: /notes/designPatterns/01.html
+  "v-6fb3ccb1": () => import(/* webpackChunkName: "v-6fb3ccb1" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/designPatterns/01.html.js").then(({ data }) => data),
   // path: /notes/es6/01.html
   "v-ee40bcec": () => import(/* webpackChunkName: "v-ee40bcec" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/es6/01.html.js").then(({ data }) => data),
   // path: /notes/es6/02.html
@@ -271,18 +235,6 @@ export const pagesData = {
   "v-05c93fca": () => import(/* webpackChunkName: "v-05c93fca" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/react/18.html.js").then(({ data }) => data),
   // path: /notes/react/19.html
   "v-025f8e8c": () => import(/* webpackChunkName: "v-025f8e8c" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/react/19.html.js").then(({ data }) => data),
-  // path: /notes/reactAlgorithm/01.html
-  "v-132b98a0": () => import(/* webpackChunkName: "v-132b98a0" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/reactAlgorithm/01.html.js").then(({ data }) => data),
-  // path: /notes/reactAlgorithm/02.html
-  "v-14e0713f": () => import(/* webpackChunkName: "v-14e0713f" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/reactAlgorithm/02.html.js").then(({ data }) => data),
-  // path: /notes/reactAlgorithm/03.html
-  "v-169549de": () => import(/* webpackChunkName: "v-169549de" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/reactAlgorithm/03.html.js").then(({ data }) => data),
-  // path: /notes/reactAlgorithm/04.html
-  "v-184a227d": () => import(/* webpackChunkName: "v-184a227d" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/reactAlgorithm/04.html.js").then(({ data }) => data),
-  // path: /notes/reactAlgorithm/05.html
-  "v-19fefb1c": () => import(/* webpackChunkName: "v-19fefb1c" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/reactAlgorithm/05.html.js").then(({ data }) => data),
-  // path: /notes/reactAlgorithm/06.html
-  "v-1bb3d3bb": () => import(/* webpackChunkName: "v-1bb3d3bb" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/reactAlgorithm/06.html.js").then(({ data }) => data),
   // path: /notes/sass/01.html
   "v-f8f62244": () => import(/* webpackChunkName: "v-f8f62244" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/01.html.js").then(({ data }) => data),
   // path: /notes/sass/02.html
@@ -305,14 +257,6 @@ export const pagesData = {
   "v-92935d00": () => import(/* webpackChunkName: "v-92935d00" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/10.html.js").then(({ data }) => data),
   // path: /notes/sass/11.html
   "v-8f29abc2": () => import(/* webpackChunkName: "v-8f29abc2" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/11.html.js").then(({ data }) => data),
-  // path: /notes/typescript-advanced/01.html
-  "v-e382aea8": () => import(/* webpackChunkName: "v-e382aea8" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/typescript-advanced/01.html.js").then(({ data }) => data),
-  // path: /notes/typescript-basic/01.html
-  "v-c4fcffd4": () => import(/* webpackChunkName: "v-c4fcffd4" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/typescript-basic/01.html.js").then(({ data }) => data),
-  // path: /notes/typescript-basic/02.html
-  "v-c1934e96": () => import(/* webpackChunkName: "v-c1934e96" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/typescript-basic/02.html.js").then(({ data }) => data),
-  // path: /notes/typescript-basic/03.html
-  "v-be299d58": () => import(/* webpackChunkName: "v-be299d58" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/typescript-basic/03.html.js").then(({ data }) => data),
   // path: /notes/uniapp/01.html
   "v-21771421": () => import(/* webpackChunkName: "v-21771421" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/uniapp/01.html.js").then(({ data }) => data),
   // path: /notes/uniapp/02.html

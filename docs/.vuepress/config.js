@@ -80,32 +80,7 @@ export default defineUserConfig({
           { text: 'Uniapp', link: '/notes/uniapp/01' },
         ],
       },
-      { text: 'Typescript',
-        children: [
-          { text: '基础概念篇', link: '/notes/typescript-basic/01' },
-          { text: '原理进阶篇', link: '/notes/typescript-advanced/01' },
-        ],
-      },
-      { text: 'Typescript挑战',
-        children: [
-          { text: '简单', link: '/index' },
-          { text: '中等', link: '/index' },
-          { text: '困难', link: '/index' },
-        ],
-      },
-      { text: '算法',
-        link: '/notes/algorithm/01'
-      },
-      { text: '数据结构',
-        link: '/notes/datastr/01'
-      },
-      {
-        text:'React中的算法',
-        link:'/notes/reactAlgorithm/01'
-      },
-      { text: '每日一题',
-        link: '/notes/dailyquestion/01'
-      },
+      {text:'JavaScript设计模式',link:'/notes/designPatterns/01'},
       {
         text: '服务端',
         children: [
