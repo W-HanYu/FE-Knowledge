@@ -5,6 +5,8 @@ export const pagesData = {
   "v-25846460": () => import(/* webpackChunkName: "v-25846460" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/ajax/01.html.js").then(({ data }) => data),
   // path: /notes/ajax/02.html
   "v-221ab322": () => import(/* webpackChunkName: "v-221ab322" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/ajax/02.html.js").then(({ data }) => data),
+  // path: /notes/designPatterns/01.html
+  "v-6fb3ccb1": () => import(/* webpackChunkName: "v-6fb3ccb1" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/designPatterns/01.html.js").then(({ data }) => data),
   // path: /notes/echarts/01.html
   "v-e2319288": () => import(/* webpackChunkName: "v-e2319288" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/01.html.js").then(({ data }) => data),
   // path: /notes/echarts/02.html
@@ -15,8 +17,6 @@ export const pagesData = {
   "v-d7f47ece": () => import(/* webpackChunkName: "v-d7f47ece" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/04.html.js").then(({ data }) => data),
   // path: /notes/echarts/05.html
   "v-d48acd90": () => import(/* webpackChunkName: "v-d48acd90" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/05.html.js").then(({ data }) => data),
-  // path: /notes/designPatterns/01.html
-  "v-6fb3ccb1": () => import(/* webpackChunkName: "v-6fb3ccb1" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/designPatterns/01.html.js").then(({ data }) => data),
   // path: /notes/es6/01.html
   "v-ee40bcec": () => import(/* webpackChunkName: "v-ee40bcec" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/es6/01.html.js").then(({ data }) => data),
   // path: /notes/es6/02.html

@@ -7,6 +7,8 @@ export const pagesComponents = {
   "v-25846460": defineAsyncComponent(() => import(/* webpackChunkName: "v-25846460" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/ajax/01.html.vue")),
   // path: /notes/ajax/02.html
   "v-221ab322": defineAsyncComponent(() => import(/* webpackChunkName: "v-221ab322" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/ajax/02.html.vue")),
+  // path: /notes/designPatterns/01.html
+  "v-6fb3ccb1": defineAsyncComponent(() => import(/* webpackChunkName: "v-6fb3ccb1" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/designPatterns/01.html.vue")),
   // path: /notes/echarts/01.html
   "v-e2319288": defineAsyncComponent(() => import(/* webpackChunkName: "v-e2319288" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/01.html.vue")),
   // path: /notes/echarts/02.html
@@ -17,8 +19,6 @@ export const pagesComponents = {
   "v-d7f47ece": defineAsyncComponent(() => import(/* webpackChunkName: "v-d7f47ece" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/04.html.vue")),
   // path: /notes/echarts/05.html
   "v-d48acd90": defineAsyncComponent(() => import(/* webpackChunkName: "v-d48acd90" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/05.html.vue")),
-  // path: /notes/designPatterns/01.html
-  "v-6fb3ccb1": defineAsyncComponent(() => import(/* webpackChunkName: "v-6fb3ccb1" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/designPatterns/01.html.vue")),
   // path: /notes/es6/01.html
   "v-ee40bcec": defineAsyncComponent(() => import(/* webpackChunkName: "v-ee40bcec" */"D:/my_blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/es6/01.html.vue")),
   // path: /notes/es6/02.html
