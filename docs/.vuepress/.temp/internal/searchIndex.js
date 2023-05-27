@@ -7,6 +7,187 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "13【Class的语法】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.类的由来",
+        "slug": "_1-类的由来",
+        "link": "#_1-类的由来",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Class的两种定义形式",
+        "slug": "_2-class的两种定义形式",
+        "link": "#_2-class的两种定义形式",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 声明形式",
+            "slug": "_2-1-声明形式",
+            "link": "#_2-1-声明形式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 表达式形式",
+            "slug": "_2-2-表达式形式",
+            "link": "#_2-2-表达式形式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 表达式形式扩展",
+            "slug": "_2-3-表达式形式扩展",
+            "link": "#_2-3-表达式形式扩展",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.constructor() 方法",
+        "slug": "_3-constructor-方法",
+        "link": "#_3-constructor-方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.类的实例",
+        "slug": "_4-类的实例",
+        "link": "#_4-类的实例",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.实例属性的新写法",
+        "slug": "_5-实例属性的新写法",
+        "link": "#_5-实例属性的新写法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.取值函数（getter）和存值函数（setter）",
+        "slug": "_6-取值函数-getter-和存值函数-setter",
+        "link": "#_6-取值函数-getter-和存值函数-setter",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.1 getter",
+            "slug": "_6-1-getter",
+            "link": "#_6-1-getter",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 setter",
+            "slug": "_6-2-setter",
+            "link": "#_6-2-setter",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.3 es6中的使用",
+            "slug": "_6-3-es6中的使用",
+            "link": "#_6-3-es6中的使用",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "7.实例属性、静态方法和静态属性",
+        "slug": "_7-实例属性、静态方法和静态属性",
+        "link": "#_7-实例属性、静态方法和静态属性",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1  实例属性",
+            "slug": "_7-1-实例属性",
+            "link": "#_7-1-实例属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 静态方法",
+            "slug": "_7-2-静态方法",
+            "link": "#_7-2-静态方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 静态属性",
+            "slug": "_7-3-静态属性",
+            "link": "#_7-3-静态属性",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "8.私有方法和私有属性",
+        "slug": "_8-私有方法和私有属性",
+        "link": "#_8-私有方法和私有属性",
+        "children": [
+          {
+            "level": 3,
+            "title": "8.1 早期解决方案",
+            "slug": "_8-1-早期解决方案",
+            "link": "#_8-1-早期解决方案",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.2 私有属性的正式写法",
+            "slug": "_8-2-私有属性的正式写法",
+            "link": "#_8-2-私有属性的正式写法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "9.类的注意点",
+        "slug": "_9-类的注意点",
+        "link": "#_9-类的注意点",
+        "children": [
+          {
+            "level": 3,
+            "title": "9.1 严格模式",
+            "slug": "_9-1-严格模式",
+            "link": "#_9-1-严格模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.2 不存在提升",
+            "slug": "_9-2-不存在提升",
+            "link": "#_9-2-不存在提升",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.3 name 属性",
+            "slug": "_9-3-name-属性",
+            "link": "#_9-3-name-属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.4 this 的指向",
+            "slug": "_9-4-this-的指向",
+            "link": "#_9-4-this-的指向",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/designPatterns/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "01 【AJAX概述 HTTP相关问题】",
     "headers": [
       {
@@ -277,187 +458,6 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/ajax/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "13【Class的语法】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.类的由来",
-        "slug": "_1-类的由来",
-        "link": "#_1-类的由来",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Class的两种定义形式",
-        "slug": "_2-class的两种定义形式",
-        "link": "#_2-class的两种定义形式",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 声明形式",
-            "slug": "_2-1-声明形式",
-            "link": "#_2-1-声明形式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 表达式形式",
-            "slug": "_2-2-表达式形式",
-            "link": "#_2-2-表达式形式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 表达式形式扩展",
-            "slug": "_2-3-表达式形式扩展",
-            "link": "#_2-3-表达式形式扩展",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.constructor() 方法",
-        "slug": "_3-constructor-方法",
-        "link": "#_3-constructor-方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.类的实例",
-        "slug": "_4-类的实例",
-        "link": "#_4-类的实例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.实例属性的新写法",
-        "slug": "_5-实例属性的新写法",
-        "link": "#_5-实例属性的新写法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.取值函数（getter）和存值函数（setter）",
-        "slug": "_6-取值函数-getter-和存值函数-setter",
-        "link": "#_6-取值函数-getter-和存值函数-setter",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 getter",
-            "slug": "_6-1-getter",
-            "link": "#_6-1-getter",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 setter",
-            "slug": "_6-2-setter",
-            "link": "#_6-2-setter",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.3 es6中的使用",
-            "slug": "_6-3-es6中的使用",
-            "link": "#_6-3-es6中的使用",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "7.实例属性、静态方法和静态属性",
-        "slug": "_7-实例属性、静态方法和静态属性",
-        "link": "#_7-实例属性、静态方法和静态属性",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.1  实例属性",
-            "slug": "_7-1-实例属性",
-            "link": "#_7-1-实例属性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.2 静态方法",
-            "slug": "_7-2-静态方法",
-            "link": "#_7-2-静态方法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.3 静态属性",
-            "slug": "_7-3-静态属性",
-            "link": "#_7-3-静态属性",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "8.私有方法和私有属性",
-        "slug": "_8-私有方法和私有属性",
-        "link": "#_8-私有方法和私有属性",
-        "children": [
-          {
-            "level": 3,
-            "title": "8.1 早期解决方案",
-            "slug": "_8-1-早期解决方案",
-            "link": "#_8-1-早期解决方案",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.2 私有属性的正式写法",
-            "slug": "_8-2-私有属性的正式写法",
-            "link": "#_8-2-私有属性的正式写法",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "9.类的注意点",
-        "slug": "_9-类的注意点",
-        "link": "#_9-类的注意点",
-        "children": [
-          {
-            "level": 3,
-            "title": "9.1 严格模式",
-            "slug": "_9-1-严格模式",
-            "link": "#_9-1-严格模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "9.2 不存在提升",
-            "slug": "_9-2-不存在提升",
-            "link": "#_9-2-不存在提升",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "9.3 name 属性",
-            "slug": "_9-3-name-属性",
-            "link": "#_9-3-name-属性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "9.4 this 的指向",
-            "slug": "_9-4-this-的指向",
-            "link": "#_9-4-this-的指向",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/designPatterns/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -11323,842 +11323,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "01 【微信小程序起步】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.小程序简介",
-        "slug": "_1-小程序简介",
-        "link": "#_1-小程序简介",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.注册小程序开发账号",
-        "slug": "_2-注册小程序开发账号",
-        "link": "#_2-注册小程序开发账号",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.如何获取小程序的AppID",
-        "slug": "_3-如何获取小程序的appid",
-        "link": "#_3-如何获取小程序的appid",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.安装微信开发者工具",
-        "slug": "_4-安装微信开发者工具",
-        "link": "#_4-安装微信开发者工具",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.第一个小程序",
-        "slug": "_5-第一个小程序",
-        "link": "#_5-第一个小程序",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.小程序代码的构成",
-        "slug": "_6-小程序代码的构成",
-        "link": "#_6-小程序代码的构成",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 项目结构",
-            "slug": "_6-1-项目结构",
-            "link": "#_6-1-项目结构",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 小程序页面的组成部分",
-            "slug": "_6-2-小程序页面的组成部分",
-            "link": "#_6-2-小程序页面的组成部分",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.3 JSON配置文件的作用",
-            "slug": "_6-3-json配置文件的作用",
-            "link": "#_6-3-json配置文件的作用",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "7.新建小程序页面",
-        "slug": "_7-新建小程序页面",
-        "link": "#_7-新建小程序页面",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.1 修改项目首页",
-            "slug": "_7-1-修改项目首页",
-            "link": "#_7-1-修改项目首页",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.2 什么是wxml",
-            "slug": "_7-2-什么是wxml",
-            "link": "#_7-2-什么是wxml",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.3 什么是WXSS",
-            "slug": "_7-3-什么是wxss",
-            "link": "#_7-3-什么是wxss",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.4 js逻辑交互",
-            "slug": "_7-4-js逻辑交互",
-            "link": "#_7-4-js逻辑交互",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "8.小程序的宿主环境",
-        "slug": "_8-小程序的宿主环境",
-        "link": "#_8-小程序的宿主环境",
-        "children": [
-          {
-            "level": 3,
-            "title": "8.1 通信模型",
-            "slug": "_8-1-通信模型",
-            "link": "#_8-1-通信模型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.2 运行机制",
-            "slug": "_8-2-运行机制",
-            "link": "#_8-2-运行机制",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.3 组件",
-            "slug": "_8-3-组件",
-            "link": "#_8-3-组件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.4 小程序当中的API",
-            "slug": "_8-4-小程序当中的api",
-            "link": "#_8-4-小程序当中的api",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/uniapp/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "02 【uni-app起步】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.什么是uni-app",
-        "slug": "_1-什么是uni-app",
-        "link": "#_1-什么是uni-app",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.uni-app 环境搭建",
-        "slug": "_2-uni-app-环境搭建",
-        "link": "#_2-uni-app-环境搭建",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 创建uni-app",
-            "slug": "_2-1-创建uni-app",
-            "link": "#_2-1-创建uni-app",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 运行uni-app",
-            "slug": "_2-2-运行uni-app",
-            "link": "#_2-2-运行uni-app",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.uni-app的开发目录结构",
-        "slug": "_3-uni-app的开发目录结构",
-        "link": "#_3-uni-app的开发目录结构",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 官方",
-            "slug": "_3-1-官方",
-            "link": "#_3-1-官方",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 基础项目",
-            "slug": "_3-2-基础项目",
-            "link": "#_3-2-基础项目",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/uniapp/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "03 【全局配置】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.globalStyle 全局外观配置",
-        "slug": "_1-globalstyle-全局外观配置",
-        "link": "#_1-globalstyle-全局外观配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 导航栏样式配置",
-            "slug": "_1-1-导航栏样式配置",
-            "link": "#_1-1-导航栏样式配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 上拉触底效果",
-            "slug": "_1-3-上拉触底效果",
-            "link": "#_1-3-上拉触底效果",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.pages 页面配置",
-        "slug": "_2-pages-页面配置",
-        "link": "#_2-pages-页面配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.tabBar 底部导航栏",
-        "slug": "_3-tabbar-底部导航栏",
-        "link": "#_3-tabbar-底部导航栏",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.condition 启动模式配置",
-        "slug": "_4-condition-启动模式配置",
-        "link": "#_4-condition-启动模式配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.easycom模式",
-        "slug": "_5-easycom模式",
-        "link": "#_5-easycom模式",
-        "children": []
-      }
-    ],
-    "path": "/notes/uniapp/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "04 【内置组件】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.视图容器",
-        "slug": "_1-视图容器",
-        "link": "#_1-视图容器",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 view",
-            "slug": "_1-1-view",
-            "link": "#_1-1-view",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 scroll-view",
-            "slug": "_1-2-scroll-view",
-            "link": "#_1-2-scroll-view",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 swiper",
-            "slug": "_1-3-swiper",
-            "link": "#_1-3-swiper",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.基础内容",
-        "slug": "_2-基础内容",
-        "link": "#_2-基础内容",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 icon",
-            "slug": "_2-1-icon",
-            "link": "#_2-1-icon",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 text",
-            "slug": "_2-2-text",
-            "link": "#_2-2-text",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.路由与页面跳转",
-        "slug": "_3-路由与页面跳转",
-        "link": "#_3-路由与页面跳转",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 navigator",
-            "slug": "_3-1-navigator",
-            "link": "#_3-1-navigator",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.媒体组件",
-        "slug": "_4-媒体组件",
-        "link": "#_4-媒体组件",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 image",
-            "slug": "_4-1-image",
-            "link": "#_4-1-image",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/uniapp/04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "05 【uni-app的API】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.概述",
-        "slug": "_1-概述",
-        "link": "#_1-概述",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 标准 js 和浏览器 js 的区别",
-            "slug": "_1-1-标准-js-和浏览器-js-的区别",
-            "link": "#_1-1-标准-js-和浏览器-js-的区别",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 各端特色 API 调用",
-            "slug": "_1-2-各端特色-api-调用",
-            "link": "#_1-2-各端特色-api-调用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 说明",
-            "slug": "_1-3-说明",
-            "link": "#_1-3-说明",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4 API Promise 化",
-            "slug": "_1-4-api-promise-化",
-            "link": "#_1-4-api-promise-化",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.5 Vue 2 和 Vue 3 的 API Promise化",
-            "slug": "_1-5-vue-2-和-vue-3-的-api-promise化",
-            "link": "#_1-5-vue-2-和-vue-3-的-api-promise化",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.网络",
-        "slug": "_2-网络",
-        "link": "#_2-网络",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 发起请求",
-            "slug": "_2-1-发起请求",
-            "link": "#_2-1-发起请求",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.路由和页面跳转",
-        "slug": "_3-路由和页面跳转",
-        "link": "#_3-路由和页面跳转",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 uni.navigateTo(OBJECT)",
-            "slug": "_3-1-uni-navigateto-object",
-            "link": "#_3-1-uni-navigateto-object",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 uni.redirectTo(OBJECT)",
-            "slug": "_3-2-uni-redirectto-object",
-            "link": "#_3-2-uni-redirectto-object",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 uni.reLaunch(OBJECT)",
-            "slug": "_3-3-uni-relaunch-object",
-            "link": "#_3-3-uni-relaunch-object",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.4 uni.switchTab(OBJECT)",
-            "slug": "_3-4-uni-switchtab-object",
-            "link": "#_3-4-uni-switchtab-object",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.5 uni.navigateBack(OBJECT)",
-            "slug": "_3-5-uni-navigateback-object",
-            "link": "#_3-5-uni-navigateback-object",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.6 EventChannel",
-            "slug": "_3-6-eventchannel",
-            "link": "#_3-6-eventchannel",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.数据缓存",
-        "slug": "_4-数据缓存",
-        "link": "#_4-数据缓存",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 uni.setStorageSync(KEY,DATA)",
-            "slug": "_4-1-uni-setstoragesync-key-data",
-            "link": "#_4-1-uni-setstoragesync-key-data",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 uni.getStorageSync(KEY)",
-            "slug": "_4-2-uni-getstoragesync-key",
-            "link": "#_4-2-uni-getstoragesync-key",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 uni.removeStorageSync(KEY)",
-            "slug": "_4-3-uni-removestoragesync-key",
-            "link": "#_4-3-uni-removestoragesync-key",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.4 uni.clearStorageSync()",
-            "slug": "_4-4-uni-clearstoragesync",
-            "link": "#_4-4-uni-clearstoragesync",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5.界面",
-        "slug": "_5-界面",
-        "link": "#_5-界面",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 交互反馈",
-            "slug": "_5-1-交互反馈",
-            "link": "#_5-1-交互反馈",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 下拉刷新",
-            "slug": "_5-2-下拉刷新",
-            "link": "#_5-2-下拉刷新",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6.页面和窗体",
-        "slug": "_6-页面和窗体",
-        "link": "#_6-页面和窗体",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 页面",
-            "slug": "_6-1-页面",
-            "link": "#_6-1-页面",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 页面通讯",
-            "slug": "_6-2-页面通讯",
-            "link": "#_6-2-页面通讯",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/uniapp/05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "06 【uniapp生命周期】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.应用生命周期",
-        "slug": "_1-应用生命周期",
-        "link": "#_1-应用生命周期",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.页面生命周期",
-        "slug": "_2-页面生命周期",
-        "link": "#_2-页面生命周期",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.组件生命周期",
-        "slug": "_3-组件生命周期",
-        "link": "#_3-组件生命周期",
-        "children": []
-      }
-    ],
-    "path": "/notes/uniapp/06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "07 【uniCloud】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.开发自己的第一个uniCloud项目",
-        "slug": "_1-开发自己的第一个unicloud项目",
-        "link": "#_1-开发自己的第一个unicloud项目",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.云函数/云对象",
-        "slug": "_2-云函数-云对象",
-        "link": "#_2-云函数-云对象",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 简介",
-            "slug": "_2-1-简介",
-            "link": "#_2-1-简介",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 云函数的分类",
-            "slug": "_2-2-云函数的分类",
-            "link": "#_2-2-云函数的分类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 uniCloud响应体规范",
-            "slug": "_2-3-unicloud响应体规范",
-            "link": "#_2-3-unicloud响应体规范",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.云对象",
-        "slug": "_3-云对象",
-        "link": "#_3-云对象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.普通云函数",
-        "slug": "_4-普通云函数",
-        "link": "#_4-普通云函数",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 callFunction方法",
-            "slug": "_4-1-callfunction方法",
-            "link": "#_4-1-callfunction方法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 云函数的入参",
-            "slug": "_4-2-云函数的入参",
-            "link": "#_4-2-云函数的入参",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 云函数的返回格式",
-            "slug": "_4-3-云函数的返回格式",
-            "link": "#_4-3-云函数的返回格式",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/uniapp/07.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "08 【云数据库】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1 入门",
-        "slug": "_1-入门",
-        "link": "#_1-入门",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 基础概念",
-            "slug": "_1-1-基础概念",
-            "link": "#_1-1-基础概念",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 创建第一个表",
-            "slug": "_1-2-创建第一个表",
-            "link": "#_1-2-创建第一个表",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 数据表的3个组成部分",
-            "slug": "_1-3-数据表的3个组成部分",
-            "link": "#_1-3-数据表的3个组成部分",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4 获取数据库对象的API",
-            "slug": "_1-4-获取数据库对象的api",
-            "link": "#_1-4-获取数据库对象的api",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.5 创建集合/表的API",
-            "slug": "_1-5-创建集合-表的api",
-            "link": "#_1-5-创建集合-表的api",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2 云函数通过传统方式操作数据库",
-        "slug": "_2-云函数通过传统方式操作数据库",
-        "link": "#_2-云函数通过传统方式操作数据库",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 获取集合的引用",
-            "slug": "_2-1-获取集合的引用",
-            "link": "#_2-1-获取集合的引用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 新增文档",
-            "slug": "_2-2-新增文档",
-            "link": "#_2-2-新增文档",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 查询文档",
-            "slug": "_2-3-查询文档",
-            "link": "#_2-3-查询文档",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.4 删除文档",
-            "slug": "_2-4-删除文档",
-            "link": "#_2-4-删除文档",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.5 更新文档",
-            "slug": "_2-5-更新文档",
-            "link": "#_2-5-更新文档",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/uniapp/08.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "09 【云存储】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.概述",
-        "slug": "_1-概述",
-        "link": "#_1-概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.uni-file-picker上传文件",
-        "slug": "_2-uni-file-picker上传文件",
-        "link": "#_2-uni-file-picker上传文件",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 基础用法",
-            "slug": "_2-1-基础用法",
-            "link": "#_2-1-基础用法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 选择指定后缀图片，且限制选择个数",
-            "slug": "_2-2-选择指定后缀图片-且限制选择个数",
-            "link": "#_2-2-选择指定后缀图片-且限制选择个数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 手动上传",
-            "slug": "_2-3-手动上传",
-            "link": "#_2-3-手动上传",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.4 注意",
-            "slug": "_2-4-注意",
-            "link": "#_2-4-注意",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.手写上传",
-        "slug": "_3-手写上传",
-        "link": "#_3-手写上传",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 uni.chooseImage(OBJECT)",
-            "slug": "_3-1-uni-chooseimage-object",
-            "link": "#_3-1-uni-chooseimage-object",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 uni.previewImage(OBJECT)",
-            "slug": "_3-2-uni-previewimage-object",
-            "link": "#_3-2-uni-previewimage-object",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 uni.getImageInfo(OBJECT)",
-            "slug": "_3-3-uni-getimageinfo-object",
-            "link": "#_3-3-uni-getimageinfo-object",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.4 uploadFile(Object object)",
-            "slug": "_3-4-uploadfile-object-object",
-            "link": "#_3-4-uploadfile-object-object",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/uniapp/09.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "01 【react入门】",
     "headers": [
       {
@@ -14461,6 +13625,842 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "01 【微信小程序起步】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.小程序简介",
+        "slug": "_1-小程序简介",
+        "link": "#_1-小程序简介",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.注册小程序开发账号",
+        "slug": "_2-注册小程序开发账号",
+        "link": "#_2-注册小程序开发账号",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.如何获取小程序的AppID",
+        "slug": "_3-如何获取小程序的appid",
+        "link": "#_3-如何获取小程序的appid",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.安装微信开发者工具",
+        "slug": "_4-安装微信开发者工具",
+        "link": "#_4-安装微信开发者工具",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.第一个小程序",
+        "slug": "_5-第一个小程序",
+        "link": "#_5-第一个小程序",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.小程序代码的构成",
+        "slug": "_6-小程序代码的构成",
+        "link": "#_6-小程序代码的构成",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.1 项目结构",
+            "slug": "_6-1-项目结构",
+            "link": "#_6-1-项目结构",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 小程序页面的组成部分",
+            "slug": "_6-2-小程序页面的组成部分",
+            "link": "#_6-2-小程序页面的组成部分",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.3 JSON配置文件的作用",
+            "slug": "_6-3-json配置文件的作用",
+            "link": "#_6-3-json配置文件的作用",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "7.新建小程序页面",
+        "slug": "_7-新建小程序页面",
+        "link": "#_7-新建小程序页面",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1 修改项目首页",
+            "slug": "_7-1-修改项目首页",
+            "link": "#_7-1-修改项目首页",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 什么是wxml",
+            "slug": "_7-2-什么是wxml",
+            "link": "#_7-2-什么是wxml",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 什么是WXSS",
+            "slug": "_7-3-什么是wxss",
+            "link": "#_7-3-什么是wxss",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.4 js逻辑交互",
+            "slug": "_7-4-js逻辑交互",
+            "link": "#_7-4-js逻辑交互",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "8.小程序的宿主环境",
+        "slug": "_8-小程序的宿主环境",
+        "link": "#_8-小程序的宿主环境",
+        "children": [
+          {
+            "level": 3,
+            "title": "8.1 通信模型",
+            "slug": "_8-1-通信模型",
+            "link": "#_8-1-通信模型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.2 运行机制",
+            "slug": "_8-2-运行机制",
+            "link": "#_8-2-运行机制",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.3 组件",
+            "slug": "_8-3-组件",
+            "link": "#_8-3-组件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.4 小程序当中的API",
+            "slug": "_8-4-小程序当中的api",
+            "link": "#_8-4-小程序当中的api",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/uniapp/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "02 【uni-app起步】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.什么是uni-app",
+        "slug": "_1-什么是uni-app",
+        "link": "#_1-什么是uni-app",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.uni-app 环境搭建",
+        "slug": "_2-uni-app-环境搭建",
+        "link": "#_2-uni-app-环境搭建",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 创建uni-app",
+            "slug": "_2-1-创建uni-app",
+            "link": "#_2-1-创建uni-app",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 运行uni-app",
+            "slug": "_2-2-运行uni-app",
+            "link": "#_2-2-运行uni-app",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.uni-app的开发目录结构",
+        "slug": "_3-uni-app的开发目录结构",
+        "link": "#_3-uni-app的开发目录结构",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 官方",
+            "slug": "_3-1-官方",
+            "link": "#_3-1-官方",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 基础项目",
+            "slug": "_3-2-基础项目",
+            "link": "#_3-2-基础项目",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/uniapp/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "03 【全局配置】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.globalStyle 全局外观配置",
+        "slug": "_1-globalstyle-全局外观配置",
+        "link": "#_1-globalstyle-全局外观配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 导航栏样式配置",
+            "slug": "_1-1-导航栏样式配置",
+            "link": "#_1-1-导航栏样式配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 上拉触底效果",
+            "slug": "_1-3-上拉触底效果",
+            "link": "#_1-3-上拉触底效果",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.pages 页面配置",
+        "slug": "_2-pages-页面配置",
+        "link": "#_2-pages-页面配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.tabBar 底部导航栏",
+        "slug": "_3-tabbar-底部导航栏",
+        "link": "#_3-tabbar-底部导航栏",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.condition 启动模式配置",
+        "slug": "_4-condition-启动模式配置",
+        "link": "#_4-condition-启动模式配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.easycom模式",
+        "slug": "_5-easycom模式",
+        "link": "#_5-easycom模式",
+        "children": []
+      }
+    ],
+    "path": "/notes/uniapp/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "04 【内置组件】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.视图容器",
+        "slug": "_1-视图容器",
+        "link": "#_1-视图容器",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 view",
+            "slug": "_1-1-view",
+            "link": "#_1-1-view",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 scroll-view",
+            "slug": "_1-2-scroll-view",
+            "link": "#_1-2-scroll-view",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 swiper",
+            "slug": "_1-3-swiper",
+            "link": "#_1-3-swiper",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.基础内容",
+        "slug": "_2-基础内容",
+        "link": "#_2-基础内容",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 icon",
+            "slug": "_2-1-icon",
+            "link": "#_2-1-icon",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 text",
+            "slug": "_2-2-text",
+            "link": "#_2-2-text",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.路由与页面跳转",
+        "slug": "_3-路由与页面跳转",
+        "link": "#_3-路由与页面跳转",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 navigator",
+            "slug": "_3-1-navigator",
+            "link": "#_3-1-navigator",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.媒体组件",
+        "slug": "_4-媒体组件",
+        "link": "#_4-媒体组件",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 image",
+            "slug": "_4-1-image",
+            "link": "#_4-1-image",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/uniapp/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "05 【uni-app的API】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.概述",
+        "slug": "_1-概述",
+        "link": "#_1-概述",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 标准 js 和浏览器 js 的区别",
+            "slug": "_1-1-标准-js-和浏览器-js-的区别",
+            "link": "#_1-1-标准-js-和浏览器-js-的区别",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 各端特色 API 调用",
+            "slug": "_1-2-各端特色-api-调用",
+            "link": "#_1-2-各端特色-api-调用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 说明",
+            "slug": "_1-3-说明",
+            "link": "#_1-3-说明",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4 API Promise 化",
+            "slug": "_1-4-api-promise-化",
+            "link": "#_1-4-api-promise-化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.5 Vue 2 和 Vue 3 的 API Promise化",
+            "slug": "_1-5-vue-2-和-vue-3-的-api-promise化",
+            "link": "#_1-5-vue-2-和-vue-3-的-api-promise化",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.网络",
+        "slug": "_2-网络",
+        "link": "#_2-网络",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 发起请求",
+            "slug": "_2-1-发起请求",
+            "link": "#_2-1-发起请求",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.路由和页面跳转",
+        "slug": "_3-路由和页面跳转",
+        "link": "#_3-路由和页面跳转",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 uni.navigateTo(OBJECT)",
+            "slug": "_3-1-uni-navigateto-object",
+            "link": "#_3-1-uni-navigateto-object",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 uni.redirectTo(OBJECT)",
+            "slug": "_3-2-uni-redirectto-object",
+            "link": "#_3-2-uni-redirectto-object",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 uni.reLaunch(OBJECT)",
+            "slug": "_3-3-uni-relaunch-object",
+            "link": "#_3-3-uni-relaunch-object",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 uni.switchTab(OBJECT)",
+            "slug": "_3-4-uni-switchtab-object",
+            "link": "#_3-4-uni-switchtab-object",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.5 uni.navigateBack(OBJECT)",
+            "slug": "_3-5-uni-navigateback-object",
+            "link": "#_3-5-uni-navigateback-object",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.6 EventChannel",
+            "slug": "_3-6-eventchannel",
+            "link": "#_3-6-eventchannel",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.数据缓存",
+        "slug": "_4-数据缓存",
+        "link": "#_4-数据缓存",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 uni.setStorageSync(KEY,DATA)",
+            "slug": "_4-1-uni-setstoragesync-key-data",
+            "link": "#_4-1-uni-setstoragesync-key-data",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 uni.getStorageSync(KEY)",
+            "slug": "_4-2-uni-getstoragesync-key",
+            "link": "#_4-2-uni-getstoragesync-key",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3 uni.removeStorageSync(KEY)",
+            "slug": "_4-3-uni-removestoragesync-key",
+            "link": "#_4-3-uni-removestoragesync-key",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.4 uni.clearStorageSync()",
+            "slug": "_4-4-uni-clearstoragesync",
+            "link": "#_4-4-uni-clearstoragesync",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5.界面",
+        "slug": "_5-界面",
+        "link": "#_5-界面",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 交互反馈",
+            "slug": "_5-1-交互反馈",
+            "link": "#_5-1-交互反馈",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.2 下拉刷新",
+            "slug": "_5-2-下拉刷新",
+            "link": "#_5-2-下拉刷新",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.页面和窗体",
+        "slug": "_6-页面和窗体",
+        "link": "#_6-页面和窗体",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.1 页面",
+            "slug": "_6-1-页面",
+            "link": "#_6-1-页面",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 页面通讯",
+            "slug": "_6-2-页面通讯",
+            "link": "#_6-2-页面通讯",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/uniapp/05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "06 【uniapp生命周期】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.应用生命周期",
+        "slug": "_1-应用生命周期",
+        "link": "#_1-应用生命周期",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.页面生命周期",
+        "slug": "_2-页面生命周期",
+        "link": "#_2-页面生命周期",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.组件生命周期",
+        "slug": "_3-组件生命周期",
+        "link": "#_3-组件生命周期",
+        "children": []
+      }
+    ],
+    "path": "/notes/uniapp/06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "07 【uniCloud】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.开发自己的第一个uniCloud项目",
+        "slug": "_1-开发自己的第一个unicloud项目",
+        "link": "#_1-开发自己的第一个unicloud项目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.云函数/云对象",
+        "slug": "_2-云函数-云对象",
+        "link": "#_2-云函数-云对象",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 简介",
+            "slug": "_2-1-简介",
+            "link": "#_2-1-简介",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 云函数的分类",
+            "slug": "_2-2-云函数的分类",
+            "link": "#_2-2-云函数的分类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 uniCloud响应体规范",
+            "slug": "_2-3-unicloud响应体规范",
+            "link": "#_2-3-unicloud响应体规范",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.云对象",
+        "slug": "_3-云对象",
+        "link": "#_3-云对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.普通云函数",
+        "slug": "_4-普通云函数",
+        "link": "#_4-普通云函数",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 callFunction方法",
+            "slug": "_4-1-callfunction方法",
+            "link": "#_4-1-callfunction方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 云函数的入参",
+            "slug": "_4-2-云函数的入参",
+            "link": "#_4-2-云函数的入参",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3 云函数的返回格式",
+            "slug": "_4-3-云函数的返回格式",
+            "link": "#_4-3-云函数的返回格式",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/uniapp/07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "08 【云数据库】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1 入门",
+        "slug": "_1-入门",
+        "link": "#_1-入门",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 基础概念",
+            "slug": "_1-1-基础概念",
+            "link": "#_1-1-基础概念",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 创建第一个表",
+            "slug": "_1-2-创建第一个表",
+            "link": "#_1-2-创建第一个表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 数据表的3个组成部分",
+            "slug": "_1-3-数据表的3个组成部分",
+            "link": "#_1-3-数据表的3个组成部分",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4 获取数据库对象的API",
+            "slug": "_1-4-获取数据库对象的api",
+            "link": "#_1-4-获取数据库对象的api",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.5 创建集合/表的API",
+            "slug": "_1-5-创建集合-表的api",
+            "link": "#_1-5-创建集合-表的api",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2 云函数通过传统方式操作数据库",
+        "slug": "_2-云函数通过传统方式操作数据库",
+        "link": "#_2-云函数通过传统方式操作数据库",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 获取集合的引用",
+            "slug": "_2-1-获取集合的引用",
+            "link": "#_2-1-获取集合的引用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 新增文档",
+            "slug": "_2-2-新增文档",
+            "link": "#_2-2-新增文档",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 查询文档",
+            "slug": "_2-3-查询文档",
+            "link": "#_2-3-查询文档",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4 删除文档",
+            "slug": "_2-4-删除文档",
+            "link": "#_2-4-删除文档",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.5 更新文档",
+            "slug": "_2-5-更新文档",
+            "link": "#_2-5-更新文档",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/uniapp/08.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "09 【云存储】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.概述",
+        "slug": "_1-概述",
+        "link": "#_1-概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.uni-file-picker上传文件",
+        "slug": "_2-uni-file-picker上传文件",
+        "link": "#_2-uni-file-picker上传文件",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 基础用法",
+            "slug": "_2-1-基础用法",
+            "link": "#_2-1-基础用法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 选择指定后缀图片，且限制选择个数",
+            "slug": "_2-2-选择指定后缀图片-且限制选择个数",
+            "link": "#_2-2-选择指定后缀图片-且限制选择个数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 手动上传",
+            "slug": "_2-3-手动上传",
+            "link": "#_2-3-手动上传",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4 注意",
+            "slug": "_2-4-注意",
+            "link": "#_2-4-注意",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.手写上传",
+        "slug": "_3-手写上传",
+        "link": "#_3-手写上传",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 uni.chooseImage(OBJECT)",
+            "slug": "_3-1-uni-chooseimage-object",
+            "link": "#_3-1-uni-chooseimage-object",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 uni.previewImage(OBJECT)",
+            "slug": "_3-2-uni-previewimage-object",
+            "link": "#_3-2-uni-previewimage-object",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 uni.getImageInfo(OBJECT)",
+            "slug": "_3-3-uni-getimageinfo-object",
+            "link": "#_3-3-uni-getimageinfo-object",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 uploadFile(Object object)",
+            "slug": "_3-4-uploadfile-object-object",
+            "link": "#_3-4-uploadfile-object-object",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/uniapp/09.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "01 【Vue简介 初识Vue 模板语法和数据绑定】",
     "headers": [
       {
@@ -15727,679 +15727,6 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/vue2/16.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1.前言",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.1 概述",
-        "slug": "_1-1-概述",
-        "link": "#_1-1-概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.2 为什么需要打包工具？",
-        "slug": "_1-2-为什么需要打包工具",
-        "link": "#_1-2-为什么需要打包工具",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.3 为什么需要 Webpack",
-        "slug": "_1-3-为什么需要-webpack",
-        "link": "#_1-3-为什么需要-webpack",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.4  如何解决作用域问题",
-        "slug": "_1-4-如何解决作用域问题",
-        "link": "#_1-4-如何解决作用域问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.5 如何解决代码拆分问题",
-        "slug": "_1-5-如何解决代码拆分问题",
-        "link": "#_1-5-如何解决代码拆分问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.6 如何让浏览器支持模块",
-        "slug": "_1-6-如何让浏览器支持模块",
-        "link": "#_1-6-如何让浏览器支持模块",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.7 Webpack 搞定这一切",
-        "slug": "_1-7-webpack-搞定这一切",
-        "link": "#_1-7-webpack-搞定这一切",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.1 功能介绍",
-        "slug": "_2-1-功能介绍",
-        "link": "#_2-1-功能介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.2 安装",
-        "slug": "_2-2-安装",
-        "link": "#_2-2-安装",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.3 开始使用",
-        "slug": "_2-3-开始使用",
-        "link": "#_2-3-开始使用",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.3.1 资源目录",
-            "slug": "_2-3-1-资源目录",
-            "link": "#_2-3-1-资源目录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3.2 创建文件",
-            "slug": "_2-3-2-创建文件",
-            "link": "#_2-3-2-创建文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3.3 下载依赖",
-            "slug": "_2-3-3-下载依赖",
-            "link": "#_2-3-3-下载依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3.4 启用 Webpack",
-            "slug": "_2-3-4-启用-webpack",
-            "link": "#_2-3-4-启用-webpack",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3.5 观察输出文件",
-            "slug": "_2-3-5-观察输出文件",
-            "link": "#_2-3-5-观察输出文件",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.4 自定义 Webpack 配置",
-        "slug": "_2-4-自定义-webpack-配置",
-        "link": "#_2-4-自定义-webpack-配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.5 清理dist",
-        "slug": "_2-5-清理dist",
-        "link": "#_2-5-清理dist",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.6 source map",
-        "slug": "_2-6-source-map",
-        "link": "#_2-6-source-map",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.7 使用 watch mode(观察模式)",
-        "slug": "_2-7-使用-watch-mode-观察模式",
-        "link": "#_2-7-使用-watch-mode-观察模式",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 Entry 入口",
-            "slug": "_3-1-entry-入口",
-            "link": "#_3-1-entry-入口",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 Output 输出",
-            "slug": "_3-2-output-输出",
-            "link": "#_3-2-output-输出",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 Loader 解析器",
-            "slug": "_3-3-loader-解析器",
-            "link": "#_3-3-loader-解析器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.4 Plugins 插件",
-            "slug": "_3-4-plugins-插件",
-            "link": "#_3-4-plugins-插件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.5 Mode 模式",
-            "slug": "_3-5-mode-模式",
-            "link": "#_3-5-mode-模式",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/webpack/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "4.开发服务器&自动化",
-    "headers": [
-      {
-        "level": 2,
-        "title": "4.1 下载包",
-        "slug": "_4-1-下载包",
-        "link": "#_4-1-下载包",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.2 配置",
-        "slug": "_4-2-配置",
-        "link": "#_4-2-配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "基础配置",
-            "slug": "基础配置",
-            "link": "#基础配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "添加响应头",
-            "slug": "添加响应头",
-            "link": "#添加响应头",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开启代理",
-            "slug": "开启代理",
-            "link": "#开启代理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "http",
-            "slug": "http",
-            "link": "#http",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "http2",
-            "slug": "http2",
-            "link": "#http2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "historyApiFallback",
-            "slug": "historyapifallback",
-            "link": "#historyapifallback",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发服务器主机",
-            "slug": "开发服务器主机",
-            "link": "#开发服务器主机",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "progress",
-            "slug": "progress",
-            "link": "#progress",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "overlay",
-            "slug": "overlay",
-            "link": "#overlay",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.4 模块热替与热加载",
-        "slug": "_4-4-模块热替与热加载",
-        "link": "#_4-4-模块热替与热加载",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.3 启动",
-        "slug": "_4-3-启动",
-        "link": "#_4-3-启动",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.1 resource",
-        "slug": "_5-1-resource",
-        "link": "#_5-1-resource",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.2 inline",
-        "slug": "_5-2-inline",
-        "link": "#_5-2-inline",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.3 source",
-        "slug": "_5-3-source",
-        "link": "#_5-3-source",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.4 asset",
-        "slug": "_5-4-asset",
-        "link": "#_5-4-asset",
-        "children": []
-      }
-    ],
-    "path": "/notes/webpack/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6.资源处理",
-    "headers": [
-      {
-        "level": 2,
-        "title": "6.1 HTML资源",
-        "slug": "_6-1-html资源",
-        "link": "#_6-1-html资源",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.2 样式资源",
-        "slug": "_6-2-样式资源",
-        "link": "#_6-2-样式资源",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.2.1 css",
-            "slug": "_6-2-1-css",
-            "link": "#_6-2-1-css",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2.2 less&sass",
-            "slug": "_6-2-2-less-sass",
-            "link": "#_6-2-2-less-sass",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2.3 抽离CSS",
-            "slug": "_6-2-3-抽离css",
-            "link": "#_6-2-3-抽离css",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2.4 压缩css（生产模式）",
-            "slug": "_6-2-4-压缩css-生产模式",
-            "link": "#_6-2-4-压缩css-生产模式",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6.3 图片资源",
-        "slug": "_6-3-图片资源",
-        "link": "#_6-3-图片资源",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.4 字体资源",
-        "slug": "_6-4-字体资源",
-        "link": "#_6-4-字体资源",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.5 数据资源",
-        "slug": "_6-5-数据资源",
-        "link": "#_6-5-数据资源",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.6 自定义 JSON 模块 parser",
-        "slug": "_6-6-自定义-json-模块-parser",
-        "link": "#_6-6-自定义-json-模块-parser",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.7 js规范化",
-        "slug": "_6-7-js规范化",
-        "link": "#_6-7-js规范化",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.7.1 配置文件",
-            "slug": "_6-7-1-配置文件",
-            "link": "#_6-7-1-配置文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.7.2 具体配置",
-            "slug": "_6-7-2-具体配置",
-            "link": "#_6-7-2-具体配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.7.3 在 Webpack 中使用",
-            "slug": "_6-7-3-在-webpack-中使用",
-            "link": "#_6-7-3-在-webpack-中使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.7.4 VSCode Eslint 插件",
-            "slug": "_6-7-4-vscode-eslint-插件",
-            "link": "#_6-7-4-vscode-eslint-插件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.7.5 overlay",
-            "slug": "_6-7-5-overlay",
-            "link": "#_6-7-5-overlay",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6.8 js兼容处理",
-        "slug": "_6-8-js兼容处理",
-        "link": "#_6-8-js兼容处理",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.8.1 什么是JS兼容性处理？",
-            "slug": "_6-8-1-什么是js兼容性处理",
-            "link": "#_6-8-1-什么是js兼容性处理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.8.2 babel的介绍",
-            "slug": "_6-8-2-babel的介绍",
-            "link": "#_6-8-2-babel的介绍",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.8.3 babel的安装",
-            "slug": "_6-8-3-babel的安装",
-            "link": "#_6-8-3-babel的安装",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.8.4 webpack配置",
-            "slug": "_6-8-4-webpack配置",
-            "link": "#_6-8-4-webpack配置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6.9 代码分离",
-        "slug": "_6-9-代码分离",
-        "link": "#_6-9-代码分离",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.9.1 入口起点( 不推荐 )",
-            "slug": "_6-9-1-入口起点-不推荐",
-            "link": "#_6-9-1-入口起点-不推荐",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.9.2 防止重复",
-            "slug": "_6-9-2-防止重复",
-            "link": "#_6-9-2-防止重复",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.9.3 动态导入",
-            "slug": "_6-9-3-动态导入",
-            "link": "#_6-9-3-动态导入",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.9.4 懒加载",
-            "slug": "_6-9-4-懒加载",
-            "link": "#_6-9-4-懒加载",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.9.5 预获取、预加载",
-            "slug": "_6-9-5-预获取、预加载",
-            "link": "#_6-9-5-预获取、预加载",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6.10 缓存",
-        "slug": "_6-10-缓存",
-        "link": "#_6-10-缓存",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.10.1 输出文件的文件名",
-            "slug": "_6-10-1-输出文件的文件名",
-            "link": "#_6-10-1-输出文件的文件名",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.10.2 缓存第三方库",
-            "slug": "_6-10-2-缓存第三方库",
-            "link": "#_6-10-2-缓存第三方库",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6.11 js压缩",
-        "slug": "_6-11-js压缩",
-        "link": "#_6-11-js压缩",
-        "children": []
-      }
-    ],
-    "path": "/notes/webpack/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7.Public Path(公共路径)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "10.1 在webpack中何为模块",
-        "slug": "_10-1-在webpack中何为模块",
-        "link": "#_10-1-在webpack中何为模块",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10.2 模块的引入",
-        "slug": "_10-2-模块的引入",
-        "link": "#_10-2-模块的引入",
-        "children": [
-          {
-            "level": 3,
-            "title": "10.2.1 相对路径",
-            "slug": "_10-2-1-相对路径",
-            "link": "#_10-2-1-相对路径",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "10.2.2 绝对路径",
-            "slug": "_10-2-2-绝对路径",
-            "link": "#_10-2-2-绝对路径",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "10.2.3 第三方模块的引入",
-            "slug": "_10-2-3-第三方模块的引入",
-            "link": "#_10-2-3-第三方模块的引入",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "10.3 resolve配置",
-        "slug": "_10-3-resolve配置",
-        "link": "#_10-3-resolve配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10.4 外部扩展",
-        "slug": "_10-4-外部扩展",
-        "link": "#_10-4-外部扩展",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10.5 依赖图",
-        "slug": "_10-5-依赖图",
-        "link": "#_10-5-依赖图",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "11.1 概述",
-        "slug": "_11-1-概述",
-        "link": "#_11-1-概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "11.2 具体的应用",
-        "slug": "_11-2-具体的应用",
-        "link": "#_11-2-具体的应用",
-        "children": [
-          {
-            "level": 3,
-            "title": "11.2.1 安装",
-            "slug": "_11-2-1-安装",
-            "link": "#_11-2-1-安装",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "11.2.2 配置",
-            "slug": "_11-2-2-配置",
-            "link": "#_11-2-2-配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "11.2.3 配置autoprefixer",
-            "slug": "_11-2-3-配置autoprefixer",
-            "link": "#_11-2-3-配置autoprefixer",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "13.1 entry 配置",
-        "slug": "_13-1-entry-配置",
-        "link": "#_13-1-entry-配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "13.1.1 单个入口（简写）语法",
-            "slug": "_13-1-1-单个入口-简写-语法",
-            "link": "#_13-1-1-单个入口-简写-语法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "13.1.2 对象语法",
-            "slug": "_13-1-2-对象语法",
-            "link": "#_13-1-2-对象语法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "13.1.3 使用场景",
-            "slug": "_13-1-3-使用场景",
-            "link": "#_13-1-3-使用场景",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "13.2 配置 index.html 模板",
-        "slug": "_13-2-配置-index-html-模板",
-        "link": "#_13-2-配置-index-html-模板",
-        "children": []
-      }
-    ],
-    "path": "/notes/webpack/04.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -17846,6 +17173,679 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/vue3/17.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1.前言",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.1 概述",
+        "slug": "_1-1-概述",
+        "link": "#_1-1-概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.2 为什么需要打包工具？",
+        "slug": "_1-2-为什么需要打包工具",
+        "link": "#_1-2-为什么需要打包工具",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.3 为什么需要 Webpack",
+        "slug": "_1-3-为什么需要-webpack",
+        "link": "#_1-3-为什么需要-webpack",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.4  如何解决作用域问题",
+        "slug": "_1-4-如何解决作用域问题",
+        "link": "#_1-4-如何解决作用域问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.5 如何解决代码拆分问题",
+        "slug": "_1-5-如何解决代码拆分问题",
+        "link": "#_1-5-如何解决代码拆分问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.6 如何让浏览器支持模块",
+        "slug": "_1-6-如何让浏览器支持模块",
+        "link": "#_1-6-如何让浏览器支持模块",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.7 Webpack 搞定这一切",
+        "slug": "_1-7-webpack-搞定这一切",
+        "link": "#_1-7-webpack-搞定这一切",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.1 功能介绍",
+        "slug": "_2-1-功能介绍",
+        "link": "#_2-1-功能介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.2 安装",
+        "slug": "_2-2-安装",
+        "link": "#_2-2-安装",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.3 开始使用",
+        "slug": "_2-3-开始使用",
+        "link": "#_2-3-开始使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.3.1 资源目录",
+            "slug": "_2-3-1-资源目录",
+            "link": "#_2-3-1-资源目录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3.2 创建文件",
+            "slug": "_2-3-2-创建文件",
+            "link": "#_2-3-2-创建文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3.3 下载依赖",
+            "slug": "_2-3-3-下载依赖",
+            "link": "#_2-3-3-下载依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3.4 启用 Webpack",
+            "slug": "_2-3-4-启用-webpack",
+            "link": "#_2-3-4-启用-webpack",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3.5 观察输出文件",
+            "slug": "_2-3-5-观察输出文件",
+            "link": "#_2-3-5-观察输出文件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.4 自定义 Webpack 配置",
+        "slug": "_2-4-自定义-webpack-配置",
+        "link": "#_2-4-自定义-webpack-配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.5 清理dist",
+        "slug": "_2-5-清理dist",
+        "link": "#_2-5-清理dist",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.6 source map",
+        "slug": "_2-6-source-map",
+        "link": "#_2-6-source-map",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.7 使用 watch mode(观察模式)",
+        "slug": "_2-7-使用-watch-mode-观察模式",
+        "link": "#_2-7-使用-watch-mode-观察模式",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 Entry 入口",
+            "slug": "_3-1-entry-入口",
+            "link": "#_3-1-entry-入口",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 Output 输出",
+            "slug": "_3-2-output-输出",
+            "link": "#_3-2-output-输出",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 Loader 解析器",
+            "slug": "_3-3-loader-解析器",
+            "link": "#_3-3-loader-解析器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 Plugins 插件",
+            "slug": "_3-4-plugins-插件",
+            "link": "#_3-4-plugins-插件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.5 Mode 模式",
+            "slug": "_3-5-mode-模式",
+            "link": "#_3-5-mode-模式",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/webpack/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "4.开发服务器&自动化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "4.1 下载包",
+        "slug": "_4-1-下载包",
+        "link": "#_4-1-下载包",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.2 配置",
+        "slug": "_4-2-配置",
+        "link": "#_4-2-配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "基础配置",
+            "slug": "基础配置",
+            "link": "#基础配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "添加响应头",
+            "slug": "添加响应头",
+            "link": "#添加响应头",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开启代理",
+            "slug": "开启代理",
+            "link": "#开启代理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "http",
+            "slug": "http",
+            "link": "#http",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "http2",
+            "slug": "http2",
+            "link": "#http2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "historyApiFallback",
+            "slug": "historyapifallback",
+            "link": "#historyapifallback",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发服务器主机",
+            "slug": "开发服务器主机",
+            "link": "#开发服务器主机",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "progress",
+            "slug": "progress",
+            "link": "#progress",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "overlay",
+            "slug": "overlay",
+            "link": "#overlay",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.4 模块热替与热加载",
+        "slug": "_4-4-模块热替与热加载",
+        "link": "#_4-4-模块热替与热加载",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.3 启动",
+        "slug": "_4-3-启动",
+        "link": "#_4-3-启动",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.1 resource",
+        "slug": "_5-1-resource",
+        "link": "#_5-1-resource",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.2 inline",
+        "slug": "_5-2-inline",
+        "link": "#_5-2-inline",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.3 source",
+        "slug": "_5-3-source",
+        "link": "#_5-3-source",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.4 asset",
+        "slug": "_5-4-asset",
+        "link": "#_5-4-asset",
+        "children": []
+      }
+    ],
+    "path": "/notes/webpack/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6.资源处理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "6.1 HTML资源",
+        "slug": "_6-1-html资源",
+        "link": "#_6-1-html资源",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.2 样式资源",
+        "slug": "_6-2-样式资源",
+        "link": "#_6-2-样式资源",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.2.1 css",
+            "slug": "_6-2-1-css",
+            "link": "#_6-2-1-css",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2.2 less&sass",
+            "slug": "_6-2-2-less-sass",
+            "link": "#_6-2-2-less-sass",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2.3 抽离CSS",
+            "slug": "_6-2-3-抽离css",
+            "link": "#_6-2-3-抽离css",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2.4 压缩css（生产模式）",
+            "slug": "_6-2-4-压缩css-生产模式",
+            "link": "#_6-2-4-压缩css-生产模式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.3 图片资源",
+        "slug": "_6-3-图片资源",
+        "link": "#_6-3-图片资源",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.4 字体资源",
+        "slug": "_6-4-字体资源",
+        "link": "#_6-4-字体资源",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.5 数据资源",
+        "slug": "_6-5-数据资源",
+        "link": "#_6-5-数据资源",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.6 自定义 JSON 模块 parser",
+        "slug": "_6-6-自定义-json-模块-parser",
+        "link": "#_6-6-自定义-json-模块-parser",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.7 js规范化",
+        "slug": "_6-7-js规范化",
+        "link": "#_6-7-js规范化",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.7.1 配置文件",
+            "slug": "_6-7-1-配置文件",
+            "link": "#_6-7-1-配置文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.7.2 具体配置",
+            "slug": "_6-7-2-具体配置",
+            "link": "#_6-7-2-具体配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.7.3 在 Webpack 中使用",
+            "slug": "_6-7-3-在-webpack-中使用",
+            "link": "#_6-7-3-在-webpack-中使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.7.4 VSCode Eslint 插件",
+            "slug": "_6-7-4-vscode-eslint-插件",
+            "link": "#_6-7-4-vscode-eslint-插件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.7.5 overlay",
+            "slug": "_6-7-5-overlay",
+            "link": "#_6-7-5-overlay",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.8 js兼容处理",
+        "slug": "_6-8-js兼容处理",
+        "link": "#_6-8-js兼容处理",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.8.1 什么是JS兼容性处理？",
+            "slug": "_6-8-1-什么是js兼容性处理",
+            "link": "#_6-8-1-什么是js兼容性处理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.8.2 babel的介绍",
+            "slug": "_6-8-2-babel的介绍",
+            "link": "#_6-8-2-babel的介绍",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.8.3 babel的安装",
+            "slug": "_6-8-3-babel的安装",
+            "link": "#_6-8-3-babel的安装",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.8.4 webpack配置",
+            "slug": "_6-8-4-webpack配置",
+            "link": "#_6-8-4-webpack配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.9 代码分离",
+        "slug": "_6-9-代码分离",
+        "link": "#_6-9-代码分离",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.9.1 入口起点( 不推荐 )",
+            "slug": "_6-9-1-入口起点-不推荐",
+            "link": "#_6-9-1-入口起点-不推荐",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.9.2 防止重复",
+            "slug": "_6-9-2-防止重复",
+            "link": "#_6-9-2-防止重复",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.9.3 动态导入",
+            "slug": "_6-9-3-动态导入",
+            "link": "#_6-9-3-动态导入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.9.4 懒加载",
+            "slug": "_6-9-4-懒加载",
+            "link": "#_6-9-4-懒加载",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.9.5 预获取、预加载",
+            "slug": "_6-9-5-预获取、预加载",
+            "link": "#_6-9-5-预获取、预加载",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.10 缓存",
+        "slug": "_6-10-缓存",
+        "link": "#_6-10-缓存",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.10.1 输出文件的文件名",
+            "slug": "_6-10-1-输出文件的文件名",
+            "link": "#_6-10-1-输出文件的文件名",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.10.2 缓存第三方库",
+            "slug": "_6-10-2-缓存第三方库",
+            "link": "#_6-10-2-缓存第三方库",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.11 js压缩",
+        "slug": "_6-11-js压缩",
+        "link": "#_6-11-js压缩",
+        "children": []
+      }
+    ],
+    "path": "/notes/webpack/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7.Public Path(公共路径)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "10.1 在webpack中何为模块",
+        "slug": "_10-1-在webpack中何为模块",
+        "link": "#_10-1-在webpack中何为模块",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10.2 模块的引入",
+        "slug": "_10-2-模块的引入",
+        "link": "#_10-2-模块的引入",
+        "children": [
+          {
+            "level": 3,
+            "title": "10.2.1 相对路径",
+            "slug": "_10-2-1-相对路径",
+            "link": "#_10-2-1-相对路径",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "10.2.2 绝对路径",
+            "slug": "_10-2-2-绝对路径",
+            "link": "#_10-2-2-绝对路径",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "10.2.3 第三方模块的引入",
+            "slug": "_10-2-3-第三方模块的引入",
+            "link": "#_10-2-3-第三方模块的引入",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "10.3 resolve配置",
+        "slug": "_10-3-resolve配置",
+        "link": "#_10-3-resolve配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10.4 外部扩展",
+        "slug": "_10-4-外部扩展",
+        "link": "#_10-4-外部扩展",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10.5 依赖图",
+        "slug": "_10-5-依赖图",
+        "link": "#_10-5-依赖图",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "11.1 概述",
+        "slug": "_11-1-概述",
+        "link": "#_11-1-概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "11.2 具体的应用",
+        "slug": "_11-2-具体的应用",
+        "link": "#_11-2-具体的应用",
+        "children": [
+          {
+            "level": 3,
+            "title": "11.2.1 安装",
+            "slug": "_11-2-1-安装",
+            "link": "#_11-2-1-安装",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "11.2.2 配置",
+            "slug": "_11-2-2-配置",
+            "link": "#_11-2-2-配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "11.2.3 配置autoprefixer",
+            "slug": "_11-2-3-配置autoprefixer",
+            "link": "#_11-2-3-配置autoprefixer",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "13.1 entry 配置",
+        "slug": "_13-1-entry-配置",
+        "link": "#_13-1-entry-配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "13.1.1 单个入口（简写）语法",
+            "slug": "_13-1-1-单个入口-简写-语法",
+            "link": "#_13-1-1-单个入口-简写-语法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "13.1.2 对象语法",
+            "slug": "_13-1-2-对象语法",
+            "link": "#_13-1-2-对象语法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "13.1.3 使用场景",
+            "slug": "_13-1-3-使用场景",
+            "link": "#_13-1-3-使用场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "13.2 配置 index.html 模板",
+        "slug": "_13-2-配置-index-html-模板",
+        "link": "#_13-2-配置-index-html-模板",
+        "children": []
+      }
+    ],
+    "path": "/notes/webpack/04.html",
     "pathLocale": "/",
     "extraFields": []
   },
