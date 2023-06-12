@@ -4,7 +4,7 @@ title: 首页
 heroImage: /images/logo-text.png
 actions:
   - text: 开始学习
-    link: '/notes/datastr/01'
+    link: '/notes/js/01'
     type: primary
   - text: 开始挑战
     link: '/notes/dailyquestion/01'

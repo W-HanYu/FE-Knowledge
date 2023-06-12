@@ -7,187 +7,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "13【Class的语法】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.类的由来",
-        "slug": "_1-类的由来",
-        "link": "#_1-类的由来",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Class的两种定义形式",
-        "slug": "_2-class的两种定义形式",
-        "link": "#_2-class的两种定义形式",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 声明形式",
-            "slug": "_2-1-声明形式",
-            "link": "#_2-1-声明形式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 表达式形式",
-            "slug": "_2-2-表达式形式",
-            "link": "#_2-2-表达式形式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 表达式形式扩展",
-            "slug": "_2-3-表达式形式扩展",
-            "link": "#_2-3-表达式形式扩展",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.constructor() 方法",
-        "slug": "_3-constructor-方法",
-        "link": "#_3-constructor-方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.类的实例",
-        "slug": "_4-类的实例",
-        "link": "#_4-类的实例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.实例属性的新写法",
-        "slug": "_5-实例属性的新写法",
-        "link": "#_5-实例属性的新写法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.取值函数（getter）和存值函数（setter）",
-        "slug": "_6-取值函数-getter-和存值函数-setter",
-        "link": "#_6-取值函数-getter-和存值函数-setter",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 getter",
-            "slug": "_6-1-getter",
-            "link": "#_6-1-getter",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 setter",
-            "slug": "_6-2-setter",
-            "link": "#_6-2-setter",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.3 es6中的使用",
-            "slug": "_6-3-es6中的使用",
-            "link": "#_6-3-es6中的使用",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "7.实例属性、静态方法和静态属性",
-        "slug": "_7-实例属性、静态方法和静态属性",
-        "link": "#_7-实例属性、静态方法和静态属性",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.1  实例属性",
-            "slug": "_7-1-实例属性",
-            "link": "#_7-1-实例属性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.2 静态方法",
-            "slug": "_7-2-静态方法",
-            "link": "#_7-2-静态方法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.3 静态属性",
-            "slug": "_7-3-静态属性",
-            "link": "#_7-3-静态属性",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "8.私有方法和私有属性",
-        "slug": "_8-私有方法和私有属性",
-        "link": "#_8-私有方法和私有属性",
-        "children": [
-          {
-            "level": 3,
-            "title": "8.1 早期解决方案",
-            "slug": "_8-1-早期解决方案",
-            "link": "#_8-1-早期解决方案",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.2 私有属性的正式写法",
-            "slug": "_8-2-私有属性的正式写法",
-            "link": "#_8-2-私有属性的正式写法",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "9.类的注意点",
-        "slug": "_9-类的注意点",
-        "link": "#_9-类的注意点",
-        "children": [
-          {
-            "level": 3,
-            "title": "9.1 严格模式",
-            "slug": "_9-1-严格模式",
-            "link": "#_9-1-严格模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "9.2 不存在提升",
-            "slug": "_9-2-不存在提升",
-            "link": "#_9-2-不存在提升",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "9.3 name 属性",
-            "slug": "_9-3-name-属性",
-            "link": "#_9-3-name-属性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "9.4 this 的指向",
-            "slug": "_9-4-this-的指向",
-            "link": "#_9-4-this-的指向",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/notes/designPatterns/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "01 【AJAX概述 HTTP相关问题】",
     "headers": [
       {
@@ -458,6 +277,187 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/ajax/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "13【Class的语法】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.类的由来",
+        "slug": "_1-类的由来",
+        "link": "#_1-类的由来",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Class的两种定义形式",
+        "slug": "_2-class的两种定义形式",
+        "link": "#_2-class的两种定义形式",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 声明形式",
+            "slug": "_2-1-声明形式",
+            "link": "#_2-1-声明形式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 表达式形式",
+            "slug": "_2-2-表达式形式",
+            "link": "#_2-2-表达式形式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 表达式形式扩展",
+            "slug": "_2-3-表达式形式扩展",
+            "link": "#_2-3-表达式形式扩展",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.constructor() 方法",
+        "slug": "_3-constructor-方法",
+        "link": "#_3-constructor-方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.类的实例",
+        "slug": "_4-类的实例",
+        "link": "#_4-类的实例",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.实例属性的新写法",
+        "slug": "_5-实例属性的新写法",
+        "link": "#_5-实例属性的新写法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.取值函数（getter）和存值函数（setter）",
+        "slug": "_6-取值函数-getter-和存值函数-setter",
+        "link": "#_6-取值函数-getter-和存值函数-setter",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.1 getter",
+            "slug": "_6-1-getter",
+            "link": "#_6-1-getter",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 setter",
+            "slug": "_6-2-setter",
+            "link": "#_6-2-setter",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.3 es6中的使用",
+            "slug": "_6-3-es6中的使用",
+            "link": "#_6-3-es6中的使用",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "7.实例属性、静态方法和静态属性",
+        "slug": "_7-实例属性、静态方法和静态属性",
+        "link": "#_7-实例属性、静态方法和静态属性",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1  实例属性",
+            "slug": "_7-1-实例属性",
+            "link": "#_7-1-实例属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 静态方法",
+            "slug": "_7-2-静态方法",
+            "link": "#_7-2-静态方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 静态属性",
+            "slug": "_7-3-静态属性",
+            "link": "#_7-3-静态属性",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "8.私有方法和私有属性",
+        "slug": "_8-私有方法和私有属性",
+        "link": "#_8-私有方法和私有属性",
+        "children": [
+          {
+            "level": 3,
+            "title": "8.1 早期解决方案",
+            "slug": "_8-1-早期解决方案",
+            "link": "#_8-1-早期解决方案",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.2 私有属性的正式写法",
+            "slug": "_8-2-私有属性的正式写法",
+            "link": "#_8-2-私有属性的正式写法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "9.类的注意点",
+        "slug": "_9-类的注意点",
+        "link": "#_9-类的注意点",
+        "children": [
+          {
+            "level": 3,
+            "title": "9.1 严格模式",
+            "slug": "_9-1-严格模式",
+            "link": "#_9-1-严格模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.2 不存在提升",
+            "slug": "_9-2-不存在提升",
+            "link": "#_9-2-不存在提升",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.3 name 属性",
+            "slug": "_9-3-name-属性",
+            "link": "#_9-3-name-属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.4 this 的指向",
+            "slug": "_9-4-this-的指向",
+            "link": "#_9-4-this-的指向",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/notes/designPatterns/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -10526,803 +10526,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "01 【Sass的安装使用】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.介绍",
-        "slug": "_1-介绍",
-        "link": "#_1-介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 CSS预处理技术，及种类介绍",
-            "slug": "_1-1-css预处理技术-及种类介绍",
-            "link": "#_1-1-css预处理技术-及种类介绍",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 什么是sass",
-            "slug": "_1-2-什么是sass",
-            "link": "#_1-2-什么是sass",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.关于scss和sass",
-        "slug": "_2-关于scss和sass",
-        "link": "#_2-关于scss和sass",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.安装和命令行编译",
-        "slug": "_3-安装和命令行编译",
-        "link": "#_3-安装和命令行编译",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.Sass文件编译快览",
-        "slug": "_4-sass文件编译快览",
-        "link": "#_4-sass文件编译快览",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 命令行编译配置选项",
-            "slug": "_4-1-命令行编译配置选项",
-            "link": "#_4-1-命令行编译配置选项",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 --watch监听文件变化",
-            "slug": "_4-2-watch监听文件变化",
-            "link": "#_4-2-watch监听文件变化",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 --style指定css的样式",
-            "slug": "_4-3-style指定css的样式",
-            "link": "#_4-3-style指定css的样式",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5.使用VSCode插件编译",
-        "slug": "_5-使用vscode插件编译",
-        "link": "#_5-使用vscode插件编译",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 基本使用",
-            "slug": "_5-1-基本使用",
-            "link": "#_5-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 自定义设置",
-            "slug": "_5-2-自定义设置",
-            "link": "#_5-2-自定义设置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6.使用webpack编译",
-        "slug": "_6-使用webpack编译",
-        "link": "#_6-使用webpack编译",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "02 【Sass语法介绍-变量】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.什么是 Sass 变量 ?",
-        "slug": "_2-什么是-sass-变量",
-        "link": "#_2-什么是-sass-变量",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.使用变量",
-        "slug": "_3-使用变量",
-        "link": "#_3-使用变量",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 变量声明",
-            "slug": "_3-1-变量声明",
-            "link": "#_3-1-变量声明",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 变量引用",
-            "slug": "_3-2-变量引用",
-            "link": "#_3-2-变量引用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 变量名中的中横线(hyphen)和下划线(underscore)",
-            "slug": "_3-3-变量名中的中横线-hyphen-和下划线-underscore",
-            "link": "#_3-3-变量名中的中横线-hyphen-和下划线-underscore",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.变量的作用域",
-        "slug": "_4-变量的作用域",
-        "link": "#_4-变量的作用域",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 !global 标识符",
-            "slug": "_4-1-global-标识符",
-            "link": "#_4-1-global-标识符",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 !default标识符",
-            "slug": "_4-2-default标识符",
-            "link": "#_4-2-default标识符",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5.实战经验",
-        "slug": "_5-实战经验",
-        "link": "#_5-实战经验",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.小结",
-        "slug": "_6-小结",
-        "link": "#_6-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "03 【Sass语法介绍-嵌套】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.什么是嵌套？",
-        "slug": "_2-什么是嵌套",
-        "link": "#_2-什么是嵌套",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.样式的嵌套",
-        "slug": "_3-样式的嵌套",
-        "link": "#_3-样式的嵌套",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 基本使用",
-            "slug": "_3-1-基本使用",
-            "link": "#_3-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 嵌套选择器列表 (Selector Lists)",
-            "slug": "_3-2-嵌套选择器列表-selector-lists",
-            "link": "#_3-2-嵌套选择器列表-selector-lists",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 嵌套组合符选择器 (Selector Combinators)",
-            "slug": "_3-3-嵌套组合符选择器-selector-combinators",
-            "link": "#_3-3-嵌套组合符选择器-selector-combinators",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.父选择器 (Parent Selector)",
-        "slug": "_4-父选择器-parent-selector",
-        "link": "#_4-父选择器-parent-selector",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 基本使用",
-            "slug": "_4-1-基本使用",
-            "link": "#_4-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 添加后缀 (Adding Suffixes)",
-            "slug": "_4-2-添加后缀-adding-suffixes",
-            "link": "#_4-2-添加后缀-adding-suffixes",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5.占位符选择器 (Placeholder Selectors)",
-        "slug": "_5-占位符选择器-placeholder-selectors",
-        "link": "#_5-占位符选择器-placeholder-selectors",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.属性嵌套",
-        "slug": "_6-属性嵌套",
-        "link": "#_6-属性嵌套",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.小结",
-        "slug": "_7-小结",
-        "link": "#_7-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "04 【Sass语法介绍-运算】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.什么是 Sass 运算？",
-        "slug": "_2-什么是-sass-运算",
-        "link": "#_2-什么是-sass-运算",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.数字运算",
-        "slug": "_3-数字运算",
-        "link": "#_3-数字运算",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.除法运算",
-        "slug": "_4-除法运算",
-        "link": "#_4-除法运算",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.关系运算",
-        "slug": "_5-关系运算",
-        "link": "#_5-关系运算",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.颜色运算",
-        "slug": "_6-颜色运算",
-        "link": "#_6-颜色运算",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.字符串运算",
-        "slug": "_7-字符串运算",
-        "link": "#_7-字符串运算",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.布尔运算",
-        "slug": "_8-布尔运算",
-        "link": "#_8-布尔运算",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9.实战经验",
-        "slug": "_9-实战经验",
-        "link": "#_9-实战经验",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10.小结",
-        "slug": "_10-小结",
-        "link": "#_10-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "05 【Sass语法介绍-插值】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.什么是插值？",
-        "slug": "_2-什么是插值",
-        "link": "#_2-什么是插值",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.在选择器中使用",
-        "slug": "_3-在选择器中使用",
-        "link": "#_3-在选择器中使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.在属性名中使用",
-        "slug": "_4-在属性名中使用",
-        "link": "#_4-在属性名中使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.在属性值中使用",
-        "slug": "_5-在属性值中使用",
-        "link": "#_5-在属性值中使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.在注释中使用",
-        "slug": "_6-在注释中使用",
-        "link": "#_6-在注释中使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.实战经验",
-        "slug": "_7-实战经验",
-        "link": "#_7-实战经验",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.小结",
-        "slug": "_8-小结",
-        "link": "#_8-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "06 【Sass语法介绍-函数】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.什么是函数？",
-        "slug": "_2-什么是函数",
-        "link": "#_2-什么是函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.Sass 函数简介",
-        "slug": "_3-sass-函数简介",
-        "link": "#_3-sass-函数简介",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.颜色函数",
-        "slug": "_4-颜色函数",
-        "link": "#_4-颜色函数",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 用于获取通道色值的函数",
-            "slug": "_4-1-用于获取通道色值的函数",
-            "link": "#_4-1-用于获取通道色值的函数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 saturate($color, $amount)",
-            "slug": "_4-2-saturate-color-amount",
-            "link": "#_4-2-saturate-color-amount",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 scale-color(…)",
-            "slug": "_4-3-scale-color",
-            "link": "#_4-3-scale-color",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5. 小结",
-        "slug": "_5-小结",
-        "link": "#_5-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "07 【Sass语法介绍-控制指令】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.什么是 Sass 控制指令",
-        "slug": "_2-什么是-sass-控制指令",
-        "link": "#_2-什么是-sass-控制指令",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.@if 指令",
-        "slug": "_3-if-指令",
-        "link": "#_3-if-指令",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 基本使用",
-            "slug": "_3-1-基本使用",
-            "link": "#_3-1-基本使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 @else 和 @else if 指令",
-            "slug": "_3-2-else-和-else-if-指令",
-            "link": "#_3-2-else-和-else-if-指令",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.@each 指令",
-        "slug": "_4-each-指令",
-        "link": "#_4-each-指令",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.@for 指令",
-        "slug": "_5-for-指令",
-        "link": "#_5-for-指令",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.@while 指令",
-        "slug": "_6-while-指令",
-        "link": "#_6-while-指令",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.实战经验",
-        "slug": "_7-实战经验",
-        "link": "#_7-实战经验",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.小结",
-        "slug": "_8-小结",
-        "link": "#_8-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/07.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "08 【Sass语法介绍-混合指令】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.什么是 Sass 混合指令",
-        "slug": "_2-什么是-sass-混合指令",
-        "link": "#_2-什么是-sass-混合指令",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.语法详情",
-        "slug": "_3-语法详情",
-        "link": "#_3-语法详情",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.定义和引用混合指令",
-        "slug": "_4-定义和引用混合指令",
-        "link": "#_4-定义和引用混合指令",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.混合指令的参数",
-        "slug": "_5-混合指令的参数",
-        "link": "#_5-混合指令的参数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.实战经验",
-        "slug": "_6-实战经验",
-        "link": "#_6-实战经验",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.小结",
-        "slug": "_7-小结",
-        "link": "#_7-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/08.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "09 【Sass语法介绍-函数指令】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.什么是 Sass 函数指令",
-        "slug": "_2-什么是-sass-函数指令",
-        "link": "#_2-什么是-sass-函数指令",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.函数的参数",
-        "slug": "_3-函数的参数",
-        "link": "#_3-函数的参数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.接收任意数量的参数",
-        "slug": "_4-接收任意数量的参数",
-        "link": "#_4-接收任意数量的参数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.@return",
-        "slug": "_5-return",
-        "link": "#_5-return",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.实战经验",
-        "slug": "_6-实战经验",
-        "link": "#_6-实战经验",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.小结",
-        "slug": "_7-小结",
-        "link": "#_7-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/09.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "10 【Sass语法介绍-继承】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.什么是 Sass 继承",
-        "slug": "_2-什么是-sass-继承",
-        "link": "#_2-什么是-sass-继承",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.占位符选择器",
-        "slug": "_3-占位符选择器",
-        "link": "#_3-占位符选择器",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.在 @media 中使用 @extend",
-        "slug": "_4-在-media-中使用-extend",
-        "link": "#_4-在-media-中使用-extend",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.实战经验",
-        "slug": "_5-实战经验",
-        "link": "#_5-实战经验",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.小结",
-        "slug": "_6-小结",
-        "link": "#_6-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/10.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "11【Sass语法介绍-导入】",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.前言",
-        "slug": "_1-前言",
-        "link": "#_1-前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.语法详情",
-        "slug": "_2-语法详情",
-        "link": "#_2-语法详情",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.加载路径",
-        "slug": "_3-加载路径",
-        "link": "#_3-加载路径",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.部分导入",
-        "slug": "_4-部分导入",
-        "link": "#_4-部分导入",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.索引文件",
-        "slug": "_5-索引文件",
-        "link": "#_5-索引文件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.使用 @use 替代 @import",
-        "slug": "_6-使用-use-替代-import",
-        "link": "#_6-使用-use-替代-import",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.实战经验",
-        "slug": "_7-实战经验",
-        "link": "#_7-实战经验",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.小结",
-        "slug": "_8-小结",
-        "link": "#_8-小结",
-        "children": []
-      }
-    ],
-    "path": "/notes/sass/11.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "01 【react入门】",
     "headers": [
       {
@@ -13621,6 +12824,803 @@ export const searchIndex = [
       }
     ],
     "path": "/notes/react/19.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "01 【Sass的安装使用】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.介绍",
+        "slug": "_1-介绍",
+        "link": "#_1-介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 CSS预处理技术，及种类介绍",
+            "slug": "_1-1-css预处理技术-及种类介绍",
+            "link": "#_1-1-css预处理技术-及种类介绍",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 什么是sass",
+            "slug": "_1-2-什么是sass",
+            "link": "#_1-2-什么是sass",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.关于scss和sass",
+        "slug": "_2-关于scss和sass",
+        "link": "#_2-关于scss和sass",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.安装和命令行编译",
+        "slug": "_3-安装和命令行编译",
+        "link": "#_3-安装和命令行编译",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.Sass文件编译快览",
+        "slug": "_4-sass文件编译快览",
+        "link": "#_4-sass文件编译快览",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 命令行编译配置选项",
+            "slug": "_4-1-命令行编译配置选项",
+            "link": "#_4-1-命令行编译配置选项",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 --watch监听文件变化",
+            "slug": "_4-2-watch监听文件变化",
+            "link": "#_4-2-watch监听文件变化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3 --style指定css的样式",
+            "slug": "_4-3-style指定css的样式",
+            "link": "#_4-3-style指定css的样式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5.使用VSCode插件编译",
+        "slug": "_5-使用vscode插件编译",
+        "link": "#_5-使用vscode插件编译",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 基本使用",
+            "slug": "_5-1-基本使用",
+            "link": "#_5-1-基本使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.2 自定义设置",
+            "slug": "_5-2-自定义设置",
+            "link": "#_5-2-自定义设置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.使用webpack编译",
+        "slug": "_6-使用webpack编译",
+        "link": "#_6-使用webpack编译",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "02 【Sass语法介绍-变量】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.什么是 Sass 变量 ?",
+        "slug": "_2-什么是-sass-变量",
+        "link": "#_2-什么是-sass-变量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.使用变量",
+        "slug": "_3-使用变量",
+        "link": "#_3-使用变量",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 变量声明",
+            "slug": "_3-1-变量声明",
+            "link": "#_3-1-变量声明",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 变量引用",
+            "slug": "_3-2-变量引用",
+            "link": "#_3-2-变量引用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 变量名中的中横线(hyphen)和下划线(underscore)",
+            "slug": "_3-3-变量名中的中横线-hyphen-和下划线-underscore",
+            "link": "#_3-3-变量名中的中横线-hyphen-和下划线-underscore",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.变量的作用域",
+        "slug": "_4-变量的作用域",
+        "link": "#_4-变量的作用域",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 !global 标识符",
+            "slug": "_4-1-global-标识符",
+            "link": "#_4-1-global-标识符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 !default标识符",
+            "slug": "_4-2-default标识符",
+            "link": "#_4-2-default标识符",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5.实战经验",
+        "slug": "_5-实战经验",
+        "link": "#_5-实战经验",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.小结",
+        "slug": "_6-小结",
+        "link": "#_6-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "03 【Sass语法介绍-嵌套】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.什么是嵌套？",
+        "slug": "_2-什么是嵌套",
+        "link": "#_2-什么是嵌套",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.样式的嵌套",
+        "slug": "_3-样式的嵌套",
+        "link": "#_3-样式的嵌套",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 基本使用",
+            "slug": "_3-1-基本使用",
+            "link": "#_3-1-基本使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 嵌套选择器列表 (Selector Lists)",
+            "slug": "_3-2-嵌套选择器列表-selector-lists",
+            "link": "#_3-2-嵌套选择器列表-selector-lists",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 嵌套组合符选择器 (Selector Combinators)",
+            "slug": "_3-3-嵌套组合符选择器-selector-combinators",
+            "link": "#_3-3-嵌套组合符选择器-selector-combinators",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.父选择器 (Parent Selector)",
+        "slug": "_4-父选择器-parent-selector",
+        "link": "#_4-父选择器-parent-selector",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 基本使用",
+            "slug": "_4-1-基本使用",
+            "link": "#_4-1-基本使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 添加后缀 (Adding Suffixes)",
+            "slug": "_4-2-添加后缀-adding-suffixes",
+            "link": "#_4-2-添加后缀-adding-suffixes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5.占位符选择器 (Placeholder Selectors)",
+        "slug": "_5-占位符选择器-placeholder-selectors",
+        "link": "#_5-占位符选择器-placeholder-selectors",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.属性嵌套",
+        "slug": "_6-属性嵌套",
+        "link": "#_6-属性嵌套",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.小结",
+        "slug": "_7-小结",
+        "link": "#_7-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "04 【Sass语法介绍-运算】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.什么是 Sass 运算？",
+        "slug": "_2-什么是-sass-运算",
+        "link": "#_2-什么是-sass-运算",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.数字运算",
+        "slug": "_3-数字运算",
+        "link": "#_3-数字运算",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.除法运算",
+        "slug": "_4-除法运算",
+        "link": "#_4-除法运算",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.关系运算",
+        "slug": "_5-关系运算",
+        "link": "#_5-关系运算",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.颜色运算",
+        "slug": "_6-颜色运算",
+        "link": "#_6-颜色运算",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.字符串运算",
+        "slug": "_7-字符串运算",
+        "link": "#_7-字符串运算",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.布尔运算",
+        "slug": "_8-布尔运算",
+        "link": "#_8-布尔运算",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9.实战经验",
+        "slug": "_9-实战经验",
+        "link": "#_9-实战经验",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10.小结",
+        "slug": "_10-小结",
+        "link": "#_10-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "05 【Sass语法介绍-插值】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.什么是插值？",
+        "slug": "_2-什么是插值",
+        "link": "#_2-什么是插值",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.在选择器中使用",
+        "slug": "_3-在选择器中使用",
+        "link": "#_3-在选择器中使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.在属性名中使用",
+        "slug": "_4-在属性名中使用",
+        "link": "#_4-在属性名中使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.在属性值中使用",
+        "slug": "_5-在属性值中使用",
+        "link": "#_5-在属性值中使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.在注释中使用",
+        "slug": "_6-在注释中使用",
+        "link": "#_6-在注释中使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.实战经验",
+        "slug": "_7-实战经验",
+        "link": "#_7-实战经验",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.小结",
+        "slug": "_8-小结",
+        "link": "#_8-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "06 【Sass语法介绍-函数】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.什么是函数？",
+        "slug": "_2-什么是函数",
+        "link": "#_2-什么是函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.Sass 函数简介",
+        "slug": "_3-sass-函数简介",
+        "link": "#_3-sass-函数简介",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.颜色函数",
+        "slug": "_4-颜色函数",
+        "link": "#_4-颜色函数",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 用于获取通道色值的函数",
+            "slug": "_4-1-用于获取通道色值的函数",
+            "link": "#_4-1-用于获取通道色值的函数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 saturate($color, $amount)",
+            "slug": "_4-2-saturate-color-amount",
+            "link": "#_4-2-saturate-color-amount",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3 scale-color(…)",
+            "slug": "_4-3-scale-color",
+            "link": "#_4-3-scale-color",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5. 小结",
+        "slug": "_5-小结",
+        "link": "#_5-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "07 【Sass语法介绍-控制指令】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.什么是 Sass 控制指令",
+        "slug": "_2-什么是-sass-控制指令",
+        "link": "#_2-什么是-sass-控制指令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.@if 指令",
+        "slug": "_3-if-指令",
+        "link": "#_3-if-指令",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 基本使用",
+            "slug": "_3-1-基本使用",
+            "link": "#_3-1-基本使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 @else 和 @else if 指令",
+            "slug": "_3-2-else-和-else-if-指令",
+            "link": "#_3-2-else-和-else-if-指令",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.@each 指令",
+        "slug": "_4-each-指令",
+        "link": "#_4-each-指令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.@for 指令",
+        "slug": "_5-for-指令",
+        "link": "#_5-for-指令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.@while 指令",
+        "slug": "_6-while-指令",
+        "link": "#_6-while-指令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.实战经验",
+        "slug": "_7-实战经验",
+        "link": "#_7-实战经验",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.小结",
+        "slug": "_8-小结",
+        "link": "#_8-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "08 【Sass语法介绍-混合指令】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.什么是 Sass 混合指令",
+        "slug": "_2-什么是-sass-混合指令",
+        "link": "#_2-什么是-sass-混合指令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.语法详情",
+        "slug": "_3-语法详情",
+        "link": "#_3-语法详情",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.定义和引用混合指令",
+        "slug": "_4-定义和引用混合指令",
+        "link": "#_4-定义和引用混合指令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.混合指令的参数",
+        "slug": "_5-混合指令的参数",
+        "link": "#_5-混合指令的参数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.实战经验",
+        "slug": "_6-实战经验",
+        "link": "#_6-实战经验",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.小结",
+        "slug": "_7-小结",
+        "link": "#_7-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/08.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "09 【Sass语法介绍-函数指令】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.什么是 Sass 函数指令",
+        "slug": "_2-什么是-sass-函数指令",
+        "link": "#_2-什么是-sass-函数指令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.函数的参数",
+        "slug": "_3-函数的参数",
+        "link": "#_3-函数的参数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.接收任意数量的参数",
+        "slug": "_4-接收任意数量的参数",
+        "link": "#_4-接收任意数量的参数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.@return",
+        "slug": "_5-return",
+        "link": "#_5-return",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.实战经验",
+        "slug": "_6-实战经验",
+        "link": "#_6-实战经验",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.小结",
+        "slug": "_7-小结",
+        "link": "#_7-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/09.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "10 【Sass语法介绍-继承】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.什么是 Sass 继承",
+        "slug": "_2-什么是-sass-继承",
+        "link": "#_2-什么是-sass-继承",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.占位符选择器",
+        "slug": "_3-占位符选择器",
+        "link": "#_3-占位符选择器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.在 @media 中使用 @extend",
+        "slug": "_4-在-media-中使用-extend",
+        "link": "#_4-在-media-中使用-extend",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.实战经验",
+        "slug": "_5-实战经验",
+        "link": "#_5-实战经验",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.小结",
+        "slug": "_6-小结",
+        "link": "#_6-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/10.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "11【Sass语法介绍-导入】",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.前言",
+        "slug": "_1-前言",
+        "link": "#_1-前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.语法详情",
+        "slug": "_2-语法详情",
+        "link": "#_2-语法详情",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.加载路径",
+        "slug": "_3-加载路径",
+        "link": "#_3-加载路径",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.部分导入",
+        "slug": "_4-部分导入",
+        "link": "#_4-部分导入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.索引文件",
+        "slug": "_5-索引文件",
+        "link": "#_5-索引文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.使用 @use 替代 @import",
+        "slug": "_6-使用-use-替代-import",
+        "link": "#_6-使用-use-替代-import",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.实战经验",
+        "slug": "_7-实战经验",
+        "link": "#_7-实战经验",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.小结",
+        "slug": "_8-小结",
+        "link": "#_8-小结",
+        "children": []
+      }
+    ],
+    "path": "/notes/sass/11.html",
     "pathLocale": "/",
     "extraFields": []
   },

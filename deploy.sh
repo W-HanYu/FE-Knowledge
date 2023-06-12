@@ -4,15 +4,15 @@
 set -e
 
 # 生成静态文件
-
+yarn docs:build
 
 # 进入生成的文件夹
-cd vuepress/.vuepress/dist
+cd docs/.vuepress/dist
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:W-HanYu/FE-Knowledge.git master:gh-pages
+git push -f git@github.com:w-hanyu/FE-Knowledge.git master:gh-pages
 cd -

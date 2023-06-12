@@ -3,12 +3,12 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/index.html.vue")),
-  // path: /notes/designPatterns/01.html
-  "v-6fb3ccb1": defineAsyncComponent(() => import(/* webpackChunkName: "v-6fb3ccb1" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/designPatterns/01.html.vue")),
   // path: /notes/ajax/01.html
   "v-25846460": defineAsyncComponent(() => import(/* webpackChunkName: "v-25846460" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/ajax/01.html.vue")),
   // path: /notes/ajax/02.html
   "v-221ab322": defineAsyncComponent(() => import(/* webpackChunkName: "v-221ab322" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/ajax/02.html.vue")),
+  // path: /notes/designPatterns/01.html
+  "v-6fb3ccb1": defineAsyncComponent(() => import(/* webpackChunkName: "v-6fb3ccb1" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/designPatterns/01.html.vue")),
   // path: /notes/echarts/01.html
   "v-e2319288": defineAsyncComponent(() => import(/* webpackChunkName: "v-e2319288" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/echarts/01.html.vue")),
   // path: /notes/echarts/02.html
@@ -199,28 +199,6 @@ export const pagesComponents = {
   "v-49b3e19b": defineAsyncComponent(() => import(/* webpackChunkName: "v-49b3e19b" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/nodejs/12.html.vue")),
   // path: /notes/nodejs/13.html
   "v-4b68ba3a": defineAsyncComponent(() => import(/* webpackChunkName: "v-4b68ba3a" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/nodejs/13.html.vue")),
-  // path: /notes/sass/01.html
-  "v-f8f62244": defineAsyncComponent(() => import(/* webpackChunkName: "v-f8f62244" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/01.html.vue")),
-  // path: /notes/sass/02.html
-  "v-f58c7106": defineAsyncComponent(() => import(/* webpackChunkName: "v-f58c7106" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/02.html.vue")),
-  // path: /notes/sass/03.html
-  "v-f222bfc8": defineAsyncComponent(() => import(/* webpackChunkName: "v-f222bfc8" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/03.html.vue")),
-  // path: /notes/sass/04.html
-  "v-eeb90e8a": defineAsyncComponent(() => import(/* webpackChunkName: "v-eeb90e8a" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/04.html.vue")),
-  // path: /notes/sass/05.html
-  "v-eb4f5d4c": defineAsyncComponent(() => import(/* webpackChunkName: "v-eb4f5d4c" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/05.html.vue")),
-  // path: /notes/sass/06.html
-  "v-e7e5ac0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-e7e5ac0e" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/06.html.vue")),
-  // path: /notes/sass/07.html
-  "v-e47bfad0": defineAsyncComponent(() => import(/* webpackChunkName: "v-e47bfad0" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/07.html.vue")),
-  // path: /notes/sass/08.html
-  "v-e1124992": defineAsyncComponent(() => import(/* webpackChunkName: "v-e1124992" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/08.html.vue")),
-  // path: /notes/sass/09.html
-  "v-dda89854": defineAsyncComponent(() => import(/* webpackChunkName: "v-dda89854" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/09.html.vue")),
-  // path: /notes/sass/10.html
-  "v-92935d00": defineAsyncComponent(() => import(/* webpackChunkName: "v-92935d00" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/10.html.vue")),
-  // path: /notes/sass/11.html
-  "v-8f29abc2": defineAsyncComponent(() => import(/* webpackChunkName: "v-8f29abc2" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/11.html.vue")),
   // path: /notes/react/01.html
   "v-87798efe": defineAsyncComponent(() => import(/* webpackChunkName: "v-87798efe" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/react/01.html.vue")),
   // path: /notes/react/02.html
@@ -259,6 +237,28 @@ export const pagesComponents = {
   "v-05c93fca": defineAsyncComponent(() => import(/* webpackChunkName: "v-05c93fca" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/react/18.html.vue")),
   // path: /notes/react/19.html
   "v-025f8e8c": defineAsyncComponent(() => import(/* webpackChunkName: "v-025f8e8c" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/react/19.html.vue")),
+  // path: /notes/sass/01.html
+  "v-f8f62244": defineAsyncComponent(() => import(/* webpackChunkName: "v-f8f62244" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/01.html.vue")),
+  // path: /notes/sass/02.html
+  "v-f58c7106": defineAsyncComponent(() => import(/* webpackChunkName: "v-f58c7106" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/02.html.vue")),
+  // path: /notes/sass/03.html
+  "v-f222bfc8": defineAsyncComponent(() => import(/* webpackChunkName: "v-f222bfc8" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/03.html.vue")),
+  // path: /notes/sass/04.html
+  "v-eeb90e8a": defineAsyncComponent(() => import(/* webpackChunkName: "v-eeb90e8a" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/04.html.vue")),
+  // path: /notes/sass/05.html
+  "v-eb4f5d4c": defineAsyncComponent(() => import(/* webpackChunkName: "v-eb4f5d4c" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/05.html.vue")),
+  // path: /notes/sass/06.html
+  "v-e7e5ac0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-e7e5ac0e" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/06.html.vue")),
+  // path: /notes/sass/07.html
+  "v-e47bfad0": defineAsyncComponent(() => import(/* webpackChunkName: "v-e47bfad0" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/07.html.vue")),
+  // path: /notes/sass/08.html
+  "v-e1124992": defineAsyncComponent(() => import(/* webpackChunkName: "v-e1124992" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/08.html.vue")),
+  // path: /notes/sass/09.html
+  "v-dda89854": defineAsyncComponent(() => import(/* webpackChunkName: "v-dda89854" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/09.html.vue")),
+  // path: /notes/sass/10.html
+  "v-92935d00": defineAsyncComponent(() => import(/* webpackChunkName: "v-92935d00" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/10.html.vue")),
+  // path: /notes/sass/11.html
+  "v-8f29abc2": defineAsyncComponent(() => import(/* webpackChunkName: "v-8f29abc2" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/sass/11.html.vue")),
   // path: /notes/uniapp/01.html
   "v-21771421": defineAsyncComponent(() => import(/* webpackChunkName: "v-21771421" */"/Users/ustinian/my-blog/FE-Knowledge/docs/.vuepress/.temp/pages/notes/uniapp/01.html.vue")),
   // path: /notes/uniapp/02.html
